@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MCS-203 Operating Systems — PYQ Topic Index</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --ink:#1e293b; --muted:#64748b;
+    --t0:#dc2626; --t1:#ea580c; --t2:#d97706; --t3:#2563eb; --t4:#64748b;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:'Segoe UI',system-ui,-apple-system,Arial,sans-serif; background:var(--bg); color:var(--ink); padding:24px 16px 60px;}
+  .wrap{max-width:1000px; margin:0 auto;}
+  header{text-align:center; margin-bottom:20px;}
+  header h1{font-size:1.6rem; letter-spacing:.5px;}
+  header p{color:var(--muted); margin-top:6px; font-size:.95rem;}
+  .legend{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:14px;}
+  .legend span{font-size:.78rem; padding:4px 10px; border-radius:20px; color:#fff; font-weight:600;}
+  #search{width:100%; max-width:420px; display:block; margin:18px auto; padding:10px 14px; border:1px solid #cbd5e1; border-radius:10px; font-size:.95rem;}
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(440px,1fr)); gap:16px;}
+  @media(max-width:960px){.grid{grid-template-columns:1fr;}}
+  .card{background:var(--card); border-radius:14px; padding:16px 18px; box-shadow:0 1px 4px rgba(0,0,0,.07); border-left:6px solid var(--t4);}
+  .card.t0{border-left-color:var(--t0);} .card.t1{border-left-color:var(--t1);}
+  .card.t2{border-left-color:var(--t2);} .card.t3{border-left-color:var(--t3);}
+  .card .top{display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;}
+  .card h2{font-size:1.05rem; line-height:1.3;}
+  .freq{font-weight:800; font-size:.85rem; color:#fff; padding:4px 10px; border-radius:20px; white-space:nowrap;}
+  .t0 .freq{background:var(--t0);} .t1 .freq{background:var(--t1);}
+  .t2 .freq{background:var(--t2);} .t3 .freq{background:var(--t3);} .t4 .freq{background:var(--t4);}
+  .marks{color:var(--muted); font-size:.8rem; margin-top:3px;}
+  ul.pdq{list-style:none; margin-top:12px;}
+  ul.pdq li{padding:7px 10px; border-radius:8px; background:#f1f5f9; margin-bottom:6px; font-size:.86rem; line-height:1.45;}
+  .yr{display:inline-block; font-weight:700; font-size:.78rem; color:#fff; background:#334155; padding:2px 8px; border-radius:6px; margin-right:6px;}
+  .q{font-weight:600; color:#0f172a;}
+  .m{color:var(--muted); font-size:.78rem;}
+  .sub{font-weight:700; color:var(--t0); text-transform:uppercase; font-size:.7rem; letter-spacing:.5px; display:block; margin-bottom:2px;}
+  .note{margin-top:26px; text-align:center; color:var(--muted); font-size:.8rem; line-height:1.6;}
+  .hidden{display:none;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>MCS-203 · Operating Systems — PYQ Topic Index</h1>
+    <p>7 TEE papers: June 2023 – June 2026 &nbsp;·&nbsp; Sorted by frequency: 7/7 (top) → 1/7 (bottom)</p>
+    <div class="legend">
+      <span style="background:var(--t0)">7/7 · every paper</span>
+      <span style="background:var(--t1)">6–5/7 · near-certain</span>
+      <span style="background:var(--t2)">4–3/7 · likely</span>
+      <span style="background:var(--t3)">2/7 · occasional</span>
+      <span style="background:var(--t4)">1/7 · rare</span>
+    </div>
+    <input id="search" type="text" placeholder="Filter topics… (e.g. linux, deadlock, 2025)">
+  </header>
+
+  <div class="grid" id="grid">
+
+    <!-- ==================== 7/7 ==================== -->
+    <div class="card t0">
+      <div class="top"><h2>Distributed Systems <span style="font-weight:400;font-size:.85rem">(Design Issues · Models · RPC · DSM · Mutual Exclusion)</span></h2><span class="freq">7 / 7</span></div>
+      <p class="marks">≈ 125 marks across 7 papers — biggest single family</p>
+      <ul class="pdq">
+        <li><span class="sub">Design issues</span><span class="yr">Jun 2023</span>Q3(a) — design issues in distributed systems <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2024</span>Q1(b) — design goals &amp; design issues <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2025</span>Q1(c) — design issues (verbatim repeat) <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2026</span>Q5(c) — short note <span class="m">· 5M</span></li>
+        <li><span class="sub">App models (Client-Server / Objects / DSM)</span><span class="yr">Dec 2023</span>Q2(a) — all 3 models with block diagrams <span class="m">· 10M</span></li>
+        <li><span class="sub">Distributed Shared Memory</span><span class="yr">Jun 2023</span>Q3(b) — DSM application model <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2026</span>Q5(e) — short note <span class="m">· 5M</span></li>
+        <li><span class="sub">Mutual exclusion algorithms</span><span class="yr">Jun 2024</span>Q3(a) — Bakery's algorithm (n processes) <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2024</span>Q3(b) — Lamport's Bakery algorithm <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2025</span>Q4(a) — Ricart &amp; Agrawala's algorithm <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2025</span>Q5(a) — short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2026</span>Q1(d) — Lamport's algorithm again <span class="m">· 10M</span></li>
+        <li><span class="sub">RPC</span><span class="yr">Dec 2023</span>Q5(d) — short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Dec 2025</span>Q4(a) — what / how it works / limitations <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2026</span>Q5(a) — short note <span class="m">· 5M</span></li>
+      </ul>
+    </div>
+
+    <div class="card t0">
+      <div class="top"><h2>Memory Management <span style="font-weight:400;font-size:.85rem">(Paging · Segmentation · Virtual Memory)</span></h2><span class="freq">7 / 7</span></div>
+      <p class="marks">≈ 88 marks across 7 papers</p>
+      <ul class="pdq">
+        <li><span class="sub">Segmentation</span><span class="yr">Jun 2023</span>Q1(c) — segmentation + address mapping diagram <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2026</span>Q1(c) — segmentation + translation + protection/sharing <span class="m">· 10M</span></li>
+        <li><span class="sub">Demand segmentation</span><span class="yr">Dec 2023</span>Q5(a) — short note (identical wording) <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2025</span>Q5(a) — short note (same again) <span class="m">· 5M</span></li>
+        <li><span class="sub">Paging</span><span class="yr">Jun 2025</span>Q1(b) — paging technique + hardware support <span class="m">· 10M</span></li>
+        <li><span class="sub">Virtual memory</span><span class="yr">Jun 2024</span>Q4(a) — VM principle + v→p mapping <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2024</span>Q4(b) — VM principle of operation <span class="m">· 8M</span></li>
+        <li><span class="yr">Dec 2025</span>Q3(a) — v→p abstract model + valid/invalid bits <span class="m">· 10M</span></li>
+        <li><span class="sub">Demand paging</span><span class="yr">Jun 2024</span>Q5(ii) — short note <span class="m">· 5M</span></li>
+        <li><span class="sub">Thrashing</span><span class="yr">Jun 2026</span>Q2(a) — cause / detect / eliminate <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <div class="card t0">
+      <div class="top"><h2>Linux</h2><span class="freq">7 / 7</span></div>
+      <p class="marks">≈ 75 marks across 7 papers — never absent</p>
+      <ul class="pdq">
+        <li><span class="sub">Architecture / kernel</span><span class="yr">Jun 2023</span>Q1(d) — fundamental architecture <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2024</span>Q4(b) — architecture with kernel focus <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2024</span>Q2(b) — main components <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2026</span>Q5(d) — kernel architecture short note <span class="m">· 5M</span></li>
+        <li><span class="sub">Memory management</span><span class="yr">Dec 2024</span>Q5(a) — short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2025</span>Q3(b) — memory management with diagram <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2025</span>Q5(d) — short note <span class="m">· 5M</span></li>
+        <li><span class="sub">Security</span><span class="yr">Dec 2023</span>Q1(d) — accounts / permissions / encryption / remote access <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2023</span>Q5(c) — short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2025</span>Q5(c) — short note (identical wording) <span class="m">· 5M</span></li>
+        <li><span class="sub">Windows vs Linux</span><span class="yr">Dec 2023</span>Q5(c) — short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2026</span>Q4(b) — choose one + 5 reasons <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <div class="card t0">
+      <div class="top"><h2>Windows-10</h2><span class="freq">7 / 7</span></div>
+      <p class="marks">≈ 70 marks across 7 papers</p>
+      <ul class="pdq">
+        <li><span class="sub">Process management</span><span class="yr">Dec 2023</span>Q3(b) — process management &amp; scheduling <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2025</span>Q1(d) — process management in detail <span class="m">· 10M</span></li>
+        <li><span class="sub">Memory management</span><span class="yr">Jun 2024</span>Q1(d) — virtual memory org + demand paging <span class="m">· 10M</span></li>
+        <li><span class="sub">IPC</span><span class="yr">Dec 2024</span>Q2(a) — interprocess communication <span class="m">· 5M</span></li>
+        <li><span class="sub">Features / file system</span><span class="yr">Jun 2023</span>Q5(b) — file system management short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Dec 2024</span>Q5(e) — features short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2025</span>Q5(e) — features short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Dec 2025</span>Q5(e) — features short note <span class="m">· 5M</span></li>
+        <li><span class="sub">Windows vs Linux</span><span class="yr">Dec 2023</span>Q5(c) — short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2026</span>Q4(b) — which one + 5 reasons <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <div class="card t0">
+      <div class="top"><h2>Deadlock</h2><span class="freq">7 / 7</span></div>
+      <p class="marks">≈ 55 marks — rotates through all lifecycle stages</p>
+      <ul class="pdq">
+        <li><span class="sub">Avoidance</span><span class="yr">Jun 2023</span>Q2(b) — Banker's algorithm <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2023</span>Q5(b) — deadlock avoidance short note <span class="m">· 5M</span></li>
+        <li><span class="sub">Characterisation</span><span class="yr">Jun 2024</span>Q1(a) — characterise + resource allocation graph <span class="m">· 10M</span></li>
+        <li><span class="sub">Conditions</span><span class="yr">Dec 2024</span>Q1(b) — definition + 4 necessary conditions <span class="m">· 5M</span></li>
+        <li><span class="sub">Prevention</span><span class="yr">Dec 2025</span>Q2(b) — Havender's algorithm <span class="m">· 10M</span></li>
+        <li><span class="sub">Detection / recovery</span><span class="yr">Jun 2025</span>Q5(b) — detection &amp; recovery short note <span class="m">· 5M</span></li>
+        <li><span class="sub">RAG numerical</span><span class="yr">Jun 2026</span>Q3(a) — 4 processes / 2 resources: graph → cycle → safe sequence <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <!-- ==================== 6/7 ==================== -->
+    <div class="card t1">
+      <div class="top"><h2>iOS</h2><span class="freq">6 / 7</span></div>
+      <p class="marks">≈ 65 marks · absent only in Jun 2026</p>
+      <ul class="pdq">
+        <li><span class="sub">Layered architecture ← hottest single question</span><span class="yr">Jun 2024</span>Q1(c) — layered arch, all layers' functions <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2025</span>Q1(d) — layered architecture with diagram <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2025</span>Q4(b) — complete layered architecture + significance <span class="m">· 10M</span></li>
+        <li><span class="sub">Evolution &amp; features</span><span class="yr">Jun 2023</span>Q3(a) — evolution + features <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2023</span>Q4(a) — evolution + features <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2024</span>Q1(c) — define mobile OS + iOS features <span class="m">· 5M</span></li>
+        <li><span class="sub">Directories &amp; iCloud</span><span class="yr">Jun 2023</span>Q5(e) — short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Dec 2024</span>Q5(d) — commonly used directories short note <span class="m">· 5M</span></li>
+      </ul>
+    </div>
+
+    <div class="card t1">
+      <div class="top"><h2>Android</h2><span class="freq">6 / 7</span></div>
+      <p class="marks">≈ 55 marks · absent only in Dec 2025</p>
+      <ul class="pdq">
+        <li><span class="sub">Layered architecture</span><span class="yr">Dec 2024</span>Q2(c) — layered architecture with diagram <span class="m">· 10M</span></li>
+        <li><span class="sub">Memory management</span><span class="yr">Jun 2023</span>Q5(d) — short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Dec 2023</span>Q4(b) — memory management <span class="m">· 10M</span></li>
+        <li><span class="sub">5 process types</span><span class="yr">Jun 2025</span>Q3(a) — Foreground / Visible / Service / Background / Empty <span class="m">· 10M</span></li>
+        <li><span class="sub">File mgmt &amp; security</span><span class="yr">Jun 2024</span>Q2(a) — file management + security <span class="m">· 10M</span></li>
+        <li><span class="sub">Libraries / framework layers</span><span class="yr">Jun 2024</span>Q5(iv) — short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2026</span>Q5(b) — Android Libraries short note <span class="m">· 5M</span></li>
+      </ul>
+    </div>
+
+    <!-- ==================== 5/7 ==================== -->
+    <div class="card t1">
+      <div class="top"><h2>Semaphores &amp; Classical Sync Problems</h2><span class="freq">5 / 7</span></div>
+      <p class="marks">≈ 50 marks · classical problems rotate each session</p>
+      <ul class="pdq">
+        <li><span class="sub">Producer–Consumer</span><span class="yr">Jun 2023</span>Q1(a) — semaphore def + atomic ops + solution <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2024</span>Q1(e) — write &amp; explain + semaphore solution <span class="m">· 10M</span></li>
+        <li><span class="sub">Reader–Writer</span><span class="yr">Dec 2023</span>Q1(c) — Reader's &amp; Writer's with semaphores <span class="m">· 10M</span></li>
+        <li><span class="sub">Dining Philosophers</span><span class="yr">Jun 2025</span>Q1(c) — write &amp; explain + semaphore solution <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2025</span>Q1(b) — what are semaphores + dining philosophers <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <!-- ==================== 4/7 ==================== -->
+    <div class="card t2">
+      <div class="top"><h2>Page Replacement <span style="font-weight:400;font-size:.85rem">(numerical)</span></h2><span class="freq">4 / 7</span></div>
+      <p class="marks">≈ 40 marks · all four Dec papers</p>
+      <ul class="pdq">
+        <li><span class="yr">Jun 2023</span>Q2(a) — OPT &amp; FCFS, string <code>0,1,3,4,6,4,3,9,6,4</code>, 3 frames <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2023</span>Q1(b) — LRU &amp; FCFS, string <code>1,3,2,4,3,1,4,5,2,1,3</code>, 3 frames <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2024</span>Q1(d) — FCFS, LRU &amp; LFU, string <code>1,2,5,4,2,1,3,2,6,4</code>, 4 frames <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2025</span>Q2(a) — LRU &amp; FIFO, 20-entry string, 4 frames <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <div class="card t2">
+      <div class="top"><h2>Multiprocessor OS</h2><span class="freq">4 / 7</span></div>
+      <p class="marks">≈ 40 marks</p>
+      <ul class="pdq">
+        <li><span class="sub">Sync techniques</span><span class="yr">Jun 2023</span>Q4(a) — test-and-set, compare-and-swaps, fetch-and-add <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2023</span>Q2(b) — test-and-set &amp; compare-and-swap <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2024</span>Q3(a) — all sync techniques <span class="m">· 10M</span></li>
+        <li><span class="sub">Types</span><span class="yr">Jun 2025</span>Q4(b) — Separate Supervisor &amp; Master-Slave <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <div class="card t2">
+      <div class="top"><h2>Mobile OS Design Issues</h2><span class="freq">4 / 7</span></div>
+      <p class="marks">≈ 28 marks · same answer recycles at 3 sizes</p>
+      <ul class="pdq">
+        <li><span class="yr">Jun 2023</span>Q5(a) — short note <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2024</span>Q2(b) — general design issues in detail <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2024</span>Q4(a) — list &amp; explain design issues <span class="m">· 8M</span></li>
+        <li><span class="yr">Jun 2026</span>Q5(c) — short note <span class="m">· 5M</span></li>
+      </ul>
+    </div>
+
+    <!-- ==================== 3/7 ==================== -->
+    <div class="card t2">
+      <div class="top"><h2>CPU Scheduling <span style="font-weight:400;font-size:.85rem">(numerical)</span></h2><span class="freq">3 / 7</span></div>
+      <p class="marks">≈ 30 marks · always Q1, 10M</p>
+      <ul class="pdq">
+        <li><span class="yr">Dec 2023</span>Q1(a) — FCFS, SJF, RR(q=2) + TAT/WAT/utilisation/throughput <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2025</span>Q1(a) — FCFS, SJF, RR(q=2), all arrive together <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2026</span>Q1(b) — FCFS, SRTN (new!), RR(q=2) <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <div class="card t2">
+      <div class="top"><h2>Disk Scheduling <span style="font-weight:400;font-size:.85rem">(numerical)</span></h2><span class="freq">3 / 7</span></div>
+      <p class="marks">≈ 30 marks · problem detail keeps escalating</p>
+      <ul class="pdq">
+        <li><span class="yr">Jun 2023</span>Q1(b) — SSTF &amp; C-SCAN, head at 0, queue <code>61,141,40,160,15,63,60,125</code> <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2024</span>Q1(a) — SSTF &amp; SCAN, head at 49, queue <code>49,90,149,41,129,17,139,69,60</code> <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2025</span>Q3(b) — SCAN with direction, head 63, cylinders 0–199 <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <div class="card t2">
+      <div class="top"><h2>File System Management</h2><span class="freq">3 / 7</span></div>
+      <p class="marks">≈ 25 marks · rising trend (short → 10M)</p>
+      <ul class="pdq">
+        <li><span class="yr">Jun 2023</span>Q5(b) — file system management in Windows 10 (short) <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2025</span>Q2(b) — OS view of file mgmt + 2-level / acyclic / general-graph directories <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2026</span>Q3(b) — continuous &amp; non-continuous allocation <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <!-- ==================== 2/7 ==================== -->
+    <div class="card t3">
+      <div class="top"><h2>Types of Operating Systems</h2><span class="freq">2 / 7</span></div>
+      <p class="marks">≈ 20 marks · list keeps expanding (Interactive added in J26)</p>
+      <ul class="pdq">
+        <li><span class="yr">Jun 2025</span>Q2(a) — batch, time-sharing, real-time, distributed <span class="m">· 10M</span></li>
+        <li><span class="yr">Jun 2026</span>Q1(a) — batch, interactive, time-sharing, real-time, distributed <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <div class="card t3">
+      <div class="top"><h2>Essential Functions of OS / Process Management</h2><span class="freq">2 / 7</span></div>
+      <p class="marks">≈ 20 marks</p>
+      <ul class="pdq">
+        <li><span class="yr">Jun 2024</span>Q3(b) — essential functions of an OS <span class="m">· 10M</span></li>
+        <li><span class="yr">Dec 2025</span>Q1(a) — CPU-bound vs I/O-bound + process mgmt functions <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <div class="card t3">
+      <div class="top"><h2>Security Models <span style="font-weight:400;font-size:.85rem">(Access Matrix · RBAC)</span></h2><span class="freq">2 / 7</span></div>
+      <p class="marks">≈ 15 marks · new and rising</p>
+      <ul class="pdq">
+        <li><span class="yr">Jun 2025</span>Q5(d) — rule-based &amp; role-based access control (short) <span class="m">· 5M</span></li>
+        <li><span class="yr">Jun 2026</span>Q4(a) — Access Matrix security model with example <span class="m">· 10M</span></li>
+      </ul>
+    </div>
+
+    <!-- ==================== 1/7 ==================== -->
+    <div class="card t4">
+      <div class="top"><h2>Partition Allocation — First/Best/Worst Fit <span style="font-weight:400;font-size:.85rem">(numerical)</span></h2><span class="freq">1 / 7</span></div>
+      <ul class="pdq"><li><span class="yr">Jun 2026</span>Q2(b) — 6 partitions / 4 processes, all three fits <span class="m">· 10M</span></li></ul>
+    </div>
+
+    <div class="card t4">
+      <div class="top"><h2>Wireless Device Communication <span style="font-weight:400;font-size:.85rem">(IR · Bluetooth · NFC)</span></h2><span class="freq">1 / 7</span></div>
+      <ul class="pdq"><li><span class="yr">Dec 2023</span>Q4(a) — two-unit configuration + drawbacks <span class="m">· 10M</span></li></ul>
+    </div>
+
+    <div class="card t4">
+      <div class="top"><h2>Mobile Device Processors <span style="font-weight:400;font-size:.85rem">(Snapdragon · Atom)</span></h2><span class="freq">1 / 7</span></div>
+      <ul class="pdq"><li><span class="yr">Jun 2023</span>Q4(b) — write briefly about both <span class="m">· 10M</span></li></ul>
+    </div>
+
+    <div class="card t4">
+      <div class="top"><h2>Process vs Thread</h2><span class="freq">1 / 7</span></div>
+      <ul class="pdq"><li><span class="yr">Dec 2025</span>Q5(b) — short note <span class="m">· 5M</span></li></ul>
+    </div>
+
+    <div class="card t4">
+      <div class="top"><h2>Symbian OS</h2><span class="freq">1 / 7</span></div>
+      <ul class="pdq"><li><span class="yr">Dec 2025</span>Q5(c) — short note <span class="m">· 5M</span></li></ul>
+    </div>
+
+    <div class="card t4">
+      <div class="top"><h2>Scheduler Types <span style="font-weight:400;font-size:.85rem">(short / long / medium term)</span></h2><span class="freq">1 / 7</span></div>
+      <ul class="pdq"><li><span class="yr">Jun 2024</span>Q5(i) — short note <span class="m">· 5M</span></li></ul>
+    </div>
+
+    <div class="card t4">
+      <div class="top"><h2>Locks <span style="font-weight:400;font-size:.85rem">(sync mechanism)</span></h2><span class="freq">1 / 7</span></div>
+      <ul class="pdq"><li><span class="yr">Dec 2024</span>Q5(c) — short note <span class="m">· 5M</span></li></ul>
+    </div>
+
+    <div class="card t4">
+      <div class="top"><h2>Loosely vs Tightly Coupled Systems</h2><span class="freq">1 / 7</span></div>
+      <ul class="pdq"><li><span class="yr">Dec 2024</span>Q4(c) — difference + examples <span class="m">· 4M</span></li></ul>
+    </div>
+
+  </div>
+
+  <p class="note">
+    Built from <b>PYQ Text MCS 203.md</b> (7 papers, Jun 2023 – Jun 2026), question-by-question.
+    Frequency counts are per paper (a topic counts once even if asked twice).<br>
+    Note: iOS = 6/7 — no iOS question appeared in the June 2026 paper.
+    Marks marked ⚠ in the source file (Dec 2025 Q1a) are reconstructed from the PDF page break.
+  </p>
+</div>
+
+<script>
+  const input = document.getElementById('search');
+  const cards = [...document.querySelectorAll('.card')];
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    cards.forEach(c => {
+      c.classList.toggle('hidden', q && !c.textContent.toLowerCase().includes(q));
+    });
+  });
+</script>
+</body>
+</html>
