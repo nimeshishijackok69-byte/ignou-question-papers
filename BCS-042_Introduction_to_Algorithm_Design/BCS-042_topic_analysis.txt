@@ -1,0 +1,104 @@
+BCS-042 : INTRODUCTION TO ALGORITHM DESIGN
+Topic Frequency Analysis — TEE papers June 2021 - June 2026 (11 papers)
+Updated: after adding December 2024, June 2025, December 2025, June 2026
+========================================================================
+
+MOST REPEATED TOPICS (papers containing the topic / 11)
+--------------------------------------------------------
+ 1. Asymptotic notation & complexity analysis ........... 11/11  (EVERY paper)
+    - Big-O / Theta definitions, prove 7n^2+8n-9 = O(n^2) etc.
+    - Arrange growth rates in increasing order
+    - Upper bound / lower bound, space vs time complexity
+ 2. Recurrence relations (write & solve) ................ 11/11  (EVERY paper)
+    - Recursion tree method (T(n)=2T(n/2)+1, 4T(n/2)+n, 2T(n/3)+n, 3T(n/2)+n)
+    - Master theorem / Master method cases (esp. Dec 2025)
+    - Substitution method (Dec 2024)
+    - Recurrence for factorial / Fibonacci
+ 3. Minimum Cost Spanning Tree (Kruskal / Prim) .......... 10/11
+    - Apply Kruskal's / Prim's to a weighted graph
+    - "Kruskal vs Prim" comparison (Dec22, Dec25)
+    - June 2026 asked BOTH on the same graph (8 marks)
+    - MISSING ONLY in Dec 2024 (the one paper without MST!)
+ 4. Sorting algorithms (trace / algorithm / complexity) .. 10/11
+    - Bubble sort is the #1 choice now (Dec22, Jun23, Dec24,
+      Jun25, Dec25, Jun26) - usually best + worst case analysis
+    - Quick sort (Dec21, Dec23), Merge sort (Jun21, Jun22),
+      Insertion sort (Jun21)
+    - NEW: Selection sort appeared Dec 2024 & Dec 2025
+    - MISSING ONLY in June 2024
+ 5. Graph traversal (BFS / DFS) ......................... 9/11
+    - DFS is the favourite in 2024-26 (Jun24, Dec25, Jun26)
+    - Dec 2025: write DFS algorithm + traverse from A
+    - June 2025: full DFS vs BFS compare-and-contrast
+    - MISSING in Dec 2022 and Dec 2024
+ 6. Searching: linear & binary search ................... 9/11
+    - Linear search trace/complexity (Jun22, Jun23, Jun24, Jun25, Dec25)
+    - Binary search best/worst case (Dec21, Dec23, Jun24, Jun26)
+    - Dec 2025: full binary-search trace on a 13-element array
+    - MISSING in Jun 2021, Dec 2022, June 2026
+ 7. Euclid's GCD algorithm .............................. 7/11
+    - GCD(592,252) Dec24; GCD(595,252) repeated VERBATIM in
+      both Dec 2025 and June 2026!
+ 8. Dijkstra's shortest path ............................ 7/11
+    - 2024-26 trend: DIRECTED graphs (Dec24, Jun25, Dec25)
+    - Also "why negative weights break Dijkstra" (Jun22)
+ 9. Divide & Conquer (Karatsuba / Strassen / concept) ... 7/11
+    - Karatsuba big-number multiply (Dec21, Dec25)
+    - Strassen matrix multiply (Dec22, Jun22)
+    - D&C matrix multiplication (Jun25, Jun26)
+10. Graph representations (adjacency matrix / list) ..... 7/11
+11. Graph definitions (path/cycle/complete/connected/
+    tree/directed graph) ................................ 7/11
+12. Fibonacci / factorial recurrences ................... 6/11
+13. Backtracking / Branch & Bound (define + examples) ... 5/11
+14. Mathematical induction proofs ....................... 4/11
+    (Dec23, Jun23, Jun24, Jun26 - the SAME 1^2+2^2+...+n^2 proof
+     appeared in Jun 2023, Jun 2024 AND June 2026!)
+15. Fractional knapsack ................................. 4/11
+    (Jun23, Dec24, Jun25, Jun26 - 3 of the last 4 papers)
+16. Greedy technique .................................... 4/11
+    (incl. June 2025 greedy currency-notes problem)
+
+RARE / ONE-OFF TOPICS (low priority)
+------------------------------------
+ - Horner's rule (Dec 2021 only)
+ - Binary exponentiation (Jun 2022 only)
+ - Dynamic programming definition (Jun 2021 only)
+ - Polynomial evaluation complexity (Jun 2026)
+ - MST uniqueness question (Jun 2025)
+ - Quicksort partition / best-case Theta proofs (Jun 25, Dec 25)
+
+WHAT CHANGED vs THE 2021-2024 ANALYSIS
+--------------------------------------
+ 1. MST dipped for the first time ever in Dec 2024, then came back
+    strong - and June 2026 raised the stakes by asking Kruskal AND
+    Prim together (8 marks).
+ 2. Bubble sort overtook quick/merge sort as the standard trace
+    question; selection sort is a newcomer (Dec24, Dec25).
+ 3. DFS replaced BFS as the default traversal question since 2024.
+ 4. Dijkstra questions now use DIRECTED graphs (all 3 of Dec24/Jun25/Dec25).
+ 5. Fractional knapsack + greedy have become near-regulars (3 of last 4).
+ 6. Literal question repeats: GCD(595,252) in Dec25 AND Jun26;
+    T(n)=2T(n/3)+n recursion-tree in Jun25 AND Jun26;
+    the same induction proof in Jun23, Jun24, Jun26.
+    => IGNOU recycles whole questions across consecutive sessions.
+
+EXAM PATTERN (still holds, 11 papers)
+-------------------------------------
+Q1 (compulsory, 20 marks) = notation/complexity + recurrence + search/sort
+                             trace + graph representation or definitions.
+Q2-Q5 (choose 3) = one MST question, one traversal/Dijkstra question,
+                   one sort/algorithm-writing question, one D&C/knapsack.
+
+TOP-PRIORITY PREP LIST (covers ~70% of every paper)
+----------------------------------------------------
+ 1. Big-O/Theta definitions + simple proofs; growth-rate ordering
+ 2. Recursion tree + Master method on T(n)=aT(n/b)+f(n)
+ 3. Kruskal's AND Prim's algorithms - trace both on one graph
+ 4. Bubble sort (algorithm + best/worst case) and quick sort trace
+ 5. Linear + binary search traces with comparison counting
+ 6. DFS algorithm + traversal (and BFS for backup)
+ 7. Euclid's GCD - GCD(595,252) and GCD(592,252) have both appeared
+ 8. Dijkstra on a directed graph, full table of steps
+ 9. Fractional knapsack numeric + greedy note-change problem
+10. Adjacency matrix/list from a picture; basic graph definitions

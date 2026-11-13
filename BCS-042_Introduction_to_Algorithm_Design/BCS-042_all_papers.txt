@@ -1,0 +1,1839 @@
+======================================================================
+BCS-042_TEE_December_2021
+======================================================================
+P. T. O.
+No. of Printed Pages : 4
+BCS-042
+BACHELOR OF COMPUTER
+APPLICATIONS (BCA)
+(Revised)
+Term-End Examination
+December, 2021
+BCS-042 : INTRODUCTION TO ALGORITHM
+DESIGN
+Time : 2 Hours
+Maximum Marks : 50
+Note : (i)
+Question No. 1 is compulsory which
+carries 20 marks.
+(ii) Answer any three questions from the
+rest.
+1.
+(a)
+State True or False :
+2
+O (
+log
+)
+n
+n
+is better than
+2
+O (
+)
+n
+but not
+as food as O (n).
+2
+(b)
+Write the names of the following symbols : 2
+,
+,
+
+[ 2 ]
+BCS-042
+(c)
+Define O (big Oh) notation. By using the
+basic definition O (big Oh), show that :
+4
+2
+2
+6
+6
+1
+O (
+)
+x
+x
+x
+
+
+
+(d)
+Create 
+an 
+adjacency 
+matrix 
+for 
+the
+following graph :
+3
+(e)
+Multiply 10056 × 2037 using divide and
+conquer 
+technique.
+Apply 
+Karatsuba’s
+method.
+4
+(f)
+Briefly 
+explain 
+any
+two
+different
+approaches 
+to 
+solve 
+the 
+recurrence
+relation.
+5
+2.
+(a)
+Arrange the following growth rate in
+increasing order :
+2
+O (2 ),
+n
+3
+O (
+),
+n
+n!,
+n
+
+[ 3 ]
+BCS-042
+P. T. O.
+(b)
+(i)
+Traverse the following graph using
+BFS. The starting node is A :
+4
+(ii) Perform the complexity analysis of the
+above algorithm.
+4
+3.
+(a)
+Explain the basic concept of quick sort
+algorithm and apply it to sort the following
+list of numbers :
+7
+15  10  5  4  25  35  7  8
+Show all the intermediate steps.
+(b)
+Define the term backtracking and enlist
+any two problems that can be solved by
+backtracking.
+3
+[ 4 ]
+BCS-042
+4.
+(a)
+Write 
+a 
+recurrence 
+relation 
+for 
+the
+following recursive factorial function :
+3
+int fact (int n)
+{
+if (n = = 1)
+return 1
+else
+return n * fact (n – 1)
+}
+(b)
+State 
+Horner’s 
+rule 
+for 
+polynomial
+evaluation 
+and 
+apply 
+the 
+rule 
+for
+evaluating 
+the 
+following 
+polynomial
+expression :
+7
+7
+6
+5
+3
+2
+( )
+6
+7
+5
+3
+6
+p x
+x
+x
+x
+x
+x
+
+
+
+
+
++ 8x + 7
+Show stepwise iteration.
+5.
+(a)
+How many comparisons are needed for
+binary search algorithm in a set of 64
+elements ?
+3
+(b)
+Write Prim’s algorithm to solve minimum
+cost spanning tree problem and explain.
+7
+BCS–042
+
+======================================================================
+BCS-042_TEE_December_2022
+======================================================================
+BCS-042 
+1 
+  P.T.O. 
+ BCS-042  
+BACHELOR OF COMPUTER APPLICATIONS 
+(BCA) (Revised) 
+Term-End Examination 
+December, 2022 
+ 
+BCS-042 : INTRODUCTION TO ALGORITHM DESIGN 
+Time : 2 hours 
+Maximum Marks : 50 
+Note :  Question no. 1 is compulsory and carries  
+20 marks. Answer any three questions from the 
+rest. 
+1. 
+(a) 
+Define  (big theta) notation. By using a 
+basic definition, show that  
+ 
+ 
+ 
+              7n2 + 8n – 9 =  (n2). 
+4 
+(b) 
+Apply Bubble sort algorithm to sort the 
+following list of numbers. Show the 
+procedure 
+step-by-step. 
+Calculate 
+the 
+number 
+of 
+exchange 
+and 
+comparison 
+operations required in the algorithm : 
+4 
+ 
+15   8   7   11   25   13   12   4 
+ 
+(c) 
+Solve the following recurrence problem 
+using recursion tree method :   
+6 
+ 
+T(n) = 4T
+
+
+
+
+2
+n  + n 
+ 
+No. of Printed Pages : 3 
+
+BCS-042 
+2 
+(d) 
+Draw any three spanning trees of the 
+following weighted connected graph : 
+6  
+ 
+ 
+2. 
+(a) 
+Give an example for each complexity class : 
+3 
+ 
+O(n),   O(n2),   O(n log n)  
+ 
+(b) 
+(i) 
+Write 
+the 
+Euclid 
+algorithm 
+to 
+compute GCD of two non-negative 
+integers 
+and 
+apply 
+it 
+to 
+find  
+GCD(325, 95). 
+Show 
+all 
+the 
+intermediate steps.  
+4    
+(ii) 
+Perform the complexity analysis of 
+the above algorithm. 
+3 
+ 
+3. 
+(a) 
+Compare between Kruskal’s and Prim’s 
+algorithms. 
+3 
+(b) 
+Apply Strassen’s algorithm to multiply two 
+matrices A(4  4) and B(4  4) using divide 
+and conquer technique and explain.    
+7 
+4. 
+(a) 
+Define the term Branch and Bound and 
+write the problem which can be solved 
+through this technique.      
+3 
+
+BCS-042 
+3 
+  P.T.O. 
+(b) 
+Apply Dijkstra’s algorithm to find the 
+shortest path from V1 to all other nodes. 
+Show all the intermediate steps and 
+explain.    
+ 7 
+ 
+ 
+5. 
+(a) 
+Define the terms : path, cycle and a 
+complete graph.  
+3 
+(b) 
+Write a program to generate Fibonacci 
+series of 10 terms and count   
+ 
+(i) 
+the number of times the loop will 
+continue, and  
+(ii) 
+the number of times the assignment 
+operations will occur. 
+7
+
+======================================================================
+BCS-042_TEE_December_2023
+======================================================================
+P. T. O. 
+No. of Printed Pages : 3 
+BCS–042 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (REVISED) 
+Term-End Examination 
+December, 2023 
+BCS-042 : INTRODUCTION TO  
+ALGORITHM DESIGN 
+Time : 2 Hours    
+Maximum Marks : 50 
+Note : (i) Question No. 1 is compulsory. 
+ 
+(ii) Answer any three questions from the 
+rest.  
+1. (a) Show that : 
+2 
+2
+2
+5
+2
+2
+(
+)
+n
+n
+n
+
+
+
+ 
+(b) Solve the following recurrence relation : 3 
+T( )
+3T 2
+n
+n
+n
+
+
+
+
+
+
+
+
+ 
+(c) Write 
+binary 
+search 
+algorithm 
+and  
+explain its best case and worst case 
+complexity. 
+5 
+
+ 
+[ 2 ] 
+BCS–042 
+ 
+ 
+ 
+(d) Represent 
+the 
+following 
+graph 
+using 
+Adjacency List : 
+4 
+ 
+ 
+ 
+ 
+ 
+ 
+(e) Sort the following list of elements using 
+quick sort. Also show the steps of the 
+operation : 
+6 
+                8, 29, 30, 6, 25, 7, 8, 9 
+2. (a) Define the following terms : 
+4 
+(i) 
+Connected graph 
+(ii) Cycle in an undirected graph 
+(b) Write Euclid’s algorithm for finding GCD 
+and explain it. 
+6 
+3. (a) What 
+is 
+spanning 
+tree 
+? 
+Explain 
+application of spanning tree. 
+4 
+(b) Write and explain Dijkstra’s single source 
+shortest path algorithm. 
+6 
+
+ 
+[ 3 ] 
+ 
+4. (a) Briefly 
+explain 
+Greedy 
+technique 
+for 
+designing of algorithm. 
+4 
+(b) Write DFS traversal sequence from the 
+node A for the graph : 
+6 
+ 
+ 
+ 
+ 
+ 
+5. (a) Using mathematical induction method, 
+show that for all positive integers n : 
+5 
+(
+1)
+1
+2
+3
+...
+2
+n n
+n
+
+
+
+
+
+ 
+(b) Write 
+Prim’s 
+algorithm 
+for 
+finding 
+minimum spanning tree and find the 
+complexity of this algorithm. 
+5 
+ 
+ 
+ 
+ 
+ 
+BCS–042
+
+======================================================================
+BCS-042_TEE_December_2024
+======================================================================
+B–1054/BCS–042 
+ 
+ P. T. O. 
+No. of Printed Pages : 4 
+BCS–042 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (Revised) 
+Term-End Examination 
+December, 2024 
+BCS-042 : INTRODUCTION TO  
+ALGORITHM DESIGN 
+Time : 2 Hours    
+Maximum Marks : 50 
+Note : (i) Question No. 1 is compulsory and 
+carries 20 marks. 
+ 
+(ii) Answer any three questions from the 
+rest.   
+1. (a) Define O (big oh) notation and prove or 
+disprove the following using the basic 
+definition of O (big oh) : 
+4 
+
+
+3
+2
+3
+5
+2
+8
+O
+n
+n
+n
+
+
+
+  
+(b) Write bubble sort algorithm and find its 
+worst case time complexity. 
+5 
+
+ 
+[ 2 ] 
+BCS–042 
+B–1054/BCS–042 
+ 
+ 
+(c) What is connected-graph ? Explain with 
+the help of an example. 
+2 
+(d) Write adjacency list and adjacency matrix 
+representation of the following graph : 
+5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(e) Solve the following recurrence relation, 
+using substitution method : 
+4 
+
+T
+2T 2
+n
+n
+n
+
+
+
+
+
+
+
+
+  
+2. (a) Define the following terms : 
+2 
+(i) 
+Tree 
+(ii) Directed Graph 
+(b) Write 
+a 
+recurrence 
+relation 
+for 
+the 
+recursive factorial function. 
+3 
+(c) Explain the use of lower bound and upper 
+bound concepts with the help of example. 5  
+
+ 
+[ 3 ] 
+ 
+B–1054/BCS–042 
+ 
+ 
+3. (a) Write Euclid’s GCD algorithm. Also, find 
+GCD (592, 252) using Euclid’s algorithm. 5 
+(b) Sort the following list using selection sort. 
+Also, show all the intermediate steps in the 
+process : 
+5 
+2, 10, 6, 18, 25, 9  
+4. (a) Define a fractional knapsack problem. Find 
+the optimal solution to the following 
+instance of a knapsack problem and show 
+the stepwise running of the algorithm : 
+8 
+ 
+ 
+No. of objects = 5. 
+ 
+Capacity of a knapsack : M = 18  
+(P1, P2, ........., P7) = (12, 10, 8, 11, 14, 7, 9) 
+where Pi is a profit and  
+       (W1, W2, ......, W7) = (4, 6, 5, 7, 2, 3, 6),  
+where Wi is a weight. 
+Each object has a profit Pi and weight Wi. 
+(b) What is binary search ? 
+2 
+
+ 
+[ 4 ] 
+BCS–042 
+B–1054/BCS–042 
+ 
+ 
+5. Apply Dijkstra’s algorithm to find the sortest 
+path from source vertex A to each of the other 
+vertices of the following directed graph : 
+10 
+ 
+ 
+ 
+ 
+ 
+Show all the steps of the solution. 
+× × × × × × ×
+
+======================================================================
+BCS-042_TEE_December_2025
+======================================================================
+B–1040/BCS–042 
+P. T. O. 
+No. of Printed Pages : 5 
+BCS–042 
+BACHELOR OF COMPUTER 
+APPLICATIONS 
+(BCA)  
+Term-End Examination 
+December, 2025 
+BCS-042 : INTRODUCTION TO 
+                    ALGORITHM DESIGN  
+Time : 2 Hours  
+Maximum Marks : 50 
+Note : Question No. 1 is compulsory and carries 
+20 marks. Answer any three questions 
+from the rest. 
+
+ 
+[ 2 ] 
+BCS–042 
+B–1040/BCS–042 
+1. (a) Explain the concept of the space 
+complexity in context of algorithm 
+analysis. How is it different from time 
+complexity ? Provide an example to 
+illustrate 
+the 
+calculation 
+of 
+space 
+complexity. 
+5 
+ 
+(b) Given a list of distinct integers, write 
+an algorithm to determine the position 
+of an integer in the list using linear 
+search 
+and 
+count 
+the 
+number 
+of 
+comparison operations required. 
+5 
+ 
+(c) Describe any three of the following : 
+ 
+3×2=6  
+ 
+ 
+(i) 
+Greedy technique 
+ 
+ 
+(ii) Cycle in a Directed Graph 
+ 
+ 
+(iii) Upper Bound 
+ 
+ 
+(iv) Branch and Bound 
+
+ 
+[ 3 ] 
+BCS–042 
+B–1040/BCS–042 
+P. T. O. 
+ 
+(d) Use Master Theorem to give tight 
+asymptotic bounds of the following : 
+ 
+2×2=4 
+ 
+ 
+(i) 
+2
+T( )
+4T 2
+n
+n
+n
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+(ii) T( )
+2T 2
+n
+n
+n n
+
+
+
+
+
+
+
+
+ 
+2. (a) State Euclid's algorithm and find GCD 
+(595, 252) by this algorithm. 
+5 
+ 
+(b) Write the iterations for sorting the 
+following list of numbers using bubble 
+sort and selection sort : 
+5 
+    45, 67, 13, 90, 2, 35, 28, 10 
+3. (a) Differentiate 
+between 
+Kruskal’s 
+algorithm and Prim’s algorithm. 
+4 
+
+ 
+[ 4 ] 
+BCS–042 
+B–1040/BCS–042 
+ 
+(b) Apply Dijkstra’s algorithm to find 
+shortest path from source vertex A to 
+each of the other vertices of the 
+following directed graph : 
+6 
+ 
+4. (a) Consider the following sorted array A 
+with 13 elements : 
+ 
+ 
+7, 15, 19, 27, 30, 48, 56, 59, 75, 87, 94, 
+110, 111 
+ 
+ 
+Illustrate the working of Binary search 
+algorithm while searching for ITEM : 5 
+ 
+ 
+(i) 
+19 
+ 
+ 
+(ii) 94 
+ 
+
+ 
+[ 5 ] 
+BCS–042 
+B–1040/BCS–042 
+P. T. O. 
+ 
+(b) Show that the runtime of QUICK SORT 
+algorithm 
+in 
+the 
+best 
+case 
+is 
+(n log n). 
+5 
+5. (a) Multiply 1026732 × 0732920 using 
+divide and conquer technique using 
+Karatsuba method. 
+5 
+ 
+(b) Write an algorithm for Depth First 
+Search (DFS) and traverse the following 
+graph using DFS. Starting vertex is A : 
+  
+ 
+ 
+5    
+          
+  
+ 
+ 
+                   × × × × ×
+
+======================================================================
+BCS-042_TEE_June_2021
+======================================================================
+BCS-042 
+1 
+  P.T.O. 
+ BCS-042  
+BACHELOR OF COMPUTER APPLICATIONS 
+(BCA) (Revised) 
+Term-End Examination 
+June, 2021 
+BCS-042 : INTRODUCTION TO ALGORITHM DESIGN 
+Time : 2 hours 
+Maximum Marks : 50 
+Note :  Question no. 1 is compulsory and carries  
+20 marks. Answer any three questions from the 
+rest. 
+1. 
+(a) 
+Arrange the following classes of algorithms 
+in increasing order of growth :   
+3 
+(i) 
+O (n3) 
+(ii) 
+O (n log n) 
+(iii) O (n2) 
+(iv) O (
+n ) 
+(b) 
+Write the recurrence relation for the 
+following recursive function : 
+5 
+ 
+Fib (int n) 
+ 
+     {  
+ 
+       if (n == 0) return 0; 
+ 
+       if (n == 1) return 1; 
+ 
+       else  
+ 
+       return (Fib (n – 1) + Fib (n – 2)); 
+ 
+     } 
+No. of Printed Pages : 3 
+
+BCS-042 
+2 
+(c) 
+Sort the following list of elements using 
+‘Insertion Sort’. Also, show intermediate 
+steps. 
+ 
+28, 6, 29, 90, 5, 42, 80 
+6 
+(d) 
+Write the recurrence relation for the best 
+case of Quicksort algorithm and solve it 
+using Master method.  
+6 
+2. 
+(a) 
+Write 
+the 
+pseudocode 
+for 
+computing  
+GCD (m, n) and find its time complexity. 
+4 
+(b) 
+Write the pseudocode for Breadth First 
+Search (BFS) and traverse the following 
+graph using BFS from starting node A. 
+6 
+ 
+ 
+3. 
+(a) 
+What is Greedy Technique ? Explain the 
+types of problems solved by using this 
+technique. 
+4 
+(b) 
+Find the adjacency list for the following 
+graph : 
+3 
+ 
+ 
+(c) 
+With the help of an example, explain the 
+‘Merge-Sort’ technique. 
+3 
+ 
+
+BCS-042 
+3 
+  P.T.O. 
+4. 
+(a) 
+What is a single source shortest path 
+problem ? Briefly explain the generic 
+algorithm for solving it.    
+5 
+(b) 
+Explain the following terms with an 
+example for each : 
+5 
+(i) 
+Complete Graph 
+(ii) 
+Dynamic Programming Technique  
+ 
+5. 
+(a) 
+Find the minimum cost spanning tree for 
+the 
+following 
+graph 
+using 
+Kruskal’s 
+algorithm : 
+7 
+ 
+ 
+(b) 
+Define Recurrence Relation and Initial 
+Condition for Factorial Function. 
+3
+
+======================================================================
+BCS-042_TEE_June_2022
+======================================================================
+BCS-042 
+1 
+  P.T.O. 
+ BCS-042  
+BACHELOR OF COMPUTER APPLICATIONS 
+(BCA) (Revised) 
+Term-End Examination 
+June, 2022 
+ 
+BCS-042 : INTRODUCTION TO ALGORITHM DESIGN 
+Time : 2 hours 
+Maximum Marks : 50 
+Note :  Question no. 1 is compulsory and carries  
+20 marks. Answer any three questions from the 
+rest. 
+1. 
+(a) 
+Define basic efficiency classes in context of 
+running time.   
+3 
+(b) 
+Perform linear and binary search to find  
+15 in a given list of numbers as below : 
+ 
+5   7   9   12   13   15   21   25  
+Count the number of comparisons in both 
+the search methods.  
+6 
+(c) 
+Define a recurrence relation. Draw a 
+recurrence tree for the following recurrence 
+relation : 
+5 
+ 
+T(n) = 2T(n/2) + 1 
+ 
+No. of Printed Pages : 3 
+
+BCS-042 
+2 
+(d) 
+Apply Kruskal’s algorithm to find out the 
+minimum cost spanning tree. 
+6  
+ 
+ 
+ 
+Starting vertex is A. 
+2. 
+(a) 
+Arrange 
+the 
+following 
+functions 
+in 
+increasing order :  
+2 
+ 
+ 
+n
+2
+log
+,  n
+n
+2
+log
+,  n2,  5n + 7 
+(b) 
+List any two applications of BFS/DFS. 
+2 
+(c) 
+Write the algorithm for left to right binary 
+exponentiation evaluation and apply the 
+algorithm for evaluating a280. Show all the 
+steps. 
+6 
+ 
+3. 
+(a) 
+For the function defined by  
+ 
+ 
+ 
+f(n) = 6n2 + 8n + 6,  
+ 
+ 
+show that f(n) = O(n2). 
+4 
+(b) 
+Show that Dijkstra’s algorithm may not 
+work if edges can have negative weight.  
+3 
+(c) 
+Traverse the complete graph on four 
+vertices using BFS and write the sequence 
+of vertices that would be visited by the 
+graph traversal algorithm. 
+3 
+ 
+
+BCS-042 
+3 
+  P.T.O. 
+4. 
+(a) 
+Write a recurrence relation for Fibonacci 
+series problem.     
+3 
+(b) 
+Write and apply Mergesort algorithm to 
+sort the following list of integer numbers. 
+ 7 
+ 
+Show all the intermediate steps.  
+ 
+ 
+15, 8, 7, 4, 25, 30, 5, 13 
+ 
+5. 
+(a) 
+Write any two cases of the Master method 
+with formal notations. 
+4 
+(b) 
+Write recurrence relations for matrix 
+multiplication using Strassen’s method and 
+solve it using the Master method. 
+6
+
+======================================================================
+BCS-042_TEE_June_2023
+======================================================================
+P. T. O. 
+No. of Printed Pages : 4 
+BCS-042 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) 
+(Revised) 
+Term-End Examination 
+June, 2023 
+BCS-042 : INTRODUCTION TO  
+ALGORITHM DESIGN 
+Time : 2 Hours    
+Maximum Marks : 50 
+Note : (i) Question No. 1 is compulsory. 
+ 
+(ii) Answer any three questions from the 
+rest.   
+1. (a) What is complexity of algorithm ? Explain 
+space complexity and time complexity of 
+algorithms with the help of example. 
+5 
+(b) Write linear search algorithm and do 
+analysis of this algorithm for best case and 
+worst case. 
+5 
+
+ 
+[ 2 ] 
+BCS-042 
+ 
+ 
+ 
+(c) Using mathematical induction method, 
+show that for all positive integers n : 
+5 
+ 
+2
+2
+2
+2
+(
+1)(2
+1)
+1
+2
+3
+........
+6
+n n
+n
+n
+
+
+
+
+
+
+
+  
+(d) What 
+is 
+Adjacency 
+matrix 
+? 
+Write 
+adjacency matrix for the following graph : 5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2. (a) Write Depth-First Search (DFS) algorithm. 
+Also traverse the following graph using 
+DFS from node A. 
+7 
+ 
+ 
+ 
+ 
+ 
+
+ 
+[ 3 ] 
+BCS-042 
+ 
+ 
+P. T. O. 
+(b) Solve the following recurrence relation 
+using recurrence tree method : 
+3 
+T( )
+4T
+2
+n
+n
+n
+
+
+
+
+
+
+
+
+ 
+3. (a) Write Kruskal’s algorithm for finding 
+Minimum Cost Spanning Tree (MCST). 
+Find MCST of the following graph using 
+Kruskal’s algorithm. 
+8 
+ 
+ 
+ 
+ 
+(b) Explain use of Big oh (O) notation in the 
+analysis of algorithms with example. 
+2 
+4. (a) Find the optimal solution to the knapsack 
+(fractional) problem for n = 5 and m = 10, 
+where n is the number of objects and m is 
+the capacity of the knapsack. 
+
+ 
+[ 4 ] 
+BCS-042 
+ 
+ 
+ 
+Profit and weight of each object are given 
+below : 
+6 
+(P1, P2, P3, P4, P5) = (10, 30, 35, 20, 40) 
+(W1, W2, W3, W4, W5) = (3, 5, 2, 6, 11) 
+(b) In context of algorithm study, explain the 
+following with the help of an example of 
+each :  
+4 
+(i) 
+Upper Bound 
+(ii) Backtracking 
+5. (a) Sort the following list using Bubble sort 
+algorithm. Show the steps of sorting : 
+6 
+30, 8, 7, 14, 20, 28, 10, 6 
+(b) Write algorithm for adding two matrices of 
+order m × n and find its time complexity. 4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BCS–042
+
+======================================================================
+BCS-042_TEE_June_2024
+======================================================================
+P. T. O. 
+No. of Printed Pages : 4 
+BCS-042 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) 
+Term-End Examination 
+June, 2024 
+BCS-042 : INTRODUCTION TO ALGORITHM 
+DESIGN 
+Time : 2 Hours    
+Maximum Marks : 50 
+Note : (i) Question No. 1 is compulsory and carries 
+20 marks. 
+ 
+(ii) Answer any three questions from the 
+rest.  
+1. (a) Arrange the following time complexities in 
+the increasing order : 
+2  
+2
+log , O (
+), O (3 ),
+!
+n
+n
+n
+n   
+(b) Write 
+the 
+names 
+of 
+the 
+following  
+symbols : 
+3 
+(i) 
+ 
+(ii)  
+(iii) O 
+
+ 
+[ 2 ] 
+BCS-042 
+ 
+ 
+ 
+(c) What is recurrence relation ? Define 
+Fibonacci 
+sequence 
+using 
+recurrence 
+relation. 
+4 
+(d) What is linear search method ? Apply 
+linear search to search the number 9 in the 
+following list of numbers. Show the 
+searching steps : 
+6 
+  
+           8, 4, 10, 6, 9, 2 
+Also, analyse the worst case complexity of 
+the linear search method. 
+(e) Write adjacency-list and adjacency-matrix 
+representation of the following graph : 
+5 
+ 
+ 
+ 
+ 
+2. (a) Explain the following terms : 
+3 
+(i) 
+Space complexity 
+(ii) Cycle in a graph 
+(iii) Lower bound 
+
+ 
+[ 3 ] 
+BCS-042 
+ 
+ 
+P. T. O. 
+(b) Traverse the following graph using DFS-
+method, taking A as a starting vertex and 
+sequence  of vertices in the order of their 
+appearance in traversal : 
+7 
+ 
+ 
+ 
+ 
+ 
+ 
+Also, write the time complexity of DFS 
+method. 
+3. (a) Write and explain binary search algorithm. 
+Explain its time complexity for best and 
+worst cases. 
+5 
+(b) Prove the following propositions using 
+mathematical induction : 
+5     
+2
+2
+2
+2
+1
+2
+3
+.....
+n
+
+
+
+
+ 
+(
+1) (2
+1)
+6
+n n
+n
+
+
+
+   
+4. (a) Define the term algorithm. Explain various 
+properties of an algorithm. 
+4 
+
+ 
+[ 4 ] 
+BCS-042 
+ 
+ 
+ 
+(b) Write an algorithm for multiplying two 
+matrices. Also find the time complexity of 
+this algorithm. 
+6 
+5. (a) Write Kruskal’s algorithm for finding 
+minimum cost spanning tree (MCST). 
+Apply this algorithm on the following 
+graph to find MCST : 
+8 
+ 
+ 
+ 
+ 
+ 
+(b) Briefly 
+explain 
+divide 
+and 
+conquer 
+approach of problem solving. 
+2 
+ 
+ 
+ 
+ 
+ 
+BCS–042
+
+======================================================================
+BCS-042_TEE_June_2025
+======================================================================
+B–1075/BCS–042 
+P. T. O. 
+No. of Printed Pages : 6 
+BCS–042 
+BACHELOR OF COMPUTER 
+APPLICATIONS 
+(BCA)  
+Term-End Examination 
+June, 2025 
+BCS-042 : INTRODUCTION TO  
+ALGORITHM DESIGN  
+Time : 2 Hours  
+Maximum Marks : 50 
+Note : Question No. 1 is compulsory and carries 
+20 marks. Answer any three questions 
+from the rest. 
+
+ 
+[ 2 ] 
+BCS–042 
+B–1075/BCS–042 
+1. (a) Define the term ‘algorithm’ and explain 
+its importance in Computer Science. 
+Discuss the concept of recursion and 
+provide 
+and 
+example 
+of 
+recursive 
+algorithm. 
+5 
+(b) What is the time complexity of linear 
+search algorithm ? Explain with the 
+help of an example. 
+5 
+(c) Describe any three of the following : 
+ 
+3×2=6 
+(i) 
+Backtracking 
+(ii) Fractional Knapsack problem 
+(iii) Connected graph 
+(iv) Euclid Algorithm for GCD 
+
+ 
+[ 3 ] 
+BCS–042 
+B–1075/BCS–042 
+P. T. O. 
+(d) Suppose you are given currency notes of 
+the following denominations : 
+ 
+(2, 5, 10, 15, 20, 100, 500)  
+ 
+Further it is assumed that currency 
+notes 
+of 
+each 
+denomination 
+are 
+available in sufficient numbers for 
+purpose of using the minimum number 
+of notes. The problem is to find 
+minimum number of notes to make an 
+amount 
+of 
+` 
+437. 
+Using 
+greedy 
+approach, show sequence of steps for 
+selection 
+of 
+notes 
+to 
+make  
+` 437.  
+4 
+2. (a) Solve the recurrence : 
+5 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+T( )
+T
+T
+3
+3
+n
+n
+n
+n   
+ using recursion tree method. 
+
+ 
+[ 4 ] 
+BCS–042 
+B–1075/BCS–042 
+(b) The 
+recurrence 
+2
+T( )
+7T 2
+n
+n
+n
+
+
+
+
+
+
+
+
+ 
+describes the runtime of an algorithm. 
+A competing algorithm A has running 
+time of 
+2
+T ( )
+T 4
+n
+n
+a
+n
+
+
+
+
+
+
+
+
+
+. What is the 
+largest integer value for | |
+a  such that 
+|A |
+ is asymptotically faster than A ? 5 
+3. (a) Given an array of size(n), analyze the 
+time complexity of the bubble sort 
+algorithm. If array is already sorted in 
+ascending order, what would be the best 
+time complexity ? Provide the Big-O 
+notation for both the best case and 
+worst case scenarios. 
+5 
+
+ 
+[ 5 ] 
+BCS–042 
+B–1075/BCS–042 
+P. T. O. 
+(b) Apply the Dijkstra’s algorithm to find 
+the shortest path from Vertex A to each 
+of the other vertices for the following 
+directed graph : 
+5 
+ 
+ 
+ 
+ 
+4. (a) Compare 
+and 
+contrast 
+Depth-First 
+Search (DFS) and Breadth First Search 
+(BFS) 
+algorithms. 
+Highlight 
+their 
+similarities and differences and discuss 
+their respective use cases. 
+5 
+(b) Is the minimum spanning tree of any 
+graph unique ? Apply Prim’s algorithm 
+
+ 
+[ 6 ] 
+BCS–042 
+B–1075/BCS–042 
+to find a minimum cost spanning tree 
+for the following graph (‘a’ is the 
+starting vertex) : 
+5 
+ 
+ 
+ 
+ 
+ 
+ 
+5. (a) Show that the runtime of partition 
+procedure of quick sort algorithm on a 
+sub-array of size (n) is ( )
+n
+
+. 
+5 
+(b) Explain 
+the 
+divide 
+and 
+conquer 
+approach of matrix multiplication of two 
+4 × 4 matrices. 
+5 
+× × × × ×
+
+======================================================================
+BCS-042_TEE_June_2026
+======================================================================
+B–2073/BCS–042 
+P. T. O. 
+No. of Printed Pages : 5 
+BCS–042 
+BACHELOR OF COMPUTER 
+APPLICATIONS 
+(BCA) (REVISED) 
+Term-End Examination 
+June, 2026 
+BCS-042 : INTRODUCTION TO  
+ALGORITHM DESIGN  
+Time : 2 Hours  
+Maximum Marks : 50 
+Note : Question No. 1 is compulsory and carries 
+20 marks. Answer any three questions 
+from the rest. 
+
+ 
+[ 2 ] 
+BCS–042 
+B–2073/BCS–042 
+1. (a) Prove the following proposition using 
+induction : 
+5 
+ 
+ 
+P(n) : 12 + 22 + 32 + ........ + n2 
+            
+= 
+
+
+(
+1) (2
+1)
+6
+n n
+n
+ 
+ 
+(b) Solve the recurrence relation  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+T( )
+T
+T
+3
+3
+n
+n
+n
+n  
+ 
+ 
+using recursion tree method. 
+5 
+ 
+(c) Why 
+is 
+analysis of 
+an 
+algorithm 
+important ? Justify your answer with 
+example. 
+5 
+ 
+(d) Explain asymptotic notations. Also, 
+discuss what is upper and lower bound 
+in asymptotic notations. 
+5 
+
+ 
+[ 3 ] 
+BCS–042 
+B–2073/BCS–042 
+P. T. O. 
+2. (a) Write an algorithm for bubble sort and 
+write its worst case and best case 
+analysis. 
+6  
+ 
+(b) Find 
+GCD(595, 
+252) 
+by 
+Euclid’s 
+algorithm. 
+4 
+3. (a) Write basic algorithm to evaluate  
+a 
+polynomial 
+and 
+find 
+its  
+complexity. 
+5 
+ 
+(b) Find the optimal solution for the 
+Knapsack 
+instance 
+n 
+= 
+7 
+and  
+m = 15 : 
+5 
+ 
+ 
+(P1, P2, P3 ..... P7) = (10, 5, 15, 7, 6, 18, 3) 
+ 
+ 
+(W1, W2, W3, ..... W7) = (2, 3, 5, 7, 1, 4, 1) 
+
+ 
+[ 4 ] 
+BCS–042 
+B–2073/BCS–042 
+4. (a) Apply Kruskal’s and Prim’s algorithm 
+to find a minimum cost of a spanning 
+tree of the graph given below : 
+8 
+ 
+ 
+(b) Define 
+divide 
+and 
+conquer  
+approach. 
+2 
+5. (a) What is Adjacency Matrix ? Write 
+adjacency matrix and adjacency list for 
+the following graph. 
+5 
+ 
+
+ 
+[ 5 ] 
+BCS–042 
+B–2073/BCS–042 
+P. T. O. 
+ 
+(b) Write 
+Depth-First 
+Search 
+(DFS) 
+algorithm. Also traverse the following 
+graph using DFS from node 1. 
+5 
+ 
+× × × × ×
