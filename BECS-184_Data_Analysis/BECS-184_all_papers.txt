@@ -1,0 +1,1940 @@
+======================================================================
+BECS-184_TEE_December_2022
+======================================================================
+BECS-184 
+1 
+  P.T.O. 
+ BECS-184  
+BAG/B.Com./B.Sc./BAECH  
+Term-End Examination 
+December, 2022 
+ 
+BECS-184 : DATA ANALYSIS  
+Time : 3 hours 
+Maximum Marks : 100 
+Note :   
+(i) 
+Answer the questions from each section as directed. 
+(ii) 
+Answer any two questions from Section A. 
+(iii) Answer any five questions from Section B. 
+ 
+SECTION A 
+Answer any two questions from this section. 
+220=40 
+1. 
+Define the term ‘qualitative research design’. 
+How it is different from quantitative research 
+design ? What are the various techniques of 
+qualitative data analysis ? 
+5+5+10=20 
+No. of Printed Pages : 12 
+
+BECS-184 
+2 
+2. 
+The following table presents the list of agencies 
+owning different number of rental cars. The 
+annual income for each of these agencies is given 
+here. 
+ 
+Agency  
+Cars  
+(in ten thousands)  
+Revenue  
+(in < crores)  
+A 
+63·0 
+7·0 
+B 
+29·0 
+3·9 
+C 
+20·8 
+2·1 
+D 
+19·1 
+2·8 
+E 
+13·4 
+1·4 
+F 
+8·5 
+1·5 
+(a) 
+The study wanted to analyse whether there 
+is any significant relationship between the 
+number of rental cars that the agency owns 
+and 
+its 
+annual 
+income. 
+Compute 
+the 
+correlation coefficient from the given table. 
+15 
+(b) 
+Test the significance of the correlation 
+coefficient considering  = 0·05 and critical 
+values obtained from t-distribution table is  
+ 2·776. 
+ 
+ 
+5 
+
+BECS-184 
+3 
+  P.T.O. 
+3. 
+(a) 
+Discuss 
+various 
+measures 
+of 
+central 
+tendency.  
+5 
+(b) 
+What is the relationship among various 
+measures 
+of 
+central 
+tendency 
+under 
+symmetrical and asymmetrical distribution ? 10 
+(c) 
+Explain the situations where a specific 
+measure of central tendency could be used.  
+5 
+4. 
+Differentiate between Census and Survey data. 
+What are the various stages involved in 
+planning and organising the censuses and 
+surveys ? 
+5+15=20 
+
+BECS-184 
+4 
+SECTION B 
+Answer any five questions from this section. 
+512=60 
+5. 
+Discuss the method employed by UNDP in 
+construction of Physical Quality of Life Index 
+(PQLI).  
+12      
+ 
+6. 
+Distinguish between the following :   
+34=12 
+(a) 
+Sampling errors and Non-sampling errors  
+(b) 
+Observation and Experimental method  
+(c) 
+Point estimate and Interval estimate  
+ 
+7. 
+(a) 
+What is multivariate analysis ?  
+3 
+(b) 
+What are the important points to be kept in 
+mind while interpreting the results obtained 
+from multivariate analysis ?  
+3 
+(c) 
+Discuss 
+any 
+one 
+multivariate 
+analysis 
+technique along with its application.  
+6 
+
+BECS-184 
+5 
+  P.T.O. 
+8. 
+(a) 
+Define the term ‘Skewness’ and explain 
+different measures of Skewness with the 
+help of a diagram.  
+6 
+(b) 
+Explain Karl Pearson’s measure of Kurtosis. 
+Based on this measure, what are the three 
+types of frequency curves ? 
+6 
+ 
+9. 
+(a) 
+Discuss the merits and demerits of a 
+composite index.  
+6 
+(b) 
+Distinguish between Range equalisation 
+method and Mean standardisation method ? 
+6 
+ 
+10. (a) 
+What are the crucial points to be considered 
+while making a choice between random 
+sample survey and non-random sample 
+survey ?    
+6 
+(b) 
+Discuss briefly the term ‘unstructured 
+interviews’. 
+Give 
+the 
+advantages 
+and 
+disadvantages 
+of 
+using 
+unstructured 
+interviews.  
+ 
+6 
+
+BECS-184 
+6 
+11. Write short notes on any three of the  
+following : 
+34=12 
+(a) 
+Sampling Fraction  
+(b) 
+Coefficient of Variation  
+(c) 
+Normal Distribution Curve  
+(d) 
+Ethnography     
+ 
+
+BECS-184 
+7 
+  P.T.O. 
+ ~r.B©.gr.Eg.-184  
+~r.E.Or./~r.H$m°_/~r.Eg.gr./~r.E.B©.gr.EM. 
+gÌm§V narjm 
+{Xgå~a,  2022 
+ 
+ 
+~r.B©.gr.Eg.-184 : Am±H$‹S>m| H$m {díbofU  
+g_` : 3 KÊQ>o  
+A{YH$V_ A§H$ : 100 
+ZmoQ> :   
+(i) àË`oH$ ^mJ _| {XE JE {ZX}emZwgma àíZm| Ho$ CÎma Xr{OE & 
+(ii) ^mJ H$ go {H$Ýht Xmo àíZm| Ho$ CÎma Xr{OE & 
+(iii) ^mJ I go {H$Ýht nm±M àíZm| Ho$ CÎma Xr{OE &   
+ ^mJ H$ 
+Bg ^mJ _| go {H$Ýht Xmo àíZm| Ho$ CÎma Xr{OE &  
+220=40 
+1. ‘JwUmË_H$ emoY-A{^H$ën’ nX H$mo n[a^m{fV H$s{OE & `h 
+n[a_mUmË_H$ emoY-A{^H$ën go {H$g àH$ma {^Þ h¡ ? 
+JwUmË_H$ Am±H$‹S>m {díbofU H$s {d{^Þ VH$ZrH|$  
+Š`m h¢ ? 
+5+5+10=20 
+
+BECS-184 
+8 
+2. {ZåZ Vm{bH$m {d{^Þ àH$ma H$s a|Q>b H$mam| Ho$ ñdm{_Ëd 
+dmbr EO|{g`m| H$s gyMr àñVwV H$aVr h¡ & BZ àË`oH$ EO|gr 
+H$s dm{f©H$ Am` `hm± Xr JB© h¡ &  
+ 
+EO|gr 
+H$ma  
+(Xg hOma _|)  
+Am`  
+(H$amo‹S> < _|) 
+A 
+63·0 
+7·0 
+B 
+29·0 
+3·9 
+C 
+20·8 
+2·1 
+D 
+19·1 
+2·8 
+E 
+13·4 
+1·4 
+F 
+8·5 
+1·5 
+ 
+(H$) AÜ``Z `h {díbofU H$aZm MmhVm h¡ {H$ a|Q>b H$mam| 
+H$s g§»`m Omo EO|gr Ho$ nmg h¡ Am¡a CZH$s dm{f©H$ 
+Am` _| H$moB© gmW©H$ g§~§Y h¡ & Xr hþB© Vm{bH$m Ho$ {bE 
+ghg§~§Y JwUm§H$ H$s JUZm H$s{OE &  
+15 
+(I)  = 0·05 Am¡a t-{dVaU Vm{bH$m go àmßV t H$m 
+H«$m§{VH$ _mZ  2·776 Ho$ g§X^© _| ghg§~§Y JwUm§H$ H$s 
+gmW©H$Vm H$m narjU H$s{OE &   
+5 
+
+BECS-184 
+9 
+  P.T.O. 
+3. (H$) Ho$ÝÐr` àd¥{Îm H$s$ {d{^Þ _mnm| H$s MMm© H$s{OE &  
+5 
+(I) g_{_V Am¡a Ag_{_V {dVaU Ho$ A§VJ©V, Ho$ÝÐr` 
+àd¥{Îm H$s {d{^Þ _mnm| Ho$ ~rM Š`m g§~§Y h¡ ?  
+10 
+(J) CZ pñW{V`m| H$mo g_PmBE Ohm± EH$ {d{eîQ> Ho$ÝÐr` 
+àd¥{Îm H$s _mn H$m Cn`moJ {H$`m Om gHo$ &   
+5 
+ 
+4. g§JUZm Am±H$‹S>m| Am¡a gd}jU Am±H$‹S>m| Ho$ ~rM A§Va ñnï> 
+H$s{OE & OZJUZm Am¡a gd}jUm| H$s `moOZm ~ZmZo Am¡a 
+ì`dpñWV H$aZo Ho$ {d{^Þ MaU Š`m h¢ ?  
+5+15=20 
+
+BECS-184 
+10 
+^mJ> I 
+Bg ^mJ _| go {H$Ýht nm±M àíZm| Ho$ CÎma Xr{OE &  
+512=60 
+5. OrdZ Ho$ ^m¡{VH$ JwUdÎmm gyMH$m§H$ (PQLI) H$s aMZm _| 
+UNDP Ûmam bJmB© JB© {d{Y H$s MMm© H$s{OE &  
+12 
+ 
+6. {ZåZ Ho$ ~rM A§Va ñnï> H$s{OE :  
+34=12 
+(H$) à{VXe© Ìw{Q> Am¡a µJ¡a-à{VXe© Ìw{Q>  
+(I) AdbmoH$Z Am¡a à`moJmË_H$ {d{Y  
+(J) q~Xþ AmH$bZ Am¡a A§Vamb AmH$bZ 
+ 
+7. (H$) ~hþMa {díbofU Š`m h¡ ?  
+3 
+(I) ~hþMa {díbofU go àmßV n[aUm_m| H$s ì`m»`m 
+({Zd©MZ) H$aVo g_` {H$Z _hÎdnyU© ~mVm| H$m Ü`mZ 
+aIZm Mm{hE ?  
+ 
+3 
+(J) {H$gr EH$ ~hþMa {díbofU VH$ZrH$ na CgHo$ 
+AZwà`moJ Ho$ gmW MMm© H$s{OE & 
+6 
+
+BECS-184 
+11 
+  P.T.O. 
+8. (H$) ‘d¡få`’ H$s n[a^mfm Xr{OE Am¡a EH$ {MÌ H$s 
+ghm`Vm go d¡få` ({df_Vm) H$s {d{^Þ _mnm| H$mo 
+g_PmBE &   
+6 
+(I) H$Hw$XVm Ho$ H$mb© {n`g©Z _mn H$mo g_PmBE & Bg _mn 
+Ho$ AmYma na, VrZ àH$ma Ho$ Amd¥{Îm dH«$ Š`m h¢ ?  
+6 
+9. (H$) g§`wº$ gyMH$m§H$ Ho$ JwU Am¡a Xmofm| H$s {ddoMZm 
+H$s{OE &   
+6 
+(I) {dñVma g_H$aU {d{Y Am¡a _mÜ` _mZH$sH$aU {d{Y Ho$ 
+~rM A§Va ñnï> H$s{OE &   
+6 
+10. (H$) `mÑpÀN>H$-à{VXe© gd}jU Am¡a µJ¡a-`mÑpÀN>H$ à{VXe© 
+gd}jU _| go M`Z H$aVo g_` {H$Z _hÎdnyU© q~XþAm| 
+H$m Ü`mZ aIZm Mm{hE ?  
+6 
+(I) ‘Aì`dpñWV gmjmËH$ma’ nX H$s g§jon _| MMm©  
+H$s{OE & Aì`dpñWV gmjmËH$ma Ho$ à`moJ Ho$ bm^ 
+Am¡a hm{Z`m| H$mo ~VmBE &     
+6 
+
+BECS-184 
+12 
+11. {ZåZ{b{IV _| go {H$Ýht VrZ na g§{jßV {Q>ßn{U`m±  
+{b{IE : 
+34=12 
+(H$) à{VM`Z (à{VXe©) {^Þ  
+(I) {dMaU JwUm§H$  
+(J) àgm_mÝ` {dVaU dH«$  
+(K) Z¥d§e{dkmZ
+
+======================================================================
+BECS-184_TEE_December_2023
+======================================================================
+P. T. O. 
+No. of Printed Pages : 8 
+BECS–184 
+ 
+B. A. G./B. Com./ B. Sc./BAECH  
+Term-End Examination 
+December, 2023 
+BECS-184 : DATA ANALYSIS 
+Time : 3 Hours    
+Maximum Marks : 100 
+Note : Attempt questions from each Section as 
+directed. 
+Section—A 
+Note : Answer 
+any 
+two 
+questions 
+from 
+this  
+Section. 
+1. (a) What is meant by the term ‘mathematical 
+modelling’ ? Explain with example the 
+various steps involved in mathematical 
+modelling. 
+10 
+(b) What is logic ? Why is it necessary to know 
+the basics of logic in data analysis ? 
+10 
+
+ 
+[ 2 ] 
+BECS–184 
+ 
+ 
+ 
+2. (a) Explain 
+the 
+various 
+measures 
+of 
+variability. 
+Which 
+of 
+these 
+measures 
+ensure the highest degree of reliability ? 
+Give reasons in support of your answer. 10 
+(b) A consumer purchases two goods X and Y, 
+where prices are ` 10/kg and ` 5/kg 
+respectively. If he spends 
+` 20 for 
+purchasing both the goods, find the 
+average price per kilogram. 
+10 
+3. What do you mean by the term ‘Composite 
+Index’ ? State with illustration the procedure to 
+work out composite index by way of simple 
+Ranking method. 
+20 
+4. Distinguish between univariate data analysis 
+and multivariate data analysis. Give a brief 
+account of various techniques of multivariate 
+data analysis. 
+20 
+Section—B 
+Note : Answer any five questions from this Section. 
+5. What is a sampling frame ? State the various 
+stages involved in planning and organizing a 
+survey.  
+ 
+12 
+
+ 
+[ 3 ] 
+BECS–184 
+ 
+ 
+P. T. O. 
+6. Distinguish between data collection and data 
+analysis. Discuss the various tools that are 
+used in generating qualitative data. 
+12 
+7. What 
+are 
+the 
+characteristics 
+of 
+normal 
+distribution ? Explain the usage of normal 
+distribution in solving statistical problems. 12 
+8. A study involves finding the proportion of 
+females opting to participate in home-based 
+work. 
+What 
+type 
+of 
+data 
+in 
+terms 
+of 
+measurement scale will need to be captured for 
+conducting such a study ? Which method of 
+central tendency will be suitable for this study ? 
+12 
+9. State the features of case study as a tool for 
+data generation. 
+12 
+10. What is Histogram ? Draw a Histogram from 
+the following data : 
+12 
+Value 
+Frequency 
+5—10 
+12 
+10—15 
+25 
+15—20 
+30 
+20—25 
+40 
+25—30 
+20 
+
+ 
+[ 4 ] 
+BECS–184 
+ 
+ 
+ 
+ 11. Write short notes on any three of the following :  
+3×4=12 
+(a) Coefficient of determination 
+(b) Estimator 
+(c) Focus group discussion 
+(d) Primary data 
+(e) Data mining 
+(f) 
+Discrete variable 
+ 
+ 
+
+ 
+[ 5 ] 
+BECS–184 
+ 
+ 
+P. T. O. 
+ 
+ 
+  
+ 
+ 
+BECS–184 ch-,-th
+2023ch-bZ-lh-,l-&
+184% vk¡dM+ksa dk fo'ys"k.kle; % 3 ?k.Vs   
+&duksV %bl Hkkxesals fdUgha nksiz'
+
+ 
+[ 6 ] 
+BECS–184 
+ 
+ 
+ (c)rdZ D;
+XvkSj Y[kjhnrk gS ]tgk¡ dhersa 
+`10 izfr fdxzk-vkSj `5 izfr fdxzk-
+`20 [kpZ djrk gS rks izfr fdyks vkSlr dher Kkr d
+
+ 
+[ 7 ] 
+BECS–184 
+ 
+ 
+P. T. O. Hkkx
+&[kuksV %bl Hkkx esa ls fdUgha ik¡piz
+
+ 
+[ 8 ] 
+BECS–184 
+ 
+ 
+ 10-vk;rfp
+5—10 
+12 
+10—15 
+25 
+15—20 
+30 
+20—25 
+40 
+25—30 
+20 11-fuEufyf[kr esa ls
+×4=12(d)fu/kZj.k
+ (?k)izkFkfed vk¡dM+s(
+³)vk¡dM+ksa dk [kuu(p)vlrr~@[kafMr pj
+BECS–184
+
+======================================================================
+BECS-184_TEE_December_2024
+======================================================================
+No. of Printed Pages : 10 
+BECS–184 
+ 
+B. A. G./B. COM./ B. Sc./BAECH/BAM  
+Term-End Examination 
+December, 2024 
+BECS-184 : DATA ANALYSIS 
+Time : 3 Hours    
+Maximum Marks : 100 
+Note : Attempt questions from both the Sections as 
+per instructions. 
+Section—A 
+Note : Answer 
+any 
+two 
+questions 
+from 
+this  
+Section. 
+20×2=40 
+1. What 
+is 
+the 
+importance 
+of 
+graphical 
+presentation of data ? What are the various 
+types 
+of 
+graphs 
+? 
+How 
+can 
+graphical 
+presentation be misinterpreted ? 
+D–3419/BECS–184 
+ 
+ P. T. O. 
+
+ 
+[ 2 ] 
+BECS–184 
+2. (a) Describe different measures of central 
+tendency. 
+(b) Suppose that a company is facing the 
+following 
+growth 
+data 
+over 
+the last  
+5 years : 
+Year 
+Growth rate 
+1 
+2 
+3 
+4 
+5 
+10% 
+20% 
+18% 
+–9% 
+11% 
+Now it wants to study the average growth. 
+Which measure of central tendency will be 
+suitable in this case ? Why ? 
+3. Explain the process of the tabulation of the 
+data. Describe the components of a statistical 
+table. What precautions will you take while 
+preparing a statistical table ?   
+D–3419/BECS–184 
+ 
+ 
+
+ 
+[ 3 ] 
+BECS–184 
+4. Explain 
+the 
+concept 
+of 
+set. 
+Describe  
+various set operations with the help of 
+examples. 
+Section—B 
+Note : Answer any five questions from this Section.  
+5×12=60 
+5. Distinguish 
+between 
+skewness 
+and  
+kurtosis. How will you infer about the shape of 
+a 
+distribution 
+by 
+using 
+skewness 
+and  
+kurtosis ?  
+6. (a) Define a random variable. Give example of 
+events from real life which can be 
+considered as random variable. 
+(b) Define probability distribution. State the 
+properties of a continuous probability 
+distribution. 
+D–3419/BECS–184 
+ 
+P. T. O. 
+
+ 
+[ 4 ] 
+BECS–184 
+7. Distinguish between point estimation and 
+interval estimation. Describe the properties of a 
+good estimator. 
+8. What do you understand by the term composite 
+index ? Explain the steps involved in its 
+construction. 
+9. List out the important points that should be 
+kept in mind while interpreting the results of 
+multivariate analysis. 
+10. What are the characteristics of a good 
+questionnaire ? Suppose you have to conduct a 
+study in a village to access the effectiveness of 
+‘Swachha 
+Bharat 
+Abhiyan’. 
+Prepare 
+five 
+questions to conduct this study. 
+11. Give a brief account of the methods of primary 
+data collection. 
+D–3419/BECS–184 
+ 
+ 
+
+ 
+[ 5 ] 
+BECS–184 
+12. Write short notes on any three of the  
+following : 
+(a) Snowball sampling 
+(b) Focus group discussion 
+(c) Pie chart 
+(d) Frequency distribution 
+(e) Parameter and Statistic 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+D–3419/BECS–184 
+ 
+P. T. O. 
+
+ 
+[ 6 ] 
+BECS–184 
+ 
+ 
+  
+ 
+ 
+BECS–184 
+ch- ,- th-@ch- dkWe-@ch- ,l-&lh-@ 
+ch- ,- bZ- lh- ,p-@ch- ,- ,e- 
+l=kkar ijh{kk  
+fnlEcj] 2024 
+ch-bZ-lh-,l-&184 % vk¡dM+ksa dk fo'ys"k.k 
+le; % 3 ?k.Vs     
+vf/dre vad % 100 
+uksV % izR;sd Hkkx esa fn;s x;s funsZ'kkuqlkj iz'uksa ds mÙkj 
+nhft,A  
+Hkkx&d 
+uksV % bl Hkkx esa ls fdUgha nks iz'uksa ds mÙkj nhft,A 
+2×20=40 
+1- vk¡dM+ksa ds vkys[kh; izLrqrhdj.k dk D;k egRo gS \ 
+vkys[k (xzkiQ) ds fofHkUu izdkj D;k gSa \ vkys[kh; 
+izLrqfr dh xyr O;k[;k dSls gks tkrh gS \ 
+D–3419/BECS–184 
+ 
+ 
+
+ 
+[ 7 ] 
+BECS–184 
+2- (d) dsanzh; izo`fÙk ds fofHkUu ekiksa dk o.kZu dhft,A 
+([k) eku yhft, fd ,d dEiuh fiNys 5 o"kks± ls 
+fuEufyf[kr lao`f¼ ds vk¡dM+ksa dk lkeuk dj 
+jgh gS % 
+o"kZ 
+fodkl nj 
+1 
+2 
+3 
+4 
+5 
+10% 
+20% 
+18% 
+–9% 
+11% 
+vc og vkSlr lao`f¼ dk vè;;u djuk pkgrh 
+gSA bl izdj.k esa dsUnzh; izo`fÙk dk dkSu&lk eki 
+mi;qDr gksxk \ D;ksa \ 
+3- vk¡dM+ksa ds lkj.khdj.k dh izfØ;k dks le>kb,A 
+lkaf[;dh; lkj.kh ds ?kVdksa dk o.kZu dhft,A 
+lkaf[;dh; lkj.kh rS;kj djrs le; vki D;k 
+lko/kfu;k¡ ysaxs \ 
+D–3419/BECS–184 
+ 
+P. T. O. 
+
+ 
+[ 8 ] 
+BECS–184 
+4- leqPp; dh vo/kj.kk dks Li"V dhft,A mnkgj.kksa 
+dh lgk;rk ls fofHkUu leqPp; lafØ;kvksa dk o.kZu 
+dhft,A 
+Hkkx&[k 
+uksV % bl Hkkx esa ls fdUgha ik¡p iz'uksa ds mÙkj nhft,A 
+5×12=60 
+5- oS"kE; vkSj dqdqnrk ds chp varj dhft,A oS"kE; vkSj 
+dqdqnrk dk mi;ksx djds vki forj.k ds vkdkj ds 
+ckjs esa fdl izdkj vuqeku yxk,¡xs \ 
+6- (d) ,d ;kn`fPNd pj dks ifjHkkf"kr dhft,A 
+okLrfod thou dh ?kVukvksa ds mnkgj.k nhft,] 
+ftUgsa ;kn`fPNd pj dgk tk ldrk gSA 
+([k) izkf;drk caVu dks ifjHkkf"kr dhft,A ,d lrr~ 
+izkf;drk caVu ds xq.k crkb,A 
+D–3419/BECS–184 
+ 
+ 
+
+ 
+[ 9 ] 
+BECS–184 
+7- fcUnq vkdyu vkSj varjky vkdyu esa vUrj Li"V 
+dhft,A ,d vPNs vkdyd (estimator) ds xq.kksa 
+dk o.kZu dhft,A 
+8- la;qDr lwpd ls vki D;k le>rs gSa \ blds fuekZ.k 
+esa lfEefyr pj.kksa dks Li"V dhft,A 
+9- cgq&fopj fo'ys"k.k ds ifj.kkeksa dh O;k[;k djrs 
+le; fdu egRoiw.kZ fcUnqvksa dks è;ku esa j[kk tkuk 
+pkfg,] mudh lwph cukb,A 
+10- ,d vPNh iz'ukoyh dh D;k fo'ks"krk,¡ gksrh gSa \ 
+eku yhft, fd vkidks ^LoPN Hkkjr vfHk;ku* dh 
+izHkko'khyrk dk vkdyu djus ds fy, ,d xk¡o esa 
+vè;;u djuk gSA bl vè;;u dks djus ds fy, ik¡p 
+iz'u fyf[k,A 
+11- izkFkfed vk¡dM+ksa ds laxzg.k dh fof/;ksa dk laf{kIr 
+fooj.k nhft,A 
+D–3419/BECS–184 
+ 
+P. T. O. 
+
+ 
+[ 10 ] 
+BECS–184 
+12- fuEufyf[kr esa ls fdUgha rhu ij laf{kIr fVIif.k;k¡ 
+fyf[k, % 
+(d) fgeiqat izfrp;u (Snowball Sampling) 
+([k) dsfUnzr lkewfgd ppkZ,¡ 
+(x) ikbZ pkVZ 
+(?k) ckjEckjrk forj.k 
+(³) izkpy rFkk lkaf[;dh 
+(Parameter 
+and 
+Statistics) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+× × × × × × × 
+D–3419/BECS–184
+
+======================================================================
+BECS-184_TEE_December_2025
+======================================================================
+C–2858/BECS–184 
+P. T. O. 
+No. of Printed Pages : 10 
+BECS–184 
+B. A. (GENERAL) / BACHELOR OF 
+COMMERCE / BACHELOR OF SCIENCE 
+/ B. A. (HONS.) ECONOMICS /  
+B. A. (MULTIDISCIPLINARY) 
+(BAG/B.COM./B.SC./BAECH/BAM)  
+Term-End Examination 
+December, 2025 
+BECS-184 : DATA ANALYSIS 
+Time : 3 Hours  
+Maximum Marks : 100 
+Note : Answer questions from both the Sections 
+as per instructions.  
+
+ 
+[ 2 ] 
+BECS–184 
+C–2858/BECS–184 
+Section—A 
+Note : Answer any two questions from this  
+Section. 
+2×20=40 
+1. Explain 
+various 
+measures 
+of 
+central 
+tendency. What is the relationship among 
+mean, median and mode ? Point out 
+situations where median and mode are 
+suitable. 
+2. (a) Give a brief account of the methods of 
+primary data collection. 
+ 
+(b) Explain the steps involved in planning 
+and organization of a sample survey. 
+3. Distinguish between null hypothesis and 
+alternative hypothesis. Explain the steps 
+you would follow in testing of a hypothesis. 
+
+ 
+[ 3 ] 
+BECS–184 
+C–2858/BECS–184 
+P. T. O. 
+4. What is a composite index ? Explain how a 
+composite index is constructed. 
+ 
+Section—B 
+ 
+Note : Answer any five questions from this  
+Section. 
+5×12=60 
+5. Explain the difference between single bar 
+diagram 
+and 
+histogram. 
+Construct 
+a 
+histogram from the following data : 
+Scores in numerical 
+ability 
+Frequency 
+10–20 
+15 
+20–30 
+30 
+30–40 
+50 
+40–50 
+35 
+50–60 
+20 
+
+ 
+[ 4 ] 
+BECS–184 
+C–2858/BECS–184 
+6. Explain how p-value method is used in 
+hypothesis testing. 
+7. Distinguish 
+between 
+correlation 
+and 
+causation. Explain how cause and effect 
+between two variables (X = cause and  
+Y = effect) can be analysed. 
+8. Give a brief account of the sources and the 
+limitations of secondary data. 
+9. Briefly 
+describe 
+various 
+techniques 
+of 
+analyzing multivariate data. 
+10. Explain the techniques by which qualitative 
+data can be analysed. 
+11. Explain the concept and implications of the 
+coefficient of determination. 
+
+ 
+[ 5 ] 
+BECS–184 
+C–2858/BECS–184 
+P. T. O. 
+12. Write short notes on any three of the 
+following : 
+ 
+(a) Confidence interval 
+ 
+(b) Central limit theorem 
+ 
+(c) Random variable 
+ 
+(d) Standard error 
+ 
+(e) Types of data 
+  
+ 
+ 
+
+ 
+[ 6 ] 
+BECS–184 
+C–2858/BECS–184 
+ 
+BECS–184 
+ch- ,- (lkekU;)@okf.kT; Lukrd@ 
+foKku Lukrd@ch- ,- (vkWulZ) vFkZ'kkL=@ 
+ch- ,- (cgqfo"k;d) 
+(ch- ,- th-@ch-dkWe-@ch-,l-&lh-@ 
+ch- ,- bZ- lh- ,p-@ch- ,- ,e-) 
+l=kar ijh{kk  
+fnlEcj] 2025 
+ch-bZ-lh-,l-&184 % vk¡dM+ksa dk fo'ys"k.k 
+le; % 3 ?k.Vs   
+vf/kdre vad % 100  
+uksV % nksuksa Hkkxksa ls iz'uksa ds mÙkj funsZ'kkuqlkj nhft,A 
+
+ 
+[ 7 ] 
+BECS–184 
+C–2858/BECS–184 
+P. T. O. 
+ 
+Hkkxµd 
+ 
+uksV % bl Hkkx ls fdUgha nks iz'uksa ds mÙkj nhft,A 
+2×20=40 
+1- dsUæh; izo`fÙk ds fofHkUu ekidksa dh O;k[;k dhft,A 
+vkSlr] ekf/;dk vkSj cgqyd ds chp D;k laca/k gksrk gS \ 
+og ifjfLFkfr;k¡ crkb, tgk¡ ekf/;dk vkSj cgqyd mi;qDr 
+jgrs gSaA 
+2- (d) izkFkfed vk¡dM+k ladyu dh fof/k;ksa dks la{ksi esa 
+crkb,A  
+ 
+([k) ,d izfrn'kZ losZ{k.k ds fu;kstu ,oa O;oLFkk esa vkus 
+okys lksikuksa dh O;k[;k dhft,A 
+3- 'kwU;d ifjdYiuk rFkk oSdfYid ifjdYiuk esa Hksn 
+dhft,A crkb, fd ,d ifjdYiuk ds lR;kiu esa vki 
+D;k dne mBk,¡xsA 
+
+ 
+[ 8 ] 
+BECS–184 
+C–2858/BECS–184 
+4- lk¡>k lwpdkad D;k gksrk gS \ O;k[;k dhft, fd ,d 
+lk¡>s lwpd dh jpuk fdl izdkj djrs gSaA 
+ 
+Hkkxµ[k 
+ 
+uksV % bl Hkkx ls fdUgha ik¡p iz'uksa ds mÙkj nhft,A 
+ 
+ 
+  
+5×12=60 
+5- ,dy n.Mfp= rFkk vk;rfp= esa Hksn le>kb,A vxzkafdr 
+vk¡dM+ksa ds vk/kkj ij ,d vk;rfp= cukb, % 
+la[;kRed ;ksX;rk esa vad 
+izkf;drk 
+10–20 
+15 
+20–30 
+30 
+30–40 
+50 
+40–50 
+35 
+50–60 
+20 
+
+ 
+[ 9 ] 
+BECS–184 
+C–2858/BECS–184 
+P. T. O. 
+6- O;k[;k dhft, fd ifjdYiuk ijh{k.k esa p-eku fof/k dk 
+iz;ksx fdl izdkj djrs gSaA 
+7- lglaca/k ,oa dkj.k&izHkko esa Hksn dhft,A O;k[;k dhft, 
+fd pjksa [X = dkj.k vkSj Y = izHkko] ds chp laca/k dk 
+fo'ys"k.k fdl izdkj djrs gSaA 
+8- f}rh;d vk¡dM+ksa ds lzksrksa vkSj mudh lhekvksa dk laf{kIr 
+fooj.k nhft,A 
+9- cgqpj vk¡dM+ksa ds fo'ys"k.k dh rduhdksa dk laf{kIr 
+fooj.k nhft,A 
+10- os rduhdsa le>kb, ftuls xq.kkRed vk¡dM+ksa dk fo'ys"k.k 
+dj ldrs gSaA 
+11- fu/kkZj.k xq.kkad dh ladYiuk vkSj mlds fufgrkFkks± dh 
+O;k[;k dhft,A 
+
+ 
+[ 10 ] 
+BECS–184 
+C–2858/BECS–184 
+12- fuEufyf[kr esa ls fdUgha rhu ij laf{kIr fVIif.k;k¡  
+fyf[k, % 
+ 
+(d) fo'okL;rk vUrjky 
+ 
+([k) dsUæh; lhek izes; 
+ 
+(x) ;kn`fPNd pj 
+ 
+(?k) ekud =qfV 
+ 
+(³) vk¡dM+ksa ds izdkj@Hksn 
+ 
+× × × × ×
+
+======================================================================
+BECS-184_TEE_June_2023
+======================================================================
+P. T. O. 
+No. of Printed Pages : 8 
+BECS-184 
+ 
+B. A. G./B. Com./ B. Sc./BAECH  
+Term-End Examination 
+June, 2023 
+BECS-184 : DATA ANALYSIS 
+Time : 3 Hours    
+Maximum Marks : 100 
+Note : Attempt questions from each Section as 
+directed. 
+Section—A 
+Note : Answer 
+any 
+two 
+questions 
+from 
+this  
+Section. 
+1. Define 
+the 
+term 
+‘quantitative 
+research’.  
+What its key attributes ? Explain in detail 
+various data collection tools for quantitative 
+research. 
+ 
+5+5+10 
+
+ 
+[ 2 ] 
+BECS-184 
+ 
+ 
+ 
+2. There are 40 plants in the garden. Seven plants 
+were selected randomly and their heights  
+(in cm) were recorded as follows : 
+Plants Serial No. 
+Height (in cm) 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+52 
+35 
+25 
+45 
+55 
+20 
+13 
+(a) Calculate the mean and standard deviation 
+of their heights based on the given sample.  
+15 
+(b) Draw a histogram. 
+5 
+3. (a) Discuss the term ‘measures of dispersion’. 5 
+(b) Explain various absolute and relative 
+measures of dispersion. 
+10 
+(c) Which measure of dispersion ensures 
+highest degree of reliability and why ? 
+5 
+4. Discuss the term ‘non-sampling errors’. Explain 
+the different types of non-sampling errors that 
+arise in an enquiry. 
+5+15 
+
+ 
+[ 3 ] 
+BECS-184 
+ 
+ 
+P. T. O. 
+Section—B 
+Note : Answer any five questions from this Section. 
+5. What are Type I and Type II errors in 
+hypothesis testing ? Which one of these is the 
+most critical and why ? Explain. 
+12 
+6. Distinguish between the following : 
+3×4=12 
+(a) Cross-section data and Panel data. 
+ 
+(b) Null hypothesis and Alternative hypothesis 
+(c) Descriptive 
+statistics 
+and 
+Inferential 
+statistics 
+7. (a) What is bivariate analysis ? 
+3 
+(b) What 
+is 
+the 
+relationship 
+between 
+correlation and causation ? Elaborate. 
+3 
+(c) What are the conditions under which Z-test 
+and t-test are used ? 
+6 
+8. (a) Define the term ‘kurtosis’ and explain 
+different measures of kurtosis with the 
+help of a diagram. 
+6 
+
+ 
+[ 4 ] 
+BECS-184 
+ 
+ 
+ 
+(b) How do skewness and kurtosis  determine 
+the shape of a distribution ? 
+6 
+9. (a) Define the term ‘ANOVA’ and explain its 
+usage.  
+6 
+(b) What is the difference between ANOVA 
+and MANOVA ? 
+6 
+10. (a) Discuss 
+the 
+concept 
+of 
+‘Participant 
+observation’.  What are the advantages and 
+disadvantages of participant observation ?6 
+(b) How 
+does 
+non-participant 
+observation 
+remove the drawbacks of participant 
+observation ? 
+6 
+ 11. Write short notes on any three of the following :  
+3×4=12 
+(a) Degrees of Freedom 
+(b) Coefficient of Determination 
+(c) Focus Group Discussion (FGDs) 
+(d) Grounded Theory 
+ 
+ 
+
+ 
+[ 5 ] 
+BECS-184 
+ 
+ 
+P. T. O. 
+ 
+ 
+  
+ 
+ 
+BECS-184 ch-,-th
+2023ch-bZ-lh-,l-&
+184% vk¡dM+ksa dk fo'ys"k.kle; % 3 ?k.Vs   
+&duksV %bl [k.M ls fdUgha nksiz'uk
+
+ 
+[ 6 ] 
+BECS-184 
+ 
+ 
+ 2-,d cxhps
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+52 
+35 
+25 
+45 
+55 
+20 
+13 (v)fn, gq, izfrn'kZ
+
+ 
+[ 7 ] 
+BECS-184 
+ 
+ 
+P. T. O. 4-^xSj&izfrn
+&[kuksV %bl Hkkx esa ls fdUgha ik¡piz
+IvkSj Vkbi&II =kqfV;k¡ D;k gaS \
+3×4=12 (v)oxZxr 
+Z&ijh{k.k vkSj 
+t&ijh{k.k fd;k tkrk gS \6
+
+ 
+[ 8 ] 
+BECS-184 
+ 
+ 
+ 8-(v)^d
+(ANOVA)indks ifjHkkf"kr dhft, vkSj blds iz;ksx
+(ANOVA)vkSj ,e ,uksok (MANOVA)esa D;k vUrj 
+]lgHkkxh voyksdu dh dfe;ksa dks
+×4=12(d)LokrU=
+(FGDs) (?k)xzkmaMF;ksjh
+BECS–184
+
+======================================================================
+BECS-184_TEE_June_2024
+======================================================================
+P. T. O. 
+No. of Printed Pages : 8 
+BECS–184 
+BAG / B. Com / B. Sc. / BAHEC  
+Term-End Examination 
+June, 2024 
+BECS–184 : DATA ANALYSIS 
+ Time : 3 Hours    
+Maximum Marks : 100 
+Note : Attempt questions from each section as per 
+instructions given  
+Section—A 
+Note : Attempt any two questions from this 
+section. 
+2×20=40 
+1. (a) Distinguish between quantitative data and 
+qualitative data. Which techniques are 
+used to summarise the quantitative data ? 
+Explain with examples. 
+15 
+
+ 
+[ 2 ] 
+BECS–184 
+ 
+ 
+ 
+(b) What is harmonic mean ? Find out the 
+harmonic mean from the following data : 5 
+Marks (X) 
+10 
+20 
+30 
+40 
+50 
+Frequency (F) 
+2 
+4 
+8 
+3 
+3 
+2. (a) What do you mean by the term ‘measure of 
+position’ ? Which measure of position is 
+widely used and why ?  
+12 
+(b) A 20 point test is assigned to 10 students. 
+The score attained by the students are 
+given below 
+8 
+18, 15, 12, 6, 8, 2, 3. 5, 20, 10 
+Find the percentile rank of score of 15. 
+3. (a) Correlation does not simply causation. Do 
+you agree with this statement ? Give 
+reasons in support of your answer. 
+10  
+ 
+(b) Explain 
+the 
+characteristics 
+of 
+‘t’ 
+distribution and its usage for solving 
+statistical problems. 
+10 
+4. What is composite index ? Explain with 
+example 
+the 
+various 
+steps 
+involved 
+in 
+construction of composite index.  
+20 
+
+ 
+[ 3 ] 
+BECS–184 
+ 
+ 
+P. T. O. 
+Section—B 
+Note : Attempt any five questions from this 
+section. 
+5 × 12 = 60 
+5. What is meant by data ? Distinguish between 
+primary data and secondary data ? State the 
+various steps to be taken in organising the field 
+work.  
+ 
+ 
+12 
+6. To collect data for a study, an individual 
+chooses to question people coming out of a mall 
+directly, identify this technique of collecting 
+data. Discuss the significance of employing 
+such a sampling technique.  
+12 
+7. What is case study ? How is it distinct from 
+participatory research.  
+12 
+8. What is non-sampling error ? Explain with 
+example its various sources. 
+12 
+9. The coefficient of variations is considered better 
+measure of dispersion as compared to standard 
+deviation. Do you agree ? Give reasons. 
+12 
+
+ 
+[ 4 ] 
+BECS–184 
+ 
+ 
+ 
+10. What is histogram. Discuss the advantages of 
+ploting a frequency polygon over histogram. 
+12 
+11. Write short notes on any three of the following : 
+4 × 3 = 12 
+(i) 
+Epistemology 
+(ii) Explanatory variable 
+(iii) Inferential statistics 
+(vi) Ogive curve 
+(v) Outlier 
+(vi) Model 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+[ 5 ] 
+BECS–184 
+ 
+ 
+P. T. O. 
+BECS–184 ch-,-th
+2023ch-bZ-lh-,l-
+-184% vk¡dM+ksa dk fo'ys"k.kle; % 3?k.Vs  
+&vuksV %bl Hkkx esa fdUgha nks iz'uk
+2 × 20 = 40 1-(v)ifj
+
+ 
+[ 6 ] 
+BECS–184 
+ 
+ 
+ (c)gjkRed
+(X)
+10 
+20 
+30 
+40 
+50 vko`fÙk 
+(F) 
+2 
+4 
+8 
+3 
+3 2-(v)fLFkf
+]15]12]6]8]2]3]5]20]10vad (Ldksj) 15 dk
+‘t’ caVudh fo'ks"krk,¡ vkSj lkaf[;dh; leL;kvkas dks lqy>ku
+10 
+
+ 
+[ 7 ] 
+BECS–184 
+ 
+ 
+P. T. O. 4-la;qDr l
+20 Hkkx
+&vuksV %bl Hkkx esa fdUgha ik¡piz'u
+5×12=60 5-vk¡dM+ksa
+],d O;fDr us e
+
+ 
+[ 8 ] 
+BECS–184 
+ 
+ 
+ 8-xSj&izfrp
+]ekud fopyu dh rqyuk esa ifj{ksi.k (vifdj.k) 
+4 × 3 = 12 (v)Kku
+BECS–184
+
+======================================================================
+BECS-184_TEE_June_2025
+======================================================================
+D–3310/BECS–184 
+P. T. O. 
+No. of Printed Pages : 10 
+BECS–184 
+B. A. (GENERAL)/B. COM./ B. SC./ 
+B. A. (HONS.) 
+ECONOMICS/(BAG/BAECH/BAM)  
+Term-End Examination 
+June, 2025 
+BECS-184 : DATA ANALYSIS 
+Time : 3 Hours  
+Maximum Marks : 100 
+Note : Answer questions from both the Sections 
+as per instructions.  
+Section—A 
+Note : Answer any two questions from this  
+Section. 
+2×20=40 
+1. (a) Define a set. With examples, explain 
+how sets are represented. 
+
+ 
+[ 2 ] 
+BECS–184 
+D–3310/BECS–184 
+(b) Describe various set operations and 
+their properties.  
+2. (a) Describe various measures of central 
+tendency for grouped data.  
+(b) A seller wants to know the consumer 
+choice for his product : ABC toothpaste 
+in XYZ colony. What type of measure of 
+central tendency can be used in this 
+situation ? Why ? 
+3. (a) Define 
+Pearson’s 
+product 
+moment 
+correlation coefficient. What are its 
+properties ? 
+
+ 
+[ 3 ] 
+BECS–184 
+D–3310/BECS–184 
+P. T. O. 
+(b) Compute correlation coefficient from 
+the following data : 
+Company 
+Cars  
+(in thousands) 
+Revenue  
+(in ` crores) 
+A 
+63 
+13 
+B 
+29 
+8 
+C 
+28 
+9 
+4. What is bivariate analysis ? A teacher wants 
+to know the effectiveness of smart board in 
+improving students’ marks. What procedure 
+and statistical techniques should be followed 
+in such enquiry ? Explain.    
+
+ 
+[ 4 ] 
+BECS–184 
+D–3310/BECS–184 
+ 
+Section—B 
+ 
+Note : Answer any five questions from this  
+Section. 
+5×12=60 
+5. State the procedure to work out composite 
+index by the simple ranking method. 
+6. Discuss the methods of analysing qualitative 
+data. 
+7. What is the need for classification of data ? 
+With examples, describe the various types of 
+classification of data.  
+8. What is meant by a hypothesis ? Bring out 
+the important steps in hypothesis testing.  
+9. Describe the methods of collection of 
+primary data. 
+10. Explain how you will prepare a histogram 
+by taking hypothetical data.  
+
+ 
+[ 5 ] 
+BECS–184 
+D–3310/BECS–184 
+P. T. O. 
+11. State the properties of normal distribution. 
+12. Write short notes on any three of the 
+following : 
+(i) 
+Coefficient of determination 
+(ii) Sources of secondary data 
+(iii) Focus group discussions 
+(iv) Characteristics 
+of 
+a 
+good  
+questionnaire  
+(v) Non-sampling errors  
+ 
+ 
+
+ 
+[ 6 ] 
+BECS–184 
+D–3310/BECS–184 
+ 
+BECS–184 
+ch- ,- (lkekU;)@ch- dkWe-@ch- ,l-&lh-@ 
+ch- ,- (vkWulZ) vFkZ'kkL=@ 
+(ch- ,- th-@ch- ,- bZ- lh- ,p-@ch- ,- ,e-) 
+l=kar ijh{kk  
+twu] 2025 
+ch-bZ-lh-,l-&184 % vk¡dM+ksa dk fo'ys"k.k 
+le; % 3 ?k.Vs   
+vf/kdre vad % 100  
+uksV % izR;sd Hkkx esa ls iz'uksa ds mÙkj funsZ'kkuqlkj nhft,A 
+ 
+Hkkxµd 
+ 
+uksV % bl Hkkx eas ls fdUgha nks iz'uksa ds mÙkj nhft,A 2×20=40 
+1- (d) leqPp; dks ifjHkkf"kr dhft,A mnkgj.kksa ds lkFk 
+le>kb, fd leqPp; dks dSls n'kkZ;k tkrk gSA 
+
+ 
+[ 7 ] 
+BECS–184 
+D–3310/BECS–184 
+P. T. O. 
+([k) fofHkUu leqPp; lafØ;kvksa (operations) vkSj 
+muds xq.kksa dk o.kZu dhft,A 
+2- (d) lewghÏr vk¡dM+ksa dh dsUæh; izo`fÙk ds fofHkUu ekiksa 
+dk o.kZu dhft,A 
+([k) ,d foØsrk XYZ dkWyksuh eas vius mRikn % ABC 
+VwFkisLV ds fy, xzkgd dh ilan tkuuk pkgrk gSA 
+bl fLFkfr eas fdl izdkj dh dsaæh; izo`fÙk ds eki 
+dk mi;ksx fd;k tk ldrk gS \ D;ksa \ 
+3- (d) fi;lZu ds xqf.kr vk?kw.kZ lglaca/k xq.kkad 
+(Pearson’s product moment correlation 
+coefficient) dks ifjHkkf"kr dhft,A blds xq.k  
+D;k gSa \ 
+
+ 
+[ 8 ] 
+BECS–184 
+D–3310/BECS–184 
+([k) fuEufyf[kr vk¡dM+ksa ls lglaca/k xq.kkad dh x.kuk 
+dhft, % 
+daiuh 
+dkj  
+(gtkjksa eas) 
+jktLo  
+( ` djksM+ksa esa ) 
+A 
+63 
+13 
+B 
+29 
+8 
+C 
+28 
+9 
+4- f}fopj fo'ys"k.k D;k gS \ ,d f'k{kd Nk=ksa ds vadksa esa 
+lq/kkj djus eas LekVZ cksMZ dh izHkko'khyrk tkuuk pkgrk 
+gSA ,slh tk¡p esa fdl izfØ;k vkSj lkaf[;dh; rduhdksa 
+dk ikyu fd;k tkuk pkfg, \ le>kb,A 
+
+ 
+[ 9 ] 
+BECS–184 
+D–3310/BECS–184 
+P. T. O. 
+ 
+Hkkxµ[k 
+ 
+uksV % bl Hkkx eas ls fdUgha ik¡p iz'uksa ds mÙkj nhft,A 
+ 
+ 
+  
+5×12=60 
+5- lk/kkj.k vuqØe fof/k (Simple ranking method) 
+}kjk la;qDr lwpd fuekZ.k djus dh fof/k crkb,A 
+6- xq.kkRed vk¡dM+k fo'ys"k.k dh fof/k;ksa dh foospuk 
+dhft,A 
+7- vk¡dM+ksa ds oxhZdj.k dh D;k vko';drk gS \ mnkgj.kksa 
+ds lkFk vk¡dM+ksa ds fofHkUu izdkj ds oxhZdj.k dk o.kZu 
+dhft,A 
+8- ,d ifjdYiuk 
+(hypothesis) ls D;k rkRi;Z  
+gS \ ifjdYiuk ijh{k.k ds egRoiw.kZ pj.kksa dks  
+le>kb,A 
+
+ 
+[ 10 ] 
+BECS–184 
+D–3310/BECS–184 
+9- izkFkfed vk¡dM+ksa ds laxzg dh fof/k;ksa dk o.kZu dhft,A 
+10- dkYifud vk¡dM+s ysdj le>kb, fd vki vk;rfp=@ 
+fgLVksxzke dSls rS;kj djsaxsA 
+11- izlkekU; caVu ds xq.k crkb,A 
+12- fuEufyf[kr esa ls fdUgha rhu ij laf{kIr fVIif.k;k¡  
+fyf[k, % 
+(i) fu/kkZj.k 
+dk 
+xq.kkad 
+(Coefficient 
+of 
+determination) 
+(ii) f}rh;d vk¡dM+ksa ds lzksr 
+(iii) dsafær lkewfgd ppkZ,¡ 
+(iv) ,d vPNh iz'ukoyh ds y{k.k 
+(v) xSj&uewukdj.k =qfV;k¡ (Non-sampling error) 
+× × × × ×
+
+======================================================================
+BECS-184_TEE_June_2026
+======================================================================
+C–3531/BECS–184 
+P. T. O. 
+No. of Printed Pages : 8 
+BECS–184 
+BACHELOR OF ARTS (GENERAL) / 
+BACHELOR OF COMMERCE / 
+BACHELOR OF SCIENCE / 
+BACHELOR OF ARTS (HONS.) 
+ECONOMICS /  
+BACHELOR OF ARTS 
+(MULTIDISCIPLINARY) 
+(BAG/B.COM./B.SC./BAECH/BAM)   
+Term-End Examination 
+June, 2026 
+BECS-184 : DATA ANALYSIS  
+Time : 3 Hours  
+Maximum Marks : 100 
+Note : Answer questions from both the Sections 
+as per instructions.  
+Section—A 
+Note : Answer any two questions from this 
+Section. 
+2×20=40 
+1. Explain in brief the techniques of analysing 
+multivariate data. 
+
+ 
+[ 2 ] 
+BECS-184 
+C–3531/BECS–184 
+2. What 
+is 
+the 
+importance 
+of 
+graphical 
+presentation of data ? Briefly explain the 
+types of graphs. 
+3. Consider the regression model : 
+Y = a + bX 
+ 
+where X and Y are variables and a and b are 
+constants. Explain how you will find the 
+values of a and b. Bring out the properties of 
+the regression coefficients. 
+4. Bring 
+out 
+the 
+important 
+steps 
+in 
+construction of a composite index. Illustrate 
+your answer with the Human Development 
+Index (HDI). 
+ 
+Section—B 
+ 
+Note : Answer any five questions from this 
+Section. 
+5×12=60 
+5. Explain how you will test a hypothesis 
+involving three or more sample means. 
+
+ 
+[ 3 ] 
+BECS-184 
+C–3531/BECS–184 
+P. T. O. 
+6. Define correlation coefficient. Explain how 
+you will test the significance of correlation 
+coefficient. 
+7. Give a brief description of the methods of 
+collection of qualitative data. 
+8. Define 
+various 
+measures 
+of 
+central 
+tendency. Explain the circumstances where 
+geometric mean is suitable. 
+9. Explain why a sample survey may be 
+preferred to a census. 
+10. Distinguish 
+between 
+Skewness 
+and 
+Kurtosis. 
+Illustrate 
+your 
+answer 
+with 
+diagrams. 
+11. What is meant by dispersion in a data set. 
+Explain various measures of dispersion. 
+
+ 
+[ 4 ] 
+BECS-184 
+C–3531/BECS–184 
+12. Write short notes on any three of the 
+following : 
+ 
+(a) Frequency polygon 
+ 
+(b) Standard normal distribution 
+ 
+(c) Set operations 
+ 
+(d) Relations and functions 
+ 
+(e) Symbolic language 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+[ 5 ] 
+BECS-184 
+C–3531/BECS–184 
+P. T. O. 
+ 
+BECS–184 
+dyk Lukrd (lkekU;)@okf.kT; Lukrd@ 
+foKku Lukrd@dyk Lukrd (vkWulZ) vFkZ'kkL=@ 
+dyk Lukrd (cgqfo"k;d) 
+(ch- ,- th-@ch-dkWe-@ch-,l-&lh-@ 
+ch- ,- bZ- lh- ,p-@ch- ,- ,e-) 
+l=kar ijh{kk  
+twu] 2026 
+ch-bZ-lh-,l-&184 % vk¡dM+ksa dk fo'ys"k.k 
+le; % 3 ?k.Vs   
+vf/kdre vad % 100  
+uksV % nksuksa Hkkxksa ls funsZ'kkuqlkj iz'u gy dhft,A 
+ 
+Hkkxµd 
+ 
+uksV % bl Hkkx ls dksbZ nks iz'u gy dhft,A 
+2×20=40 
+1- cgqpj vk¡dM+ksa ds fo'ys"k.k dh rduhdksa dh la{ksi esa 
+O;k[;k dhft,A 
+
+ 
+[ 6 ] 
+BECS-184 
+C–3531/BECS–184 
+2- vk¡dM+ksa dh js[kkfp=ksa }kjk izLrqfr dk D;k egRo gS \ 
+la{ksi esa js[kkfp=ksa ds fofHkUu izdkjksa dh O;k[;k dhft,A 
+3- bl izrhixeu izfreku ij fopkj dhft, % 
+Y = a + bX 
+ 
+tgk¡ X rFkk Y pj rFkk a ,oa b fLFkjkad gSaA O;k[;k 
+dhft, fd vki a rFkk b dk eku fdl izdkj Kkr djsaxsA 
+izrhixeu xq.kkadksa dh fo'ks"krk,¡ Li"V dhft,A 
+4- ,d lka>s lwpd dh jpuk esa egRoiw.kZ lksiku Li"V 
+dhft,A vius mÙkj ds mnkgj.k ds :i esa ekuo fodkl 
+lwpd (HDI) dk mi;ksx dhft,A 
+ 
+Hkkxµ[k 
+ 
+uksV % bl Hkkx ls dksbZ ik¡p iz'u gy dhft,A 
+5×12=60 
+5- le>kb, fd vki rhu ;k vf/kd izfrn'kZ vkSlrksa okyh 
+vo/kkj.kk dk lR;kiu fdl izdkj djsaxs \ 
+
+ 
+[ 7 ] 
+BECS-184 
+C–3531/BECS–184 
+P. T. O. 
+6- lglEcU/k xq.kkad dh ifjHkk"kk dhft,A O;k[;k dhft, 
+fd vki lglEcU/k xq.kkad dh egRo'khyrk dh tk¡p dSls 
+djsaxsA 
+7- xq.kokph vk¡dM+ksa ds ladyu dh fof/k;ksa dk laf{kIr C;ksjk 
+iznku dhft,A 
+8- dsUnzh; izo`fÙk ds fofHkUu ekidksa dh ifjHkk"kk dhft,A mu 
+ifjfLFkfr;ksa dh O;k[;k dhft, tgk¡ T;kfefrd vkSlr dk 
+iz;ksx vf/kd mi;qDr gksrk gSA 
+9- le>kb, fd ,d izfrn'kZ losZ{k.k iw.kZ tux.kuk ls csgrj 
+D;ksa gks ldrk gSA 
+10- oS"kE; vkSj ddqnrk esa Hksn Li"V dhft,A vius mÙkj dks 
+js[kkfp=ksa }kjk vf/kd Li"V dhft,A 
+11- ,d vk¡dM+k leqPp; esa folj.k dk D;k vFkZ gS \ folj.k 
+ds fofHkUu ekidksa dh O;k[;k dhft,A 
+
+ 
+[ 8 ] 
+BECS-184 
+C–3531/BECS–184 
+12- fuEufyf[kr esa ls fdUgha rhu ij laf{kIr fVIif.k;k¡  
+fyf[k, % 
+ 
+(d) izkf;drk cgqHkqt 
+ 
+([k) ekud izlkekU; vkcaVu 
+ 
+(x) leqPp; izfØ;k,¡ 
+ 
+(?k) lEcU/k ,oa Qyu 
+ 
+(³) lkadsfrd Hkk"kk 
+× × × × ×

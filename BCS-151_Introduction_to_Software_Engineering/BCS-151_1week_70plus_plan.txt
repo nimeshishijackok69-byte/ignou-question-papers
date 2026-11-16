@@ -1,0 +1,243 @@
+BCS-151 (BCS-051) : INTRODUCTION TO SOFTWARE ENGINEERING
+1-WEEK PLAN TO SCORE 70+/100  -  built from 11-paper TEE analysis (Jun 2021 - Jun 2026)
+Exam: 3 hours | 100 marks | Q1 COMPULSORY (40) + attempt any 3 of Q2-Q5 (20 each)
+========================================================================
+
+THE 70+ MATH (why this plan works)
+----------------------------------
+Where the 70 comes from:
+  Q1 (compulsory, 40 marks)
+    - SRS in IEEE format for theme system ......... 20-25  <- you WILL nail this
+    - One SDLC model question ..................... 8-10   <- you WILL nail this
+    - 1-2 small theory riders (coupling, UML,
+      static objects, characteristics of SRS) ..... 5-7    <- mostly memorized
+    => realistic Q1 total: 32-35
+  Q5 - fixed "short notes" 4x5=20 (since Dec 2024)  15-20  <- pure memorization
+  One full DIAGRAM question (DFD or Gantt/PERT) ..... 8-10
+  Testing question (partial ok) ..................... 6-10
+  => 61-75. Target band: 70.
+
+  NOTE: you only need 3 of the 4 optional questions. With this plan you can
+  fully attack Q2, Q4 AND Q5 - so you get to SKIP whichever question looks
+  worst on the day. That option is your safety net.
+
+BUDGET: ~30 hours over 7 days (~4.5 h/day). Not optional: the two timed mocks.
+
+========================================================================
+DAY 1 (~5 h) - THE THEME SYSTEM + SRS TEMPLATE  [highest leverage day]
+------------------------------------------------------------------------
+Pick ONE system and master it deeply. Best pick: ONLINE EXAMINATION SYSTEM
+(it has been the paper's theme 4+ times; grocery-shopping and railway
+reservation also recycle). Everything you draw all week reuses it.
+
+A. Memorize the IEEE SRS format skeleton (write it 3x from memory):
+   1. Introduction (purpose, scope, definitions, references, overview)
+   2. Overall Description (product perspective, functions, users,
+      constraints, assumptions)
+   3. Specific Requirements
+      - Functional Requirements (numbered FR-1, FR-2...)
+      - External Interface Requirements (UI/HW/SW/communication)
+      - Performance Requirements
+      - Design Constraints
+      - Non-Functional: quality attributes (security, reliability...)
+   4. Supporting diagrams (use-case, DFD reference), Appendices
+
+B. Write the FULL SRS for Online Examination System ON PAPER, timed 60 min.
+   Reusable FR list (adapts to almost any theme):
+   FR-1 registration/login with authentication
+   FR-2 question paper generation / question bank
+   FR-3 exam conduction with timer
+   FR-4 auto-evaluation / result computation
+   FR-5 result display + download
+   FR-6 admin: manage users, questions, schedules
+   NFR: security, response time < 3 s, availability 99%, scalability.
+
+C. Memorize "characteristics of a good SRS" (asked as rider):
+   Correct, Unambiguous, Complete, Consistent, Verifiable, Modifiable,
+   Traceable, Ranked for importance.  (8 words - flashcard them)
+
+D. Learn Object identification method + the 3 object types (9/11 papers!):
+   - Static objects: exist throughout (e.g. Student, Course, Question)
+   - Dynamic/Transient objects: created & destroyed during runtime (e.g.
+     AnswerSheet, Session)
+   - Utility objects: shared services with no state (e.g. Calculator,
+     Validator, DateFormatter)
+   Practice: list 5 static, 3 dynamic, 2 utility for YOUR theme system.
+
+========================================================================
+DAY 2 (~4.5 h) - DIAGRAMS THAT REUSE THE THEME  [DFD + ERD + use-case]
+------------------------------------------------------------------------
+A. DFD (10 marks, 11/11 papers; Dec25+Jun26 asked "what is DFD + components"
+   VERBATIM - memorize that definition first):
+   - Definition line: "A DFD is a graphical representation of the flow of
+     data through an information system, showing processes, data stores,
+     external entities and data flows - it shows WHAT data moves, not
+     WHEN or HOW (that is a flowchart's job)."
+   - Components/symbols: Process (circle), Data Flow (arrow),
+     Data Store (open rectangle / two parallel lines),
+     External Entity (square).
+   - Draw for YOUR theme: (1) Context diagram = 1 process + external
+     entities (Student, Admin) + main flows. (2) Level-1 = 4-5 processes
+     (Register -> Generate Paper -> Conduct Exam -> Evaluate -> Result)
+     + data stores (Question Bank, Results DB).
+   Rules to never break: every process has in+out flows, no process-to-
+   process direct arrow without a data store, number processes 1, 1.1...
+
+B. ERD for the theme: entities Student, Exam, Question, Result;
+   relationships with cardinalities (Student --takes--> Exam 1:M;
+   Exam --contains--> Question M:N; Exam --produces--> Result 1:1).
+   Practice 1 clean drawing.
+
+C. Use-case diagram: actors (Student, Admin, Invigilator) + use cases
+   (Login, Take Exam, View Result, Manage Questions). Memorize 4 symbol
+   meanings (asked verbatim twice): Actor=stick figure, Use-case=ellipse,
+   Association=line, Include/Extend=dashed arrow with <<include>>/
+   <<extend>>. Draw for theme.
+
+========================================================================
+DAY 3 (~4 h) - SDLC MODELS  [10 marks, 11/11; Waterfall & Spiral dominate]
+------------------------------------------------------------------------
+For EACH of Waterfall, Spiral, Prototype, RAD, Iterative Enhancement:
+learn diagram + 3 advantages + 3 disadvantages (one line each).
+
+One-liners you must be able to write:
+- Waterfall: linear sequential phases (Req -> Design -> Impl -> Test ->
+  Deploy -> Maintain). Best when requirements are stable & well known.
+- Spiral: risk-driven, 4 quadrants (objective setting -> risk analysis ->
+  development -> planning) repeated per loop. Best for large, risky,
+  evolving projects.
+- Prototype: throwaway working mock first to elicit requirements. Best
+  when requirements are unclear / UI-heavy.
+- RAD: component-based rapid builds in 60-90 day cycles with parallel
+  teams. Best when system is modularizable and time-boxed.
+- Iterative: repeat build-test cycles, each adds features.
+
+Decision logic for "which model for system X" questions (2-3 marks free):
+  requirements clear + stable -> Waterfall
+  requirements unclear        -> Prototype
+  high risk / large project   -> Spiral
+  tight deadline + modular    -> RAD
+Practice: answer the "compare Waterfall vs Spiral" question (asked 4x)
+as a 5-row table: philosophy, risk handling, feedback, cost, best use.
+
+========================================================================
+DAY 4 (~5 h) - GANTT + PERT, THEN TESTING  [Gantt/PERT = 11/11 combined]
+------------------------------------------------------------------------
+A. Scheduling (10 marks):
+   - Gantt chart: horizontal bar chart, tasks on Y axis, time on X axis;
+     shows schedule & overlap, does NOT show dependencies.
+   - PERT: network of tasks with optimistic (a), most likely (m),
+     pessimistic (b) times; expected time te = (a + 4m + b)/6; shows
+     dependencies + critical path.
+   - Compare table (Jun25 asked it): Gantt=time view, simple, no deps;
+     PERT=event/network view, statistical, shows critical path.
+   Practice: draw BOTH for a 6-task mini-project (Req 2w, Design 3w,
+   DB 2w, UI 3w, Coding 6w, Testing 4w) and mark the critical path.
+
+B. Testing taxonomy (10-20 marks every paper; make a 1-page map):
+   Levels: Unit -> Integration (top-down/bottom-up/sandwich) ->
+   Module -> System -> Acceptance (alpha at dev site, beta at user site)
+   - Black box: test from spec, no code seen. Techniques: equivalence
+     partitioning, boundary value analysis.
+   - White box: test using code structure. Techniques: statement/
+     branch/path coverage, loop testing.
+   - Verification vs Validation: "are we building the product RIGHT
+     (reviews, walkthroughs)" vs "are we building the RIGHT product
+     (actual testing)".
+   - Testing principles (asked twice): testing shows presence of defects
+     not absence; exhaustive testing impossible; early testing; defect
+     clustering; pesticide paradox.
+   Practice: build ONE test-case table for "login" (TC id, input,
+   expected output, pass/fail) with 6 rows incl. boundary cases
+   (empty password, 1-char, max-length+1).
+
+========================================================================
+DAY 5 (~5 h) - SHORT-NOTES PACK  [Q5 is FIXED 4x5=20 - cheapest 20 marks]
+------------------------------------------------------------------------
+Flashcard-grade. For each: definition + 4-5 bullet points (that's the
+5-mark answer shape). Write each once from memory, check, repeat.
+
+1. CMM / SEI-CMM 5 levels (6/11, favourite since Dec24):
+   1 Initial - ad hoc, success depends on heroes
+   2 Repeatable - basic project mgmt, cost/schedule tracking
+   3 Defined - documented standard process org-wide
+   4 Managed - quantitative process & quality metrics
+   5 Optimizing - continuous process improvement
+2. Software maintenance types (asked VERBATIM 4 papers - lock this):
+   Corrective (fix defects found in use) | Adaptive (adapt to new
+   environment/OS/hardware) | Perfective (new features, improve
+   performance) | Preventive (restructure to prevent future problems).
+   + "need of maintenance" = changing requirements, errors, environment
+   change, hardware upgrades, user requests.
+3. Software quality / McCall's factors (3 categories):
+   Product operation (correctness, reliability, efficiency, integrity,
+   usability) | Product revision (maintainability, flexibility,
+   testability) | Product transition (portability, reusability,
+   interoperability). + Cost of quality: prevention + appraisal + failure.
+4. Software metrics: measures of product (LOC, complexity), process
+   (defect density, effort), project (schedule, cost). OO metrics:
+   count of classes, methods per class, coupling between objects.
+5. Debugging: locating & fixing the defect found by testing.
+   Strategies: brute force, backtracking, cause elimination
+   (induction/deduction), program slicing. Challenges: symptom-cause
+   distance, psychological pressure, intermittent bugs.
+6. Reverse engineering: extracting design/specs from existing code
+   (design recovery) - used for maintenance of legacy systems; opposite
+   of forward engineering; part of reengineering cycle.
+7. Coupling & cohesion (5/11): coupling = inter-module dependence
+   (best: data -> stamp -> control -> common -> content worst);
+   cohesion = intra-module relatedness (worst: coincidental ->
+   logical -> temporal -> procedural -> communicational -> sequential
+   -> functional best). Goal: HIGH cohesion, LOW coupling.
+8. Data dictionary: central repository defining every DFD element -
+   name, alias, where-used/how-used, content notation, description.
+9. SCM (3/11): baselines, version control, change control board,
+   configuration audit.
+
+========================================================================
+DAY 6 (~4.5 h) - MOCK 1 + PATCH
+------------------------------------------------------------------------
+- Morning (2 h): solve JUNE 2025 paper fully, ON PAPER, against the
+  clock (3 h format compressed: Q1 in 80 min, Q5 in 25 min).
+  Self-mark honestly: SRS 25, DFD 10, models 10, etc.
+- Afternoon (2.5 h): patch the 3 weakest answers using the analysis
+  file (BCS-151_topic_analysis.txt) + all_papers.txt. Redo each once.
+
+========================================================================
+DAY 7 (~4 h) - MOCK 2 + FINAL REVIEW
+------------------------------------------------------------------------
+- Morning (2 h): DECEMBER 2025 paper, timed, on paper. (Dec26 will most
+  likely recycle Dec25/Jun25 patterns - these two papers are your
+  highest-signal practice.)
+- Afternoon (2 h): flashcard sweep of Day-5 pack + CMM + maintenance
+  types + coupling/cohesion order + IEEE SRS skeleton (write skeleton
+  from memory one last time). Prepare pen, 2-3 sharpened pencils for
+  diagrams, watch. Sleep properly.
+
+========================================================================
+IN-EXAM STRATEGY (3 h / 100 marks)
+------------------------------------------------------------------------
+1. Time budget: Q1 = 80-85 min. Q5 short notes = 25 min. Two other
+   questions = 30 min each. Final 10 min = number-check & underline.
+2. Do Q1 FIRST but answer it in mark order: SRS last actually - do the
+   small riders + model question first (secure 15 quick marks), then
+   spend the big block on SRS so time pressure can't touch it.
+3. SRS answer shape: 1-page IEEE skeleton with headings + numbered
+   FRs + 1 NFR block + assumptions box. EXAMINERS REWARD STRUCTURE.
+4. Every "explain" question gets: definition (2 lines) + diagram/point
+   list + one example. Every diagram is labelled.
+5. Skip politics: you prepared Q2 (diagram-ish), Q4/Q5 and testing -
+   if an optional question leans on something you skipped (e.g.
+   structure charts, FOD theory), skip the QUESTION, not the marks.
+6. Write legibly, leave a line between answers, number EVERYTHING
+   exactly as the paper does (1(a), 1(b)...). IGNOU marks in units.
+
+WHAT YOU ARE DELIBERATELY NOT STUDYING (do not add - this is the 70 plan)
+------------------------------------------------------------------------
+- Function-Oriented Design deep theory, structure charts (2/11)
+- SCM details beyond 5 bullets, project-management chapters (3/11)
+- One-off topics: step-wise framework, RAD deep-dive, structured
+  analysis (1-2 papers each)
+- Real-time systems, software reliability models, SEIA/COST scales
+These appear rarely and never as the only option - your 3-of-4 choice
+covers for them.

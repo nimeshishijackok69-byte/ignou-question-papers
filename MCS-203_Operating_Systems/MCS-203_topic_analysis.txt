@@ -1,0 +1,248 @@
+MCS-203 : OPERATING SYSTEMS
+Topic Frequency Analysis - TEE papers June 2023 - June 2026 (7 papers)
+(COMPLETE run - this is the course's full history; PGDCA-NEW syllabus)
+Exam: 3 hours | 100 marks | Q1 COMPULSORY (40 marks)
+Attempt any 3 of Q2-Q5 (10+10 or 8+8+4 per question). TEE weightage: 70%.
+Q5 in EVERY paper = Short Notes, any 4 of 4-5, 4x5=20.
+NOTE: this file supersedes the older MCS-203 notes in the repo root
+(ANALYSIS_MCS202_203.md), which were found to be inaccurate.
+Built fresh from all 7 papers, read in full.
+========================================================================
+
+STRUCTURE FACTS (all 7 papers)
+------------------------------
+ - Q1 is ALWAYS 4 sub-parts of 10 marks each (Dec-2024 exception:
+   5 parts = 10+5+5+10+10). Same total: 40.
+ - Q2-Q4: two 10-mark halves each (one paper used 8+8+4).
+ - Q5: always "Write short notes on any four" 4x5=20 (Dec-2023 gave
+   exactly 4, no choice).
+ - Unlike MCS-202, sub-parts are BIG (10 marks each), not 4-6 mark
+   fragments. Q1 tests one full topic per part, not 9 micro-topics.
+
+MOST REPEATED TOPICS (papers containing the topic / 7)
+--------------------------------------------------------
+ 1. Semaphores + classical sync problems ......... 5/7 (always a Q1 part)
+    - Producer-Consumer with semaphores: Jun23 Q1(a), Dec24 Q1(e).
+    - Dining Philosophers with semaphores: Jun25 Q1(c), Dec25 Q1(b).
+    - Readers-Writers with semaphores: Dec23 Q1(c).
+    - Semaphore definition + P/V (wait/signal) atomic operations:
+      Jun23 explicitly asked; Dec23/Dec24/Dec25/Jun25 assumed.
+    - Gap papers Jun24 & Jun26 swapped in deadlock/distributed ME
+      instead - but the slot is still "one sync problem = 10 marks".
+    => MASTER all 3 classical problems + the generic semaphore
+       pseudocode pattern (mutex=1, empty=n, full=0 etc.).
+ 2. Memory management: paging / segmentation / virtual memory .... 7/7
+    - Paging: definition + principle + diagram + hardware support
+      (page table) - Jun25 Q1(b) 10m.
+    - Segmentation: definition + address-mapping/translation diagram
+      + protection & sharing - Jun23 Q1(c), Jun26 Q1(c) (near-verbatim
+      pair), + SN Dec24.
+    - Virtual memory: definition + principle of operation + diagram -
+      Dec24 Q4(b) 8m, Jun24 Q4(a) 10m; virtual->physical address
+      mapping + valid/invalid bits - Dec25 Q3(a), Jun24 Q4(a).
+    - Demand paging: SN Jun24; thrashing cause/detect/eliminate -
+      Jun26 Q2(a) 10m.
+    - Demand segmentation: SN Dec23 AND Jun25 (exact repeat).
+    - Contiguous allocation first/best/worst fit NUMERICAL:
+      Jun26 Q2(b) (partitions 200/400/600/500/300/250 kB vs 4 processes).
+ 3. Deadlock (7/7 - every single paper, question or SN)
+    - Definition + the 4 necessary conditions: Dec24 Q1(b) 5m.
+    - Characterization + Resource Allocation Graph: Jun24 Q1(a);
+      Jun26 Q3(a) full RAG NUMERICAL (4 processes, 2 resources,
+      draw graph, find cycle, decide deadlock, give safe sequence).
+    - Banker's algorithm (avoidance): Jun23 Q2(b) 10m.
+    - Havender's algorithm (prevention): Dec25 Q2(b) 10m.
+    - SN: deadlock avoidance (Dec23), detection & recovery (Jun25).
+    => The full "deadlock family" is a 20-30 mark zone: conditions,
+       RAG, Banker's, Havender, detection/recovery. Memorize each as
+       a 10-mark answer card.
+ 4. CPU scheduling ................................ 4/7 (+ SN 1)
+    - THE NUMERICAL: 5 processes table -> Gantt charts for FCFS,
+      SJF (or SRTN) and RR(q=2) -> avg turnaround, avg waiting,
+      processor utilization, throughput. Dec23 Q1(a) and Jun26 Q1(b)
+      are VERBATIM (arrival-time version); Jun25 Q1(a) same template
+      but all arrive at time 0.
+    - Theory: CPU-bound vs I/O-bound + OS process-management
+      functions - Dec25 Q1(a) 10m; essential functions of an OS -
+      Jun24 Q3(b); types of schedulers SN Jun24.
+ 5. Disk scheduling NUMERICAL ..................... 3/7
+    - SSTF + SCAN with head movement trace/diagram: Dec24 Q1(a)
+      (queue 49,90,149,... head at 49).
+    - SSTF + C-SCAN: Jun23 Q1(b) (queue 61,141,40,... head at 0).
+    - SCAN total head movement: Dec25 Q3(b) (head at 63, moving up,
+      cylinders 0-199).
+    - Theory: significance of disk scheduling - Dec24 Q1(a) intro.
+    => One formula-recipe: sort requests, simulate, count cylinders.
+ 6. Page replacement NUMERICAL .................... 4/7
+    - Count page faults for FIFO/LRU/OPT/LFU with 3-4 frames:
+      Jun23 (OPT+FCFS, 3 frames), Dec23 (LRU+FCFS, 3 frames),
+      Dec24 (FCFS+LRU+LFU, 4 frames), Dec25 (LRU+FIFO, 4 frames,
+      the classic Belady string 1,2,3,4,2,1,5,6,2,1,2,3,7,6,3,2,1,2,3,6).
+    => Same skill every time: draw frame table, tick faults. Practice
+       all 4 algorithms until automatic - this is free marks.
+ 7. Distributed systems (design issues + DSM + RPC) ... 7/7
+    - Design issues in distributed systems: Jun23 Q3(a) = Dec25 Q1(c)
+      near-verbatim; design goals+issues Jun24 Q1(b).
+    - Distributed Shared Memory: Dec23 Q2(a) (one of 3 app models
+      with block diagrams: C/S+RPC, distributed objects, DSM),
+      Jun23 Q3(b) DSM application model with diagram, Jun26 SN.
+    - Remote Procedure Call: Dec25 Q4(a) full question (working +
+      limitations), SN Dec23 = Jun26 (verbatim repeat), part of
+      Dec23 Q2(a).
+ 8. Distributed MUTUAL EXCLUSION algorithms ....... 6/7 (rotating)
+    - Lamport's Bakery algorithm: Dec24 Q3(b) = Jun24 Q3(a) (same).
+    - Lamport's Distributed ME algorithm: Jun26 Q1(d) 10m.
+    - Ricart & Agrawala's algorithm: Jun25 Q4(a) 10m.
+    - SN: distributed mutual exclusion Dec25, mutual exclusion in
+      distributed systems Jun24.
+    => 3 algorithm cards: Lamport (timestamps + request/release),
+       Ricart-Agrawala (deferred replies), Bakery (choosing numbers).
+ 9. Multiprocessor OS ............................. 5/7
+    - Synchronization techniques: test-and-set + compare-and-swap
+      Dec23 Q2(b); + fetch-and-add Jun23 Q4(a); full list Dec24 Q3(a).
+    - Multiprocessor OS functions & requirements: Jun23 Q4(a).
+    - Loosely vs tightly coupled systems: Dec24 Q4(c) 4m.
+    - Types: separate supervisor & master-slave: Jun25 Q4(b).
+ 10. THE PRODUCT QUARTET - LINUX / iOS / Android / Windows 10 ... every paper
+    - LINUX (7/7): architecture diagram Jun23 Q1(d) = Jun24 Q4(b)
+      (kernel components focus); main components Dec24 Q2(b);
+      kernel architecture SN Jun26; MEMORY MANAGEMENT IN LINUX:
+      SN Dec24 = Dec25 (verbatim) + full Q3(b) diagram Jun25;
+      SECURITY FEATURES: Dec23 Q1(d) full 10m (user accounts, file
+      permissions, encrypted storage, remote access) + SN Jun23 = Jun25.
+    - iOS (6/7): layered architecture with diagram - Jun24 Q1(c),
+      Jun25 Q1(d), Dec25 Q4(b) (three papers, same question);
+      features + evolution Dec23 Q3(a); features + mobile OS def
+      Dec24 Q1(c); directories SN Dec24 = Jun23 + iCloud container.
+    - Android (6/7): layered architecture Dec24 Q2(c) + SN Jun24
+      (libraries & application framework layers); memory management
+      Dec23 Q4(b) + SN Jun23; file management + security Jun24 Q2(a);
+      five process types (foreground/visible/service/background/
+      empty) Jun25 Q3(a); libraries SN Jun26.
+    - Windows 10 (6/7): process management & scheduling Dec23 Q3(b)
+      = Dec25 Q1(d) (near-verbatim); IPC Dec24 Q2(a); memory
+      management (virtual memory + demand paging) Jun24 Q1(d);
+      file system management SN Jun23; features SN Dec25;
+      Windows vs Linux SN Dec23 + "choose one with 5 reasons"
+      Jun26 Q4(b).
+    => Four product answer-cards cover ~25-35 marks in EVERY paper.
+ 11. Mobile OS design issues ...................... 5/7
+    - Full question: Dec24 Q4(a) 8m, Jun24 Q2(b) 10m.
+    - SN: Jun23, Jun26. Related: mobile device processors
+      (Snapdragon, Intel Atom) Jun23 Q4(b); Symbian SN Dec25.
+ 12. OS types (batch / interactive / time-sharing /
+     real-time / distributed) ..................... recent trend 3/4
+    - Jun25 Q2(a) (batch, time-sharing, real-time, distributed with
+      examples), Jun26 Q1(a) (essential properties of all 5).
+    - Essential functions of OS: Jun24 Q3(b).
+ 13. File management .............................. 4/7
+    - OS view + two-level / acyclic-graph / general-graph directory
+      structures: Jun25 Q2(b).
+    - File allocation: contiguous vs non-contiguous: Jun26 Q3(b).
+    - Android file mgmt Jun24; Windows file system SN Jun23.
+ 14. Security models (beyond LINUX security) ...... 2 recent
+    - Access Matrix model with example: Jun26 Q4(a) 10m.
+    - Rule-based vs role-based access control SN: Jun25.
+ 15. IPC (Windows-10) ............................. 1/7 (Dec24 Q2(a) 5m)
+
+Q1 COMPULSORY - PREDICTABLE SHAPE (all 7 papers)
+------------------------------------------------
+Four 10-mark parts drawn from a fixed menu (Dec-24 used 5 smaller parts):
+  (1) ONE numerical: CPU-scheduling Gantt / disk head movement /
+      page-fault count (present in 6/7 papers - Jun24 the exception)
+  (2) ONE synchronization question: semaphore + classical problem
+      (5/7) or deadlock RAG (2/7)
+  (3) ONE memory-management question: paging / segmentation /
+      virtual memory
+  (4) ONE "product or system" theory part: LINUX arch, iOS layers,
+      Windows process mgmt, distributed design issues, OS types,
+      Lamport's ME
+=> If you own the numerical recipes + 3 classical sync problems +
+   paging/segmentation/VM cards, Q1 is 30+ of 40 before you open
+   the product cards.
+
+VERBATIM / NEAR-VERBATIM REPEATS (prime candidates next TEE)
+------------------------------------------------------------
+ 1. CPU-scheduling numerical: "5 processes, draw Gantt charts using
+    FCFS, SJF/SRTN and RR(quantum=2); find average turnaround time,
+    average waiting time, processor utilization and throughput" -
+    Dec23 Q1(a) = Jun26 Q1(b) (arrival times) + Jun25 Q1(a) (same
+    arrival). 3 papers, word-for-word template.
+ 2. Dining Philosophers + semaphore solution - Jun25 Q1(c) = Dec25 Q1(b).
+ 3. Producer-Consumer + semaphore solution - Jun23 Q1(a) = Dec24 Q1(e).
+ 4. Lamport's Bakery algorithm for n processes - Jun24 Q3(a) = Dec24 Q3(b).
+ 5. "Design issues in distributed systems" - Jun23 Q3(a) = Dec25 Q1(c)
+    (= Jun24 Q1(b) with goals added).
+ 6. iOS layered architecture with diagram - Jun24 Q1(c) = Jun25 Q1(d)
+    = Dec25 Q4(b). THREE consecutive-ish papers.
+ 7. LINUX architecture with diagram (kernel focus) - Jun23 Q1(d) =
+    Jun24 Q4(b).
+ 8. Memory management in LINUX SN - Dec24 = Dec25; full 10m question
+    Jun25 Q3(b).
+ 9. Security features in LINUX SN - Jun23 = Jun25.
+10. Demand segmentation SN - Dec23 = Jun25.
+11. RPC SN - Dec23 = Jun26.
+12. Android libraries / libraries & app framework layers SN - Jun24 = Jun26.
+13. Segmentation + address translation diagram - Jun23 Q1(c) ~ Jun26 Q1(c).
+14. Windows-10 process management - Dec23 Q3(b) = Dec25 Q1(d).
+15. Virtual memory + virtual-to-physical mapping - Jun24 Q4(a) ~ Dec25 Q3(a).
+
+MARKS RATIO (by marks offered, 7-paper average)
+-----------------------------------------------
+ ~20% pure numerical (CPU scheduling, disk head movement, page-fault
+     counting, first/best/worst fit, RAG cycle analysis)
+ ~30-35% diagram + explain (LINUX arch, iOS/Android layers, paging/
+     segmentation mapping, DSM, DMA-free but diagram-heavy)
+ ~45-50% pure theory (algorithms explained, conditions, features,
+     comparisons, design issues)
+NOTE: This is the LEAST numerical of your MCS courses - the mirror
+image of MCS-202 (~40% numerical). BUT the numericals that do appear
+are 100% template-based: only 4 recipes exist (Gantt-chart scheduling,
+disk head movement, page-fault table, fit algorithms) and each has
+appeared in 3-4 of 7 papers, always 10-30 marks. Zero derivation,
+zero math beyond counting. Theory is where marks live here - and it
+is delivered in fixed 10-mark answer-card format.
+
+TOP-PRIORITY PREP LIST (covers ~75% of any paper)
+--------------------------------------------------
+ 1. CPU-scheduling numerical recipe: FCFS / SJF / SRTN / RR(q=2)
+    Gantt charts + TAT, WT, utilization, throughput formulas
+    (3/7 papers, VERBATIM template, always in Q1)
+ 2. Disk-scheduling recipe: SSTF / SCAN / C-SCAN head movement with
+    diagram (3/7 papers, always 10 marks)
+ 3. Page-replacement recipe: FIFO / LRU / OPT / LFU frame tables
+    (4/7 papers, always 10 marks)
+ 4. Semaphores: definition + P/V + pseudocode cards for
+    Producer-Consumer, Dining Philosophers, Readers-Writers
+    (5/7 papers, 10 marks each)
+ 5. Deadlock full deck: definition, 4 conditions, RAG with cycle
+    detection, Banker's algorithm, Havender's prevention,
+    detection & recovery (7/7 papers)
+ 6. Memory deck: paging (diagram + page table hardware),
+    segmentation (address translation + protection/sharing),
+    virtual memory (virt->phys mapping + valid/invalid bits),
+    demand paging, thrashing, demand segmentation, first/best/
+    worst fit (7/7 papers)
+ 7. Distributed deck: design issues (memorized list), DSM with
+    diagram, RPC (working + limitations), Lamport + Ricart-Agrawala
+    + Bakery mutual-exclusion algorithms (7/7 papers)
+ 8. LINUX card: architecture diagram (kernel + components), memory
+    management, security features (7/7 papers)
+ 9. iOS card: 4-layer architecture with diagram + functions,
+    features, directories (6/7 papers)
+10. Android card: layered architecture, 5 process types, memory +
+    file management, libraries (6/7 papers)
+11. Windows-10 card: process management, memory management, IPC,
+    features, vs LINUX (6/7 papers)
+12. Multiprocessor card: test-and-set / compare-and-swap /
+    fetch-and-add, loosely vs tightly coupled, master-slave vs
+    separate supervisor (5/7 papers)
+13. Small-sure-things: OS types with properties, essential functions
+    of OS, mobile OS design issues, directory structures, file
+    allocation methods, access matrix model, schedulers
+14. Short-notes safety net (Q5 = 20 marks, heavily recycled):
+    demand segmentation, deadlock avoidance / detection & recovery,
+    memory management in LINUX, security in LINUX, RPC, DSM,
+    distributed mutual exclusion, Android libraries, iOS directories,
+    Windows-10 features, mobile OS design issues, Linux kernel
+    architecture, Symbian

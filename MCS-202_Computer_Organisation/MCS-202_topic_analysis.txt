@@ -1,0 +1,193 @@
+MCS-202 : COMPUTER ORGANISATION
+Topic Frequency Analysis - TEE papers June 2023 - June 2026 (7 papers)
+(COMPLETE run - this is the course's full history; PGDCA-NEW syllabus)
+Exam: 3 hours | 100 marks | Q1 COMPULSORY (40, always 8-9 small parts)
+Attempt any 3 of Q2-Q5 (~20 marks each). TEE weightage: 70%.
+NOTE: this file supersedes the older MCS-202 notes in the repo root,
+which were found to be inaccurate. Built fresh from all 7 papers.
+========================================================================
+
+MOST REPEATED TOPICS (papers containing the topic / 7)
+--------------------------------------------------------
+ 1. 8086 microprocessor & assembly language ............... 7/7 EVERY paper
+    - Q5 in most papers is effectively the "8086 question".
+    - Assembly PROGRAM to write (one per paper, 4-8 marks):
+      largest of two numbers (Dec23), largest in an array (Jun23),
+      add two numbers + carry (Dec24), ASCII->BCD (Jun24),
+      interchange two memory locations (Jun23 AND Jun25!),
+      binary->ASCII digit (Dec25, 8m), add five array numbers (Jun26, 8m),
+      ASCII->binary (Dec23). Master the 5 core templates: array-max,
+      array-sum, swap, char conversion (ASCII/BIN/BCD), move/copy.
+    - Flag register: role + can it be GPR + uses of flags ....
+      Jun25 (5m), Dec25 (5m), Jun26 (5m) - 3 papers IN A ROW.
+    - Segment registers: Dec23, Dec24. Physical address computation
+      (seg:off -> 20-bit): Jun23 AND Dec25 (same 3-pair format).
+    - Instructions with examples: SHL/RCL (Jun23), ROL/SHL/XCHG/
+      DEC/XOR (Jun26). Interrupt 21h (Dec24), IVT (Jun26),
+      FAR/NEAR procedures (Jun23, Jun26), .COM vs .EXE programs:
+      Jun23, Dec25 + short notes Dec24, Jun24, Jun25 = 5/7 papers!
+    - 8086 components / Bus Interface Unit diagram: Jun26, Dec23.
+ 2. Addressing modes (with example / diagram) .............. 7/7 EVERY paper
+    - Q1 sub-part OR a 10-mark Q4 part every single time.
+    - The usual suspects: immediate, direct, register, register
+      indirect, base register, index, relative/based (Dec23 6m,
+      Jun23 6m, Dec24 10m, Jun24 10m, Dec25 8m, Jun26 10m,
+      Jun25 SN indirect 5m).
+    - Direct vs indirect compare asked twice (Jun23, Jun25 SN).
+ 3. K-map simplification + logic diagram ................... 5/7 (ALWAYS in Q1)
+    - Dec23, Jun23, Dec24, Dec25, Jun26 - same template every time:
+      F(A,B,C,D) = Sigma(list) -> simplify -> draw with AND/OR/NOT
+      or NAND gates (5-6 marks). Jun25 variant: Boolean identity
+      simplification + SOP/POS definitions.
+ 4. Cache memory (mapping schemes) ......................... 7/7
+    - Direct mapping with example: Jun23, Jun26 (6m each);
+      COMPUTE cache location for address '21': Jun25 (6m);
+      Associative mapping: Dec23, Dec24; 2-way set-associative: Jun24;
+      Set-associative explain: Dec23 (6m).
+    - Extras: need of cache (Dec23), locality of reference (Jun25),
+      SRAM vs DRAM (Dec24) + DRAM SN (Jun25), memory interleaving
+      (Jun23, Dec25), RAM cell diagram (Jun26).
+ 5. Interrupts & I/O techniques ............................ 7/7
+    - "What is interrupt + steps to process it": Jun23 AND Jun26
+      VERBATIM (5-6m); interrupt-driven I/O flowchart (Dec23),
+      diagram (Dec25); programmed vs interrupt I/O (Dec24 8m);
+      programmed vs DMA + when DMA better (Jun24 8m).
+    - DMA block diagram/structure: Dec23, Dec24, Jun25.
+    - I/O interface role + functions: Jun23, Jun25.
+    - Peripheral devices (definitions/diagrams): impact & non-impact
+      printers (Dec23, Dec25), colour depth (Dec23), refresh rate/
+      optical resolution (Jun23), LCD vs LED (Dec25), CRT/video
+      cards (Jun26), CCDs (Jun24), voice input (Jun25).
+ 6. Sequential circuits: flip-flops & counters ............. 6/7
+    - Same 3-part template: logic diagram + characteristic table +
+      excitation table. S-R: Dec23 (latch, NOR), Jun24 (7m),
+      Dec25 (with J-K, 8m); J-K: Dec24 (7m), Dec25; Master-Slave +
+      Edge-triggered + flip-flop vs latch: Jun25 (10m);
+      D flip-flop SN (Jun26); synchronous counter (Dec23),
+      ripple counter (Jun23).
+ 7. Control unit & micro-operations ........................ 7/7
+    - Microprogrammed control unit with block diagram: Dec23 (5m),
+      Dec24 (10m), Jun26 (6m); Wilkes control: Jun23, Jun24 SN;
+      micro-program execution (Jun25); horizontal vs vertical
+      micro-instructions (Jun23); encoded vs unencoded micro-
+      instructions (Jun26, 5m of a 10m Q4).
+    - Micro-operations: register transfer/arithmetic/logic (Dec23 7m,
+      Jun24 5m); FETCH-cycle micro-operations with PC/IR/DR/MAR:
+      Jun23 (5m) AND Dec25 (5m) - near verbatim!
+    - Fixed-point ALU block diagram (Jun25, 8m).
+ 8. Von Neumann / Harvard architecture, RISC vs CISC ....... 7/7
+    - Von Neumann: Dec23 (vs Harvard), Dec24 (5m diagram),
+      Jun25 SN. Harvard: Jun23 (vs VN), Jun24 (5m diagram).
+    - RISC vs CISC differences: Jun23, Jun24, Jun26 (10m Q4 part).
+    - Large register file in RISC (register windows): Dec24, Dec25,
+      Jun26 SN - 3 of the last 4 papers.
+    - Multiprocessor vs multicore (Dec25); multiprocessor/
+      multiport memory SN (Dec24); parallelism (Jun24 SN).
+ 9. Number systems & conversions .......................... 7/7
+    - 2's complement arithmetic with overflow detection:
+      Dec23 (6m), Jun23 (6m), Dec25 (5m), Jun25 (4m) - 4/7,
+      always a Q1 opener. Practice: add/subtract pairs like
+      +69+59, 90-(-38), -76+86, +120+9 (overflow!).
+    - Base conversions (5-pack): Jun23, Dec24, Jun25
+      (incl. negative & fractional binary, ASCII->UTF8).
+10. Combinational circuits (MUX / decoder / adder) ......... 5/7
+    - Multiplexer with truth table + logic diagram: 3x1 (Dec24 8m),
+      4x1 (Jun23 5m). Decoder: 2x4 (Jun24 8m), 3x8 (Dec25 8m).
+    - Half & full adder (Jun26, 6m).
+11. Secondary storage (disks, RAID, SSD) ................... 5/7
+    - Magnetic disk structure + CAV (Jun23); access time + CLV vs
+      CAV (Dec23, Jun24); disk access time equation (Jun24 7m);
+      DISK SCHEDULING algorithms FCFS/SSTF/SCAN/C-SCAN/LOOK
+      (Dec24 7m - only appearance, OS-flavoured); SSD vs HDD
+      (Dec24); RAID levels + performance (Jun25, 10m).
+12. Instruction pipelining ................................. 4/7
+    - Explain with diagram: Dec23 (4m), Dec25 (6m); SN (Dec24).
+13. IEEE 754 floating point ................................ 2/7
+    - Components vs fixed point (Dec23); DECODE a given 32-bit
+      IEEE 754 number (Dec25, 6m - doable with practice).
+14. Error detection (parity bit) ........................... 1/7 (Jun26)
+15. Memory sizing numerical (RAM chips needed for 1 MB,
+    256K x 4 chips) ........................................ 1/7 (Dec25, 5m)
+
+Q1 COMPULSORY - PREDICTABLE SHAPE (all 7 papers)
+------------------------------------------------
+8-9 sub-parts of 4-6 marks, drawn in rotation from EXACTLY these units:
+  (1) number conversions / 2's complement arithmetic  <- almost always
+  (2) K-map simplify + draw circuit                   <- 5/7
+  (3) cache mapping scheme                            <- 7/7
+  (4) interrupt / I/O technique                       <- 7/7
+  (5) addressing modes                                <- 7/7
+  (6) 8086: flag/segment registers, instructions, diagram <- 7/7
+  (7) one small assembly program                      <- 7/7
+  (8) micro-operations / pipelining / CU              <- 7/7
+  (9) architecture: VN/Harvard/RISC                   <- 6/7
+=> Q1 is BREADTH testing. You cannot skip whole units if you want the
+   full 40. But every part is small and formulaic.
+
+VERBATIM / NEAR-VERBATIM REPEATS (Dec-2026 prime candidates)
+------------------------------------------------------------
+ 1. "What is an interrupt? List ALL the steps required to process an
+    interrupt." - Jun23 Q1(d) = Jun26 Q1(d), word for word.
+ 2. "Role of flag register in 8086? Can it be used as a general
+    purpose register? Uses of any four/three flags." - Jun25, Dec25,
+    Jun26 (three consecutive papers).
+ 3. ".COM vs .EXE programs" - 5 of 7 papers (as question or SN).
+ 4. Physical address computation (CS:IP, SS:SP, DS:offset) -
+    Jun23 and Dec25, same three-pair format.
+ 5. "Interchange values of two memory locations" 8086 program -
+    Jun23 and Jun25.
+ 6. Fetch-cycle micro-operations with PC/IR/DR/MAR - Jun23, Dec25.
+ 7. Direct cache mapping with example - Jun23, Jun26; associative
+    mapping - Dec23, Dec24.
+ 8. Microprogrammed control unit with block diagram - Dec23, Dec24,
+    Jun26; Wilkes control - Jun23, Jun24(SN).
+ 9. Flip-flop: diagram + characteristic + excitation table - Dec24,
+    Jun24, Dec25 (S-R and J-K rotating).
+10. RISC vs CISC differences - Jun23, Jun24, Jun26.
+11. Von Neumann architecture - Dec23, Dec24, Jun25(SN); Harvard -
+    Jun23, Jun24. The pair rotates between them.
+
+MARKS RATIO (by marks offered, 7-paper average)
+-----------------------------------------------
+ ~35-40% numerical/trace (2's complement, conversions, K-map,
+     physical address, cache-location computation, IEEE 754 decode,
+     RAM-chip count, assembly programs)
+ ~35% mixed (diagram + explain: DMA, CU, flip-flops, adders, MUX)
+ ~25-30% pure theory (RISC vs CISC, .COM/.EXE, SSD vs HDD,
+     locality of reference, RAID levels)
+NOTE: this is the most NUMERICAL of your courses - closer to
+BCS-042's profile than to BECS-184. But unlike BCS-042, the numericals
+are FORMULA-COOKBOOK type (binary arithmetic, K-map cells, seg:off
+shifting) - no algorithms to trace.
+
+TOP-PRIORITY PREP LIST (covers ~75% of any paper)
+--------------------------------------------------
+ 1. 2's complement 8-bit add/subtract + overflow rule (signed range
+    -128..+127; overflow = carry-in != carry-out of sign bit)
+ 2. Base conversions drill: dec<->bin<->oct<->hex + ASCII->UTF8 idea
+ 3. K-map: 4-variable, group to SOP, redraw with gates (5 papers!)
+ 4. The four cache mapping schemes: direct (with example + address
+    computation), associative, 2-way set-associative; locality of
+    reference; SRAM vs DRAM
+ 5. Interrupt: definition + the 6 processing steps (VERBATIM repeat)
+    + programmed vs interrupt vs DMA comparison + DMA block diagram
+ 6. All 7 addressing modes with one worked example each (draw
+    memory/register diagrams for indirect, index, base)
+ 7. 8086 pack: flag register (9 flags - which 4/3 to name), segment
+    registers (CS/DS/SS/ES), physical address = segment x 10h +
+    offset (compute 3 pairs), IVT + interrupt 21h, BIU/EU diagram
+ 8. Five assembly program templates: array-max, array-sum, swap
+    (XCHG), digit conversion (ASCII<->binary<->BCD), find/copy byte
+ 9. Flip-flops: S-R and J-K full cards (diagram, characteristic
+    table, excitation table) + flip-flop vs latch + master-slave idea
+10. Micro-operations: fetch cycle (4 lines: MAR<-(PC), R<-M[MAR],
+    IR<-(R), PC<-(PC)+1) + register-transfer notation + micro-
+    programmed CU block diagram (horizontal vs vertical micro-
+    instructions, encoded vs unencoded)
+11. Von Neumann vs Harvard (one diagram each) + RISC vs CISC table
+    + large register file / register windows in RISC
+12. Combinational pack: half/full adder, 1-of-N multiplexer,
+    decoder - truth table + logic diagram + one input example
+13. Short-notes safety net: .COM vs .EXE, instruction pipelining,
+    multiprocessor/multicore, RAID levels 0/1/5, SSD vs HDD, DRAM,
+    D flip-flop, parity bit, Wilkes control

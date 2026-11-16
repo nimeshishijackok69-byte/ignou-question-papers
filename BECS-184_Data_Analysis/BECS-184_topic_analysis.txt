@@ -1,0 +1,173 @@
+BECS-184 : DATA ANALYSIS
+Topic Frequency Analysis - TEE papers Dec 2022 - June 2026 (8 papers)
+========================================================================
+
+EXAM FORMAT (stable across all 8 papers)
+----------------------------------------
+3 hours | 100 marks | TWO sections:
+  Section A: answer any 2 of 4 questions x 20 marks = 40
+  Section B: answer any 5 of ~7-8 questions x 12 marks = 60
+The LAST question (Q11/Q12) is ALWAYS "short notes, any 3 of ~5, 12 marks"
+- a guaranteed marks pocket with a highly predictable pool.
+=> Massive built-in choice: you answer 7 questions out of ~12 offered.
+
+MOST REPEATED TOPICS (papers containing the topic / 8)
+--------------------------------------------------------
+ 1. Measures of central tendency (mean/median/mode, relationship,
+    when-is-X-suitable, grouped data) ..................... 8/8 EVERY paper
+    - Usually a 20-mark Section-A question (Dec22, Dec25)
+    - Verbatim near-repeat: "relationship among mean/median/mode +
+      when median & mode are suitable" in Dec22 AND Dec25
+    - Numerical variants: average price (Dec23), harmonic mean (Jun24),
+      percentile rank (Jun24), which-CVT-for-growth-rates (Dec24),
+      mode for toothpaste preference (Jun25), geometric mean (Jun26)
+ 2. Correlation & regression .............................. 8/8 EVERY paper
+    - Define Pearson's r + properties (Jun25)
+    - COMPUTE r from a table (Dec22: cars/revenue 15m; Jun25: 3-company
+      table - the SAME car/revenue theme both times!)
+    - Correlation vs causation (Jun23, Jun24, Dec25 - 3x verbatim-ish)
+    - Test significance of r with t-table (Dec22; Jun26 again)
+    - Regression Y=a+bX: find a,b + properties of coefficients (Jun26, 20m)
+    - Coefficient of determination as short note 5 TIMES (Dec23, Jun23,
+      Jun25, Dec25 + related Dec24) - the most-recycled short note ever
+ 3. Composite index (concept, construction steps, ranking method) 7/8
+    - 20-MARK SECTION-A question in Dec23, Jun24, Dec25... Jun26 too
+    - Steps: define indicators -> range equalisation/standardisation ->
+      weights -> simple ranking method -> aggregate
+    - HDI illustration (Jun26); PQLI/UNDP method (Dec22); ranking
+      method verbatim in Dec23 AND Jun25
+ 4. Histogram & graphical presentation (histogram, bar diagram, pie,
+    frequency polygon, ogive, misinterpretation of graphs) ... 8/8
+    - "Importance of graphical presentation + types of graphs"
+      20-marker in Dec24 AND Jun26
+    - DRAW a histogram from a frequency table: Dec23, Jun25
+      (hypothetical), Dec25 - same 12-mark question 3x
+    - Single bar diagram vs histogram (Dec25); frequency polygon vs
+      histogram (Jun24); pie chart & ogive as short notes
+ 5. Sampling & errors (sampling frame, non-sampling errors, census vs
+    survey, random vs non-random, snowball) .................. 8/8
+    - Census vs survey stages: Dec22 (20m), Jun26 (sample preferred, 12m)
+    - Non-sampling errors: Jun23 (20m), Jun24 (12m) + short note 3x
+    - Snowball sampling short note (Dec24); sampling fraction (Dec22)
+ 6. Primary & secondary data (collection methods, sources, limits) 6/8
+    - "Methods of collection of primary data" in Dec24 (12m),
+      Jun25 (12m) AND Dec25 (20m, Section A!) - 3 consecutive papers
+    - Secondary data sources + limitations: Dec25 (12m) + short note 2x
+ 7. Qualitative research & qualitative data analysis
+    (grounded theory, FGD, observation, interviews, ethnography) 6/8
+    - Dec22: full 20-marker (define + techniques of qual analysis)
+    - "Methods/techniques of analysing qualitative data" 12m in
+      Jun25 AND Dec25; collection of qualitative data Jun26 (12m)
+    - Participant observation (Jun23); case study vs participatory
+      research (Jun24); unstructured interviews + ethnography (Dec22)
+ 8. Multivariate data analysis (techniques, interpretation cautions,
+    univariate vs multivariate) .............................. 6/8
+    - BIG marks: 20m in Dec23 (Section A), Jun26 (Section A!)
+    - 12m in Dec22, Dec24, Dec25
+    - Bivariate analysis variants: Jun23, Jun25 (20m smart-board case)
+ 9. Hypothesis testing (null vs alternative, steps, Type I/II errors,
+    p-value, Z vs t) ......................................... 6/8
+    - Null vs alternative + testing steps: Jun25 (12m), Dec25 (20m!)
+    - Type I/II errors (Jun23); p-value method (Dec25); Z/t conditions
+      (Jun23); t-distribution (Jun24); ANOVA for 3+ means (Jun23, Jun26)
+10. Skewness & kurtosis ...................................... 4/8
+    - Define + measures + diagrams (Dec22, Jun23 6+6);
+      distinguish + shape of distribution (Dec24, Jun26)
+11. Estimation & sampling distributions (point vs interval, good
+    estimator, confidence interval, standard error, CLT) ..... 4/8
+12. Normal distribution (properties, usage, standard normal) .. 5/8
+    - Characteristics + usage (Dec23 12m); properties (Jun25 12m);
+      short notes: normal curve, CLT, standard normal
+13. Sets & logic (NEW since Dec 2024 - rising trend) .......... 4/8
+    - Set concept + operations: Dec24 (20m), Jun25 (20m!);
+      short notes: set operations, relations & functions, symbolic
+      language, logic in data analysis (Jun26 x3, Dec23)
+    - This is now a regular Section-A 20-marker - do not ignore
+14. Tabulation & classification of data ...................... 3/8
+    - Tabulation process + statistical table (Dec24, 20m);
+      classification of data (Jun25); types of data SN (Dec25)
+
+SHORT-NOTES POOL (Q12, any 3 of 5, 12 marks - per paper)
+--------------------------------------------------------
+RECURRING (learn these 10 cold, they cover most draws):
+ - Coefficient of determination ............. 5 papers (Dec23, Jun23,
+   Dec24-era, Jun25, Dec25)
+ - Focus group discussion (FGD) ............. 4 papers (Jun23, Dec23,
+   Dec24, Jun25)
+ - Non-sampling errors ...................... 3 papers
+ - Sources of secondary data ................ 2 papers
+ - Normal distribution / CLT / standard normal 3 papers
+ - Random variable .......................... 2 papers (Dec24, Dec25)
+ - Types of data / discrete variable ........ 2 papers
+ - Parameter & statistic / estimator ........ 2 papers
+ - Snowball sampling (Dec24); pie chart (Dec24); frequency
+   distribution (Dec24)
+ - Ogive, outlier, epistemology, explanatory variable, model,
+   inferential statistics, data mining, primary data, grounded
+   theory, sampling fraction, CV, ethnography, confidence
+   interval, standard error, frequency polygon, set operations,
+   relations & functions, symbolic language - one-offs
+
+PATTERN OBSERVATIONS
+--------------------
+* Question SHAPES repeat more than exact wording:
+  - "What is X? Explain construction/procedure. Illustrate." (composite
+    index, histogram, hypothesis testing)
+  - "Distinguish between A and B" (point/interval, skew/kurtosis,
+    correlation/causation, primary/secondary, null/alternative, uni/multi,
+    census/survey, bar/histogram) - the most common 12-mark template
+  - "Compute r / mean / SD from this small table" - ~15 marks, formulaic
+* Verbatim-ish repeats across consecutive sessions:
+  - Primary-data-collection methods: Dec24, Jun25, Dec25
+  - Composite index construction: Dec23, Dec24, Jun24, Dec25, Jun26 (5/8!)
+  - Histogram from frequency table: Dec23, Dec25 (Jun25 as procedure)
+  - Graphical presentation importance: Dec24 (20m), Jun26 (20m)
+  - Multivariate techniques brief: Dec23 (20m), Dec25 (12m), Jun26 (20m)
+  - Mean/median/mode relationship + suitability: Dec22, Dec25
+  - Correlation-causation: Jun23, Jun24, Dec25
+* 2025-26 trend: sets & logic entered Section A as a 20-marker (Jun25,
+  Jun26 SNs); regression (Y=a+bX) appeared Jun26; HDI named in composite
+  index question. The paper has shifted slightly toward formal
+  math-fundamentals alongside classic statistics.
+
+MARKS RATIO (by marks offered, 8-paper average)
+-----------------------------------------------
+ ~25% numerical/computational (correlation, mean/SD, histogram draw,
+     harmonic mean, percentile, average price, growth-rate average)
+ ~20% mixed (define + properties + compute; define + illustrate)
+ ~55% pure theory/explain/distinguish
+NOTE: the numericals are all FORMULA-PLUG questions (r, mean, SD) - far
+simpler than BCS-042 traces. Learn 4 formulas, cover every numerical
+in the paper. The "distinguish" template answers are semi-mechanical:
+2 columns x 4-5 rows of differences.
+
+TOP-PRIORITY PREP LIST (covers ~75% of any paper)
+--------------------------------------------------
+ 1. Central tendency: definitions, formulas, mean-median-mode
+    relationship (symmetric: mean=median=mode; skewed: mode < median
+    < mean), when median/mode/geometric mean is suitable
+ 2. Composite index: 6-step construction + simple ranking method +
+    range equalisation vs mean standardisation + HDI/PQLI as examples
+ 3. Pearson correlation: formula (compute from table!), 5 properties,
+    significance test with t-table, correlation vs causation
+ 4. Regression: Y=a+bX, how to find a & b (least squares normal
+    equations), properties of regression coefficients
+ 5. Histogram + graph types: importance, when to use which, draw
+    histogram from frequency table, bar vs histogram, frequency polygon
+ 6. Distinguish-pair pack (each = 4-5 row table):
+    primary/secondary data, sampling/non-sampling errors, census/survey,
+    point/interval estimation, null/alternative hypothesis, uni/multi-
+    variate, skewness/kurtosis, correlation/causation
+ 7. Hypothesis testing: 5 steps + Type I/II + p-value method
+ 8. Multivariate techniques brief: multiple regression, discriminant
+    analysis, factor analysis, cluster analysis, MANOVA, multidimensional
+    scaling (one line each) + interpretation cautions
+ 9. Primary data collection methods (observation, interview, question-
+    naire, schedule, case study) + secondary data sources & limits
+10. Qualitative analysis methods: content analysis, grounded theory,
+    thematic analysis, narrative analysis, FGD handling
+11. Short-notes pack: coefficient of determination, FGD, non-sampling
+    errors, secondary sources, normal distribution properties, random
+    variable, types of data, snowball sampling, standard error, CLT
+12. Sets: definition, representation, operations (union/intersection/
+    complement/difference), properties - 1 worked example each
