@@ -1,0 +1,96 @@
+BCS-151 (BCS-051) : INTRODUCTION TO SOFTWARE ENGINEERING
+Topic Frequency Analysis - TEE papers June 2021 - June 2026 (11 papers)
+Papers note: course indexed as BCS-051 on IGNOU portal; BCS-151 = same course (revised BCA syllabus)
+Exam format: 3 hours, 100 marks. Q1 COMPULSORY (40 marks). Attempt any 3 of Q2-Q5 (~20 marks each).
+========================================================================
+
+THE BIG FIVE - appear in ALL 11 papers (11/11)
+----------------------------------------------
+1. SRS development in IEEE format for a rotating theme system ... 15-25 MARKS
+   Themes used: Hospital Mgmt, grocery shopping, Online Banking,
+   Online Exam Form (OEFSS), Online Admission (OAS), Study Centre
+   Allocation (OSCAS), Assignment Submission (OASS), Student
+   Registration, Railway Reservation, Assignment Submission+
+   Evaluation, Online Examination.
+   -> One 25-marker in most papers. THE single biggest score item.
+   -> Often paired with "characteristics of a good SRS".
+2. DFD - draw context/zero + first level for the theme system ... 10 MARKS
+   Recent variant (Dec25, Jun26): "What is a DFD? What are its
+   components?" + draw two levels. DFD notation symbols also asked.
+3. Scheduling chart - GANTT or PERT (one always appears) ........ 10 MARKS
+   Gantt: 6 papers | PERT: 7 papers | Jun25: compare Gantt vs PERT
+   | Dec24: PERT creation process | Combined: 11/11.
+4. SDLC models - explain / compare / select for a scenario ...... 10 MARKS
+   Waterfall (4x), Spiral (4x), Prototype, RAD, Iterative
+   Enhancement, "which model suits system X + justify".
+5. Software testing - types, principles, test cases ............. 10-20 MARKS
+   Black vs White box (3x), module/integration/system/regression,
+   alpha/beta/acceptance, unit testing, testing principles (2x),
+   verification vs validation, test-case design, testing tools.
+   Frequently 2 separate questions per paper; short-notes love it.
+
+STRONG SECOND TIER
+------------------
+ 6. Object-Oriented Design: object/class, static & logic objects,
+    utility objects, object identification method, class diagram . 9/11
+    (static objects alone asked in 6 papers!)
+ 7. ERD for the theme system .................................... 7/11
+ 8. Use-case diagram (draw + symbols/notations) ................. 7/11
+ 9. Software quality / SQA / McCall's factors / cost of quality,
+    software metrics (OO metrics, quality metrics) .............. 7/11
+10. CMM / SEI-CMM five maturity levels .......................... 6/11
+    (favourite short-note item since Dec 2024)
+11. Software maintenance: need + types (corrective/adaptive/
+    perfective/preventive) ...................................... 5/11
+12. Coupling & cohesion (types, difference, impact) ............. 5/11
+13. Debugging (strategies, challenges) .......................... 4/11
+14. Data dictionary (definition + contents + example element) ... 4/11
+15. Function Oriented Design (concepts, principles, features) ... 4/11
+16. SCM - software configuration management ..................... 3/11
+17. Project planning / software project management .............. 3/11
+18. UML (list of diagrams, class diagram) ....................... 3/11
+19. Structure chart ............................................. 2/11
+20. One-offs: Step-wise framework (Jun23), Reverse Engineering
+    (Dec25 SN), Structured analysis (Dec25), RAD (Jun24) ....... 1-2/11
+
+PATTERN OBSERVATIONS
+--------------------
+* Q1 (compulsory, 40 marks) = SRS (15-25) + one SDLC model question
+  + 1-2 small theory items (coupling, UML, static objects...).
+* Since Dec 2024, Q5 is a FIXED "short notes" question (4x5=20) drawn
+  from: CMM, software metrics, ERD, class diagram, use-case diagram,
+  debugging, reverse engineering, testing types, maintenance, OOD,
+  test-case design. -> Highest-density free marks in the paper.
+* Everything (DFD/ERD/use-case/Gantt) is drawn for the SAME theme
+  system named in the SRS question. Master ONE system deeply
+  (Online Examination System has appeared 4+ times) and adapt it.
+* Verbatim repeats: "need + types of software maintenance" (Jun21,
+  Jun22, Jun25, Dec25); "DFD components + two levels" (Dec25, Jun26);
+  waterfall adv/disadv over other models (Dec21, Dec22, Dec23, Dec25).
+* 2025-26 trend: more comparison questions (Waterfall vs Spiral,
+  Gantt vs PERT, module vs integration) instead of plain "explain".
+
+DIAGRAM : THEORY RATIO (vs BCS-042's 40:35:25 numerical mix)
+------------------------------------------------------------
+~45% diagrams/application (SRS doc, DFD, ERD, use-case, Gantt/PERT,
+structure chart) : ~55% theory/explain-with-example.
+NOTE: unlike BCS-042, there are almost no numeric calculations -
+the "application" half is DRAWING, which is mechanical and
+template-based, so it is nearly as cheap to score as a trace.
+
+TOP-PRIORITY PREP LIST (covers ~75% of any paper)
+--------------------------------------------------
+ 1. IEEE SRS format memorized + ONE full worked SRS you can re-sketch
+    for any system (features, FR/NFR, use cases, assumptions).
+ 2. DFD: notation symbols + context diagram + level-1 template.
+ 3. Gantt AND PERT: draw both for one project + when to use which.
+ 4. Waterfall, Spiral, Prototype, RAD, Iterative: diagram + 3 adv
+    + 3 disadv each + "which model for X" decision logic.
+ 5. Testing taxonomy: unit/module/integration/system/acceptance,
+    alpha/beta, black vs white box, testing principles, test-case
+    design with one example table.
+ 6. Short-notes pack: CMM 5 levels, software metrics, ERD, class
+    diagram, use-case diagram, debugging strategies, maintenance
+    types, reverse engineering.
+ 7. OO design: static/logic/utility objects + identification method.
+ 8. Coupling vs cohesion with types and examples.

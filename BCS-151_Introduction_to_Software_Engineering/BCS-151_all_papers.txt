@@ -1,0 +1,1092 @@
+======================================================================
+BCS-051_BCS-151_TEE_December_2021
+======================================================================
+P. T. O.
+No. of Printed Pages : 4
+BCS-051
+BACHELOR OF COMPUTER
+APPLICATIONS (BCA) (REVISED)
+Term-End Examination
+December, 2021
+BCS-051 : INTRODUCTION TO SOFTWARE
+ENGINEERING
+Time : 3 Hours
+Maximum Marks : 100
+Note : Question No. 1 is compulsory and carries
+40 marks. Attempt any three questions from
+the rest.
+1.
+(a)
+Explain the need for SRS. Develop a SRS
+for online shopping system of a grocery
+store. Make necessary assumptions. Follow
+IEEE SRS format.
+20
+[ 2 ]
+BCS-051
+(b)
+What is Waterfall Model ? Explain the
+advantages of using Waterfall model for
+software system development.
+8
+(c)
+What is usecase diagram ? Draw and
+define the use of any four symbols used to
+draw usecase diagram.
+6
+(d)
+What is Cohesion ? Briefly explain any
+three types of cohesion.
+6
+2.
+(a)
+Draw context diagram and first level DFD
+for “online shopping system of a grocery
+store”.
+10
+(b)
+What is Testing ? Why is it needed ?
+Explain differences between white box
+testing and black box testing with the help
+of examples for both types of testing.
+10
+
+[ 3 ]
+BCS-051
+3.
+(a)
+Draw Gantt chart for development of an
+“online shopping system”.
+10
+(b)
+What 
+is 
+Software 
+Configuration
+Management (SCM) ? Explain the need of
+SCM with the help of an example.
+10
+4.
+(a)
+What 
+is 
+Capability 
+Maturity 
+Model
+(CMM) ? Briefly explain the five levels of
+maturity in CMM.
+12
+(b)
+What is an Object ? How is it different
+from class ? Explain use of static objects in
+problem solving with the help of an
+example.
+8
+5.
+(a)
+Write short notes on the following :
+10
+(i)
+Data Dictionary
+(ii) Test cases for unit testing
+[ 4 ]
+BCS-051
+(b)
+What are software metrics ? Briefly explain
+the following software metrics :
+10
+(i)
+Object Oriented Metrics
+(ii) Software Quality Metrics
+BCS–051
+
+======================================================================
+BCS-051_BCS-151_TEE_December_2022
+======================================================================
+BCS-051 
+1 
+  P.T.O. 
+ BCS-051  
+BACHELOR OF COMPUTER APPLICATIONS 
+(BCA) (Revised)   
+Term-End Examination 
+December, 2022 
+ 
+BCS-051 :  INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+ 
+Time : 3 hours 
+Maximum Marks : 100 
+ 
+ 
+(Weightage : 75%) 
+Note :  Question number 1 is compulsory and carries  
+40 marks. Attempt any three questions from the 
+rest. 
+ 
+1. 
+(a) 
+Develop SRS for Online Examination Form 
+Submission System (OEFSS). SRS should 
+be in IEEE format. Make necessary 
+assumptions.  
+25 
+(b) 
+Explain Prototype Model, with the help of 
+an example. What are its advantages and 
+disadvantages over Waterfall Model ?  
+10 
+(c) 
+What is a Structure Chart ? Explain with 
+the help of an example.   
+5 
+No. of Printed Pages : 2 
+
+BCS-051 
+2 
+2. 
+(a) 
+Draw the zero and first level DFDs for 
+OEFSS. Make necessary assumptions.  
+10 
+(b) 
+Draw GANTT Chart for the development of 
+OEFSS.  
+ 10 
+3. 
+(a) 
+Draw ERD for OEFSS. Make necessary 
+assumptions.  
+10 
+(b) 
+Briefly 
+explain 
+different 
+levels 
+of  
+SEI-CMM. 
+ 10 
+4. 
+(a) 
+Explain the terms “Black Box Testing” and 
+“White Box Testing”.   
+10 
+(b) 
+How will you ensure that the software 
+developed by you meets the Quality  
+benchmarks ? Define the term “Software 
+Quality”. 
+ 10 
+5. 
+(a) 
+In Object Oriented Design, list the common 
+utility objects and criteria for identifying 
+utility objects.    
+10 
+(b) 
+Explain various Debugging strategies.  
+ 10
+
+======================================================================
+BCS-051_BCS-151_TEE_December_2023
+======================================================================
+P. T. O. 
+No. of Printed Pages : 2 
+BCS–051 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (REVISED)  
+Term-End Examination 
+December, 2023 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+Time : 3 Hours    
+Maximum Marks : 100 
+Weightage : 75% 
+Note : Question No. 1 is compulsory and carries 
+40 marks. Attempt any three questions from 
+the rest. 
+1. (a) Develop SRS for Online Admission System 
+(OAS) for a university. SRS should be in 
+IEEE 
+format. 
+Make 
+necessary  
+assumptions. 
+25 
+ 
+(b) Explain Spiral Model with the help of an 
+example. What are its advantages and 
+disadvantages over Waterfall Model ? 
+10 
+
+ 
+[ 2 ] 
+ 
+ 
+ 
+ 
+(c) What is a Data Dictionary ? What are its 
+contents ? 
+5 
+2. (a) Draw the zero and first level DFDs for 
+OAS. Make necessary assumptions. 
+10 
+(b) Draw PERT chart for the development of 
+OAS.  
+10 
+3. (a) Draw ERD for OAS. Make necessary 
+assumptions. 
+10 
+(b) Draw use case diagram for OAS. 
+10 
+4. (a) What is meant by function oriented  
+design ? Explain the concepts associated 
+with function oriented design. 
+10 
+(b) What is meant by static object ? How will 
+you identify them ? Explain. 
+10 
+5. (a) Explain the terms ‘Alpha testing’ and ‘Beta 
+testing’. 
+10 
+(b) What is meant by cohesion ? Explain 
+different types of cohesion. 
+10 
+BCS–051
+
+======================================================================
+BCS-051_BCS-151_TEE_June_2021
+======================================================================
+BCS-051 
+1 
+  P.T.O. 
+ BCS-051  
+BACHELOR OF COMPUTER APPLICATIONS 
+(BCA) (Revised)   
+Term-End Examination 
+June, 2021 
+ 
+BCS-051 :  INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+Time : 3 hours 
+Maximum Marks : 100 
+ 
+ 
+(Weightage : 75%) 
+Note :  Question number 1 is compulsory and carries  
+40 marks. Attempt any three questions from the 
+rest. 
+ 
+1. 
+(a) 
+Develop SRS for ‘‘Hospital Management 
+System’’. Make necessary assumptions and 
+follow IEEE SRS format. 
+15 
+(b) 
+A hospital wants to develop a ‘‘Hospital 
+Management 
+System’’. 
+Explain 
+which 
+software development model is suitable for 
+developing this system. 
+10 
+(c) 
+What 
+is 
+the 
+need 
+of 
+software  
+maintenance ? Briefly explain different 
+types of software maintenance. 
+10 
+(d) 
+Draw use case diagram for a ‘‘Hospital 
+Management System’’. Make necessary 
+assumptions. 
+5 
+No. of Printed Pages : 2 
+
+BCS-051 
+2 
+2. 
+(a) 
+Draw 
+a 
+PERT 
+chart 
+for 
+‘‘Hospital 
+Management System’’ of a hospital. 
+10 
+(b) 
+Draw first two levels of DFDs of ‘‘Hospital 
+Management System’’ of a hospital. Make 
+necessary assumptions. 
+ 10 
+3. 
+(a) 
+Explain System Testing and Integration 
+Testing techniques briefly. 
+10 
+(b) 
+Write a short note on Capability Maturity 
+Model (CMM).  
+ 10 
+4. 
+(a) 
+What is the need of software configuration 
+management ? Briefly explain the process 
+of software configuration management.  
+10 
+(b) 
+What is Test-case ? Briefly explain the role 
+of Test-case in software testing with the 
+help 
+of 
+test 
+cases 
+for 
+‘‘Hospital 
+Management System’’. 
+ 10 
+5. 
+(a) 
+What is Software Project Management ? 
+Explain various tasks involved in it.  
+10 
+(b) 
+Draw ERD for ‘‘Hospital Management 
+System’’. Make necessary assumptions. 
+ 10
+
+======================================================================
+BCS-051_BCS-151_TEE_June_2022
+======================================================================
+P. T. O. 
+No. of Printed Pages : 3 
+BCS-051 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (REVISED)  
+Term-End Examination 
+June, 2022 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+Time : 3 Hours    
+Maximum Marks : 100 
+Weightage : 75% 
+Note : Question No. 1 is compulsory and carries 
+40 marks. Attempt any three questions from 
+the rest. 
+1. (a) Develop an SRS for ‘Online Banking 
+System’. Make necessary assumptions. 
+Follow IEEE SRS format. 
+15 
+
+ 
+[ 2 ] 
+BCS-051 
+ 
+ 
+ 
+ 
+(b) What is function oriented design of 
+software system ? Explain its advantages 
+and disadvantages. 
+8 
+ 
+(c) Which software development model is 
+suitable 
+for 
+developing 
+‘Online 
+Examination 
+System’ 
+? 
+Justify 
+your 
+selection. Also explain the selected model.  
+7 
+(d) What is coupling ? How is it different from 
+cohesion ? 
+5 
+(e) Briefly explain cost of software quality. 
+5 
+2. (a) Draw the context diagram and first level 
+DFD for ‘Online Banking System’. 
+10 
+ 
+(b) What is software maintenance ? Explain 
+any two types of software maintenance in 
+detail.  
+10 
+3. (a) Draw 
+use-case 
+diagram 
+for 
+‘Library 
+Management System’. Make necessary 
+assumptions. 
+10 
+ 
+(b) Draw GANTT chart for development of 
+‘Online Banking System’. 
+10 
+
+ 
+[ 3 ] 
+ 
+ 
+ 
+ 
+4. (a) Draw structure chart for online shopping 
+system. 
+10 
+ 
+(b) Explain unit testing and module testing 
+with the help of suitable example for each.  
+10 
+5. (a) Write short notes on the following : 
+10 
+(i) 
+PERT chart 
+(ii) Project Planning 
+ 
+(b) What is verification ? How is it different 
+from validation ? Briefly explain any four 
+principles of software testing. 
+10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BCS–051
+
+======================================================================
+BCS-051_BCS-151_TEE_June_2023
+======================================================================
+P. T. O. 
+No. of Printed Pages : 2 
+BCS-051 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (REVISED) 
+Term-End Examination 
+June, 2023 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+Time : 3 Hours    
+Maximum Marks : 100 
+Weightage : 75% 
+Note : Question No. 1 is compulsory and carries 
+40 marks. Attempt any three questions from 
+the rest. 
+1. (a) Develop SRS for Online Study Center 
+Allocation System (OSCAS) for students 
+who apply for admission to a university. 
+SRS should be in IEEE format. Make 
+necessary assumptions. 
+25 
+
+ 
+[ 2 ] 
+ 
+ 
+ 
+ 
+(b) Explain Iterative Enhamement Model with 
+the help of an example. What are its 
+advantages and disadvantages over Spiral 
+Model ? 
+10 
+(c) List the diagrams whose specifications are 
+supported by UML. 
+5 
+2. (a) Draw the zero and first level DFDs for 
+OSCAS. Make necessary assumptions. 10 
+(b) Draw PERT chart for the development of 
+OSCAS. 
+10  
+3. (a) Draw ERD for OSCAS. Make necessary 
+assumptions. 
+10 
+(b) Draw usecase diagram for OSCAS. 
+10 
+4. (a) Explain the five solution design principles 
+in function oriented design. 
+10 
+(b) Explain the specification of a static object.  
+10 
+5. (a) Explain the five maturity levels of SEI-
+CMM.  
+10 
+(b) Briefly, explain ‘Step-Wise” framework. 10 
+ 
+BCS–051
+
+======================================================================
+BCS-051_BCS-151_TEE_June_2024
+======================================================================
+P. T. O. 
+No. of Printed Pages : 3 
+BCS–051 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (REVISED)  
+Term-End Examination 
+June, 2024 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+Time : 3 Hours    
+Maximum Marks : 100 
+ 
+ 
+  
+ 
+ 
+Weightage : 75% 
+Note : Question No. 1 is compulsory and carries  
+40 marks. Attempt any three questions from 
+the rest. 
+1. (a) Develop 
+SRS 
+for 
+Online 
+Assignment 
+Submission System (OASS) for students of 
+various courses of university. SRS should 
+be in IEEE format. Make necessary 
+assumptions. 
+25 
+
+ 
+[ 2 ] 
+BCS–051 
+ 
+ 
+ 
+(b) Explain Rapid Application Development 
+(RAD) approach for Software Development. 
+What 
+are 
+the 
+advantages 
+and 
+disadvantages of RAD approach over 
+Waterfall model. 
+10 
+(c) Explain any five key features of Function 
+Oriented Design. 
+5 
+2. (a) Draw the zero and first level DFDs for 
+OASS. Make necessary assumptions. 
+10 
+(b) Draw GANTT chart for the development of 
+OASS.  
+10 
+3. (a) Draw ERD for OASS. Make necessary 
+assumptions. 
+10 
+(b) Define Data Dictionary. Consider a Data 
+Element Student. What information about 
+Student is stored in Data Dictionary ? 
+10 
+4. (a) Explain the methodology for identification 
+of objects in Object Oriented Design with 
+an example. 
+10 
+(b) Explain the terms ‘Module Testing’ and 
+‘Integration Testing’. 
+10 
+
+ 
+[ 3 ] 
+ 
+ 
+ 
+ 
+5. (a) Explain various challenges for successful 
+debugging. 
+10 
+(b) List 
+any 
+five 
+software 
+testing 
+tools 
+indicating the testing phase in which they 
+can be employed. 
+10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BCS–051
+
+======================================================================
+BCS-151_TEE_December_2024
+======================================================================
+No. of Printed Pages : 3 
+BCS–051 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (REVISED) 
+Term-End Examination 
+December, 2024 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+Time : 3 Hours    
+Maximum Marks : 100 
+Note : Question No. 1 is compulsory and carries 
+40 marks. Attempt any three questions from 
+the rest. 
+1. (a) Explain 
+spiral 
+model 
+for 
+software 
+development. Explain the types of software 
+systems developed using this model. 
+10 
+(b) What is PERT chart ? Explain the creation 
+process of PERT chart, with suitable 
+example. 
+10 
+B–1055/BCS–051 
+ 
+ P. T. O. 
+
+ 
+[ 2 ] 
+BCS–051 
+(c) Explain the terms coupling and cohesion, 
+with the help of suitable example for each. 
+Briefly discuss the impact of coupling and 
+cohesion, on software development. 
+10 
+(d) Draw the first two levels of DFDs for an 
+“Online Student Registration System”. 
+Make necessary assumptions required. 10 
+2. (a) What is a data dictionary ? Explain the 
+contents of data dictionary with the help of 
+an example. 
+10 
+(b) What is module testing ? How is it 
+different from integration testing ? Give 
+suitable test case example for both types of 
+testing. 
+10 
+3. (a) Develop the SRS for an “Online Student 
+Registration System”. Make necessary 
+assumptions. Follow IEEE SRS format. 
+Discuss the characteristics of good SRS. 15 
+(b) Discuss the application of logic objects, 
+with the help of an example. 
+5 
+B–1055/BCS–051 
+ 
+ 
+
+ 
+[ 3 ] 
+ 
+4. (a) Define the term ‘Software Quality’. Explain 
+the McCall’s software quality factors. 
+10 
+(b) What is debugging ? Explain any four 
+debugging strategies. 
+10 
+5. Write short notes on the following : 
+4×5=20 
+(a) Capability Maturity Models (CMM) 
+(b) Software Metrics 
+(c) Entity Relationship Diagram 
+(d) Class Diagram 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+× × × × × × × 
+B–1055/BCS–051
+
+======================================================================
+BCS-151_TEE_December_2025
+======================================================================
+B–1085/BCS–051 
+P. T. O. 
+No. of Printed Pages : 4 
+BCS–051 
+BACHELOR OF COMPUTER 
+APPLICATIONS  
+(BCA) (REVISED) 
+Term-End Examination 
+December, 2025 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING  
+Time : 3 Hours  
+Maximum Marks : 100 
+Weightage : 75% 
+Note : Question No. 1 is compulsory and carries 
+40 marks. Attempt any three questions 
+from the rest. 
+
+ 
+[ 2 ] 
+ BCS–051 
+B–1085/BCS–051 
+1. (a) 
+Develop SRS for Online Assignment 
+Submission and Evaluation System for 
+a University. Use IEEE format for 
+SRS. Make necessary assumptions. 20 
+ 
+(b) 
+What is an object ? Explain application 
+logic 
+object 
+with 
+an 
+example.  
+Also, explain specifications of static 
+object.  
+10 
+ 
+(c) 
+What 
+is 
+structured 
+analysis 
+?  
+Explain. 
+5 
+ 
+(d) 
+Explain the principles of software 
+testing.  
+5 
+2. (a) 
+Explain Waterfall Model with the help 
+of a suitable diagram. List advantages 
+and disadvantages of this model. 
+10 
+
+ 
+[ 3 ] 
+BCS–051 
+B–1085/BCS–051 
+P. T. O. 
+ 
+(b) 
+Draw a sample Gantt chart for an 
+online 
+examination 
+system. 
+Make 
+necessary assumptions. 
+10 
+3. (a) 
+Explain System testing and Regression 
+testing.  
+10 
+ 
+(b) 
+What 
+is 
+the 
+need 
+of 
+software 
+maintenance ? Briefly explain different 
+types of software maintenance. 
+10 
+4. (a) 
+What 
+is 
+Software 
+Configuration 
+Management (SCM) ? Explain SCM 
+activities briefly. 
+10 
+ 
+(b) 
+What is a DFD ? What are the 
+components of DFD ? Draw first two 
+levels of DFDs for Online Assignment 
+Submission and Evaluation System. 
+Make necessary assumptions. 
+10 
+
+ 
+[ 4 ] 
+ BCS–051 
+B–1085/BCS–051 
+5. Write short notes on the following : 4×5=20 
+ 
+(a) 
+Reverse Engineering 
+ 
+(b) 
+Capability Maturity Model (CMM) 
+ 
+(c) 
+Debugging 
+ 
+(d) 
+Use-case diagram 
+ 
+× × × × ×
+
+======================================================================
+BCS-151_TEE_June_2025
+======================================================================
+B–1076/BCS–051 
+P. T. O. 
+No. of Printed Pages : 4 
+BCS–051 
+BACHELOR OF COMPUTER 
+APPLICATIONS [BCA (REVISED)] 
+Term-End Examination 
+June, 2025 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING  
+Time : 3 Hours  
+Maximum Marks : 100 
+Note : Question No. 1 is compulsory and carries 
+40 marks. Attempt any three questions 
+from the rest. 
+1. (a) 
+Compare Waterfall model and Spiral 
+model 
+for 
+software 
+development. 
+
+ 
+[ 2 ] 
+ BCS–051 
+B–1076/BCS–051 
+Explain the situation, in which the 
+Spiral model for software development 
+should be preferred over Waterfall 
+model.  
+10 
+ 
+(b) 
+What is GANTT chart ? Compare the 
+utility of GANTT and PERT charts. 
+Draw 
+GANTT 
+chart 
+for 
+the 
+development 
+of 
+"Online 
+Railway 
+Reservation System". 
+10 
+ 
+(c) 
+Discuss IEEE SRS format and use it to 
+develop the SRS for “Online Railway 
+Reservation System”. Make necessary 
+assumptions. 
+15 
+ 
+(d) 
+What are static objects ? Explain with 
+the help of an suitable example. 
+5 
+
+ 
+[ 3 ] 
+BCS–051 
+B–1076/BCS–051 
+ 
+2. (a) 
+Briefly discuss the various notations 
+used to draw usecase diagram. Draw a 
+usecase diagram for “Online Railway 
+Reservation System”. 
+10 
+ 
+(b) 
+Compare Black Box Testing and White 
+Box Testing. Give suitable example for 
+each. 
+ 
+10 
+3. (a) 
+Briefly discuss the various notations of 
+DFD. Draw first two levels of DFDs for 
+an 
+“Online 
+Examination 
+System”. 
+Make necessary assumptions. 
+10 
+ 
+(b) 
+What is the need of project planning ? 
+Discuss any four types of project plans. 
+ 
+ 
+ 
+ 
+ 
+10 
+
+ 
+[ 4 ] 
+ BCS–051 
+B–1076/BCS–051 
+4. (a) 
+What 
+is 
+the 
+need 
+of 
+software 
+maintenance 
+? 
+Explain 
+different 
+categories of software maintenance. 10 
+ 
+(b) 
+What is a test case ? Explain test case 
+for functional testing with the help of 
+an example. 
+10 
+5. Briefly discuss the following with suitable 
+example for each : 
+4×5=20 
+ 
+(a) 
+Acceptance testing 
+ 
+(b) 
+Alpha and Beta testing 
+ 
+(c) 
+Module testing 
+ 
+(d) 
+Integration testing 
+ 
+(e) 
+Software Quality Assurance activities 
+× × × × ×
+
+======================================================================
+BCS-151_TEE_June_2026
+======================================================================
+B–2078/BCS–051 
+ P. T. O. 
+No. of Printed Pages : 4 
+BCS–051 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (REVISED) 
+Term-End Examination 
+June, 2026 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING  
+Time : 3 Hours  
+Maximum Marks : 100 
+Weightage : 75% 
+Note : Question No. 1 is compulsory and carries 
+40 marks. Attempt any three questions 
+from the rest. 
+
+ 
+[ 2 ] 
+BCS–051 
+B–2078/BCS–051 
+1. (a) Develop SRS for online examination 
+system for a university. Use IEEE 
+format 
+for 
+SRS. 
+Make 
+necessary 
+assumptions. 
+20 
+(b) Draw ERD for online shopping system. 
+Make necessary assumptions. 
+10 
+(c) What is coupling ? How is it related to 
+cohesion ? Explain. 
+5 
+(d) Explain class diagram with the help of 
+an example. 
+5 
+2. (a) What is a DFD ? What are the 
+components of DFD ? Draw first  
+two 
+levels 
+of 
+DFA 
+for 
+online 
+examination 
+system. 
+Make  
+necessary assumptions. 
+10 
+
+ 
+[ 3 ] 
+BCS–051 
+B–2078/BCS–051 
+P. T. O. 
+(b) What is Software Testing ? List the 
+scope of Software Testing. Also, explain 
+principles of Software Testing. 
+10 
+3. (a) Explain 
+spiral 
+model 
+for 
+software 
+development. Also, describe the kind of 
+system which should be developed using 
+the model. List limitations of this 
+model.  
+10 
+(b) Explain software metrics in detail. 
+10 
+4. (a) Draw PERT chart/diagram for online 
+examination system. Make necessary 
+assumptions. 
+10 
+(b) What is software quality assurance ? 
+Explain the terms Error, Fault, Failure. 
+What is cost of quality ? 
+10 
+
+ 
+[ 4 ] 
+BCS–051 
+B–2078/BCS–051 
+5. Write short notes on the following : 4×5=20 
+(a) Integration Testing 
+(b) Object Oriented Design 
+(c) Software Maintenance 
+(d) Designing Test Cases 
+× × × × ×
