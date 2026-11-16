@@ -1,0 +1,114 @@
+========================================================================
+IGNOU - TERM END EXAMINATION (TEE) - DECEMBER 2026
+HALL TICKET / ADMIT CARD
+Printed on: 09-11-2026 05:25 PM
+Source: ignou.samarth.edu.in (Term End Exam Hall Ticket)
+========================================================================
+
+STUDENT DETAILS
+------------------------------------------------------------------------
+Enrollment Number : 2451405498
+Programme Code     : BCA_NEW
+Programme Name     : Bachelor of Computer Applications
+Name of Student    : NIMESH BISHT
+
+EXAM CENTRE
+------------------------------------------------------------------------
+Centre Code        : 29049P
+Centre Name        : I.P ESTATE NEW DELHI-110002
+Address            : 29049P : I.P ESTATE NEW DELHI-110002
+                     INDIAN ADULT EDUCATION ASSOCIATION, 17-B, I.P ESTATE
+                     NEW DELHI, DELHI, NORTH, Delhi, India
+                     Pincode : 110002
+
+MODE OF EXAM
+------------------------------------------------------------------------
+Pen and Paper Test  (Mode of Exam: CBT / Pen & Paper -> Pen and Paper)
+
+========================================================================
+EXAM TIME TABLE
+========================================================================
+Date         Session         Course Code   Component   Schedule
+------------------------------------------------------------------------
+2026-12-03   Evening Slot    MCS202        THEORY      02:00 PM - 05:00 PM
+2026-12-04   Evening Slot    MCS203        THEORY      02:00 PM - 05:00 PM
+2026-12-08   Morning Slot    BCS42         THEORY      10:00 AM - 01:00 PM
+2026-12-09   Morning Slot    MSEI23        THEORY      10:00 AM - 01:00 PM
+2026-12-10   Morning Slot    BCS151        THEORY      10:00 AM - 01:00 PM
+2026-12-23   Evening Slot    BCOS184       THEORY      02:00 PM - 05:00 PM
+2026-12-26   Morning Slot    BCOC184       THEORY      10:00 AM - 01:00 PM
+------------------------------------------------------------------------
+
+Total papers: 7
+
+MORNING SLOTS (10:00 AM - 1:00 PM)
+  * 2026-12-08 (Tue)  BCS42     - Introduction to Algorithm Design
+  * 2026-12-09 (Wed)  MSEI23    - Cyber Security
+  * 2026-12-10 (Thu)  BCS151    - Introduction to Software Engineering
+  * 2026-12-26 (Sat)  BCOC184   - Data Analysis
+
+EVENING SLOTS (2:00 PM - 5:00 PM)
+  * 2026-12-03 (Thu)  MCS202    - Computer Organisation
+  * 2026-12-04 (Fri)  MCS203    - Operating Systems
+  * 2026-12-23 (Wed)  BCOS184   - E-Commerce
+
+========================================================================
+IMPORTANT NOTES (as printed on the hall ticket)
+========================================================================
+1. Note: - 1. The duration of examination is mentioned on the first
+   page of the question paper.
+
+2. At least 18 hours before the start of each exam you must download a
+   fresh hall ticket. This hall ticket is valid subject to the
+   conditions mentioned in the Para No.18.
+
+3. In case the photo of student is not visible in the hall ticket, you
+   are requested to paste your latest passport size photograph
+   yourself before appearing in December 2026 TEE.
+
+The dates for practical exam will be communicated separately by the
+concerned Regional Centre.
+
+FOR DECE LEARNERS - The Examination of the courses of DECE01, DECE02 &
+DECE03 will be OMR Based. All the DECE learners are allotted the
+Examination Centre only for conduct of DECE Exam. No change of
+Examination Centre will be entertained as Question Paper of DECE
+courses will not be available at any other Examination Centre other
+than mentioned in the Hall Ticket. DECE01, DECE02 and DECE03 courses
+are OMR based and there will be no descriptive type question paper.
+No request for change of exam centre/date for any reason will be
+entertained.
+
+IMPORTANT NOTE:
+  2026-DECEMBER-THEORY                 Page 1 of 4                 2451405498
+
+THE UNIVERSITY RESERVES THE RIGHT TO:
+1. Reschedule/cancel the examinations/papers at any time in all
+   Examination Centre across the country or in any particular
+   Examination Centre/State due to any exigency or any other reason.
+   In such cases, the decision of the University will be final and the
+   cancelled Paper/Exam will be conducted in the next Term-end
+   Examination and Exam fees will be adjusted accordingly; and
+
+2. The University will try to accommodate the students in the
+   examination centre opted by them. However, in case, the sitting
+   capacity at the centre has exhausted, student will be allowed the
+   nearest/alternate exam centre under the jurisdiction of the same
+   Regional Centre. The University reserves the right to shift the
+   students from one exam centre to another exam centre due to any
+   exigency/reason.
+
+========================================================================
+INSTRUCTIONS (transcribed from hall ticket footer)
+========================================================================
+Please read the following instructions carefully and follow them:
+1. Write your Enrollment Number and Name/Loan Number/code on the answer
+   sheet and the question paper (as applicable). If the enrollment
+   number is written incorrectly or is not written, the answer sheet
+   may not be evaluated / marks may not be awarded.
+
+========================================================================
+NOTE: This file is a manual transcription of the hall ticket screenshot.
+Always verify details against the original hall ticket PDF on
+ignou.samarth.edu.in before your exam. Photograph/QR code not included.
+========================================================================
