@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MCS-203 — Easy Notes: Linux, Windows, iOS, Android</title>
+<style>
+  :root{
+    --ink:#1f2937; --muted:#5b6572; --bg:#f7f8fa; --card:#ffffff;
+    --linux:#e8590c; --win:#2563eb; --ios:#7c3aed; --android:#15803d;
+    --line:#e5e7eb; --soft:#f1f5f9; --warn:#b45309;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;padding:26px 16px 80px;font-size:16px}
+  .wrap{max-width:980px;margin:0 auto}
+  header{text-align:center;margin-bottom:22px}
+  h1{font-size:1.9rem;line-height:1.25;letter-spacing:-.3px}
+  .sub{color:var(--muted);margin-top:8px;font-size:1rem}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-align:left;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .stat b{display:block;font-size:1.5rem}
+  .stat span{color:var(--muted);font-size:.85rem}
+  .nav{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 26px;justify-content:center}
+  .nav a{text-decoration:none;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:.9rem;color:var(--ink);font-weight:600}
+  .nav a:hover{border-color:#94a3b8}
+  #q{width:100%;padding:12px 16px;border:1px solid #cbd5e1;border-radius:10px;font-size:1rem;margin-bottom:24px}
+  h2{font-size:1.35rem;margin:38px 0 6px;padding-bottom:8px;border-bottom:3px solid var(--line)}
+  .linux{border-color:var(--linux)} .win{border-color:var(--win)} .ios{border-color:var(--ios)} .android{border-color:var(--android)}
+  h2.linux{color:var(--linux)} h2.win{color:var(--win)} h2.ios{color:var(--ios)} h2.android{color:var(--android)}
+  .lead{color:var(--muted);margin-bottom:16px;font-size:.95rem}
+  .card{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--line);border-radius:12px;padding:20px 22px;margin:16px 0;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+  .card.linux{border-left-color:var(--linux)} .card.win{border-left-color:var(--win)}
+  .card.ios{border-left-color:var(--ios)} .card.android{border-left-color:var(--android)}
+  .card.hidden{display:none}
+  .card h3{font-size:1.12rem;margin-bottom:4px}
+  .tag{display:inline-block;font-size:.75rem;font-weight:700;color:#fff;background:#334155;border-radius:6px;padding:2px 8px;margin-left:8px;vertical-align:middle}
+  .tag.big{background:#b91c1c}
+  .q{background:#fff7ed;border:1px solid #fed7aa;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:.93rem}
+  .q b{color:#9a3412}
+  .row{margin:14px 0}
+  .label{font-weight:700;font-size:.86rem;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);margin-bottom:4px}
+  .simple{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px 15px}
+  .def{background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:12px 15px}
+  .extra{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:12px 15px;font-size:.92rem}
+  .extra .label{color:var(--warn)}
+  ul{margin:8px 0 0 20px} li{margin:5px 0}
+  .diagram{background:#0f172a;color:#e2e8f0;border-radius:10px;padding:16px;font-family:Consolas,"Courier New",monospace;font-size:.83rem;line-height:1.45;overflow-x:auto;white-space:pre;margin:12px 0}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.92rem}
+  th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+  th{background:var(--soft);font-size:.85rem}
+  .note{font-size:.85rem;color:var(--muted);margin-top:10px}
+  .footer{margin-top:42px;text-align:center;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:18px}
+  .small{font-size:.9rem}
+  @media(max-width:600px){body{font-size:15px;padding:18px 12px 60px}.card{padding:16px}.diagram{font-size:.72rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>MCS-203 — The Easy Version</h1>
+  <p class="sub">Linux · Windows 10 · iOS · Android — the four things your one-shot skipped.<br>
+  Read the <b>simple explanation</b> first, then the <b>exam definition</b>. No jargon without an explanation.</p>
+</header>
+
+<div class="stats">
+  <div class="stat"><b>≈ 250</b><span>marks out of 700 across 7 papers</span></div>
+  <div class="stat"><b>7 / 7</b><span>papers have a Linux question</span></div>
+  <div class="stat"><b>35+</b><span>marks from this block per exam</span></div>
+  <div class="stat"><b>4</b><span>operating systems explained simply</span></div>
+</div>
+
+<div class="nav">
+  <a href="#linux">🐧 Linux</a>
+  <a href="#win">🪟 Windows</a>
+  <a href="#ios">🍎 iOS</a>
+  <a href="#android">🤖 Android</a>
+  <a href="#cheat">⚡ Quick revision</a>
+</div>
+
+<input id="q" type="text" placeholder="Type a word to filter, e.g. paging, kernel, sandbox, layers…">
+
+<!-- ================= QUESTIONS ================= -->
+<h2 style="border-color:#94a3b8">📋 What the exam actually asks</h2>
+<p class="lead">This is every question from these four topics in the last 7 papers. Same question = same answer you can reuse.</p>
+
+<div class="card" style="border-left-color:#64748b">
+<h3>🐧 Linux — asked in ALL 7 papers (85 marks)</h3>
+<ul class="small">
+<li><b>Jun 23 Q1(d) · 10M</b> — Draw Linux architecture.</li>
+<li><b>Jun 23 Q5(c) · 5M</b> — Short note: Linux security features.</li>
+<li><b>Dec 23 Q1(d) · 10M</b> — Linux security: user accounts, file permissions, encrypted storage, remote access.</li>
+<li><b>Dec 23 Q5(c) · 5M</b> — Windows vs Linux.</li>
+<li><b>Jun 24 Q4(b) · 10M</b> — Linux architecture, focus on the kernel and its parts.</li>
+<li><b>Dec 24 Q2(b) · 5M</b> — Main components of Linux (with diagram).</li>
+<li><b>Dec 24 Q5(a) · 5M</b> — Short note: Linux memory management.</li>
+<li><b>Jun 25 Q3(b) · 10M</b> — Linux memory management (with diagram).</li>
+<li><b>Jun 25 Q5(c) · 5M</b> — Short note: Linux security features <i>(same as Jun 23)</i>.</li>
+<li><b>Dec 25 Q5(d) · 5M</b> — Short note: Linux memory management.</li>
+<li><b>Jun 26 Q5(d) · 5M</b> — Short note: Linux kernel architecture.</li>
+<li><b>Jun 26 Q4(b) · 10M</b> — Choose Windows or Linux, give 5 reasons.</li>
+</ul>
+</div>
+
+<div class="card" style="border-left-color:#64748b">
+<h3>🪟 Windows 10 — 6 of 7 papers (60 marks)</h3>
+<ul class="small">
+<li><b>Jun 23 Q5(b) · 5M</b> — File system management in Windows 10.</li>
+<li><b>Dec 23 Q3(b) · 10M</b> — Process management and process scheduling in Windows 10.</li>
+<li><b>Dec 23 Q5(c) · 5M</b> — Windows vs Linux.</li>
+<li><b>Jun 24 Q1(d) · 10M</b> — Windows memory: (i) virtual memory organisation (ii) demand paging.</li>
+<li><b>Dec 24 Q2(a) · 5M</b> — Interprocess communication (IPC) in Windows 10.</li>
+<li><b>Dec 25 Q1(d) · 10M</b> — Process management in Windows 10.</li>
+<li><b>Dec 25 Q5(e) · 5M</b> — Features of Windows 10.</li>
+<li><b>Jun 26 Q4(b) · 10M</b> — Choose Windows or Linux, give 5 reasons.</li>
+</ul>
+<p class="note">Nothing from Windows in Jun 2025.</p>
+</div>
+
+<div class="card" style="border-left-color:#64748b">
+<h3>🍎 iOS — 6 of 7 papers (65 marks)</h3>
+<ul class="small">
+<li><b>Jun 23 Q3(a) · 10M</b> — Evolution of iOS + features of iOS.</li>
+<li><b>Jun 23 Q5(e) · 5M</b> — iOS directories and iCloud container.</li>
+<li><b>Dec 23 Q4(a) · 10M</b> — Evolution of iOS + features <i>(same question again)</i>.</li>
+<li><b>Jun 24 Q1(c) · 10M</b> — iOS layered architecture (block diagram + functions of layers).</li>
+<li><b>Dec 24 Q1(c) · 5M</b> — What is a mobile OS + features of iOS.</li>
+<li><b>Dec 24 Q5(d) · 5M</b> — Commonly used directories in iOS.</li>
+<li><b>Jun 25 Q1(d) · 10M</b> — Layered architecture of iOS (diagram).</li>
+<li><b>Dec 25 Q4(b) · 10M</b> — Complete iOS layered architecture + importance of each layer.</li>
+</ul>
+<p class="note">iOS layered architecture came 3 times in a row — highest priority diagram in this block.</p>
+</div>
+
+<div class="card" style="border-left-color:#64748b">
+<h3>🤖 Android — 6 of 7 papers (55 marks)</h3>
+<ul class="small">
+<li><b>Jun 23 Q5(d) · 5M</b> — Memory management in Android.</li>
+<li><b>Dec 23 Q4(b) · 10M</b> — Memory management in Android.</li>
+<li><b>Jun 24 Q2(a) · 10M</b> — File management and security in Android.</li>
+<li><b>Jun 24 Q5(iv) · 5M</b> — Libraries and Application Framework layers of Android.</li>
+<li><b>Dec 24 Q2(c) · 10M</b> — Layered architecture of Android (diagram).</li>
+<li><b>Jun 25 Q3(a) · 10M</b> — Foreground, Visible, Service, Background, Empty processes.</li>
+<li><b>Jun 26 Q5(b) · 5M</b> — Android Libraries.</li>
+</ul>
+<p class="note">Nothing from Android in Dec 2025.</p>
+</div>
+
+<!-- ================= LINUX ================= -->
+<h2 id="linux" class="linux">🐧 LINUX</h2>
+<p class="lead">Linux never misses an exam. Learn these four answers and you are safe in every paper.</p>
+
+<div class="card linux">
+<h3>1. What Linux is, and its architecture <span class="tag big">10 MARKS</span></h3>
+<div class="q"><b>Exam asks:</b> "With the help of a diagram, explain the fundamental architecture of Linux" / "Explain Linux architecture with special focus on the kernel and its components."</div>
+
+<div class="row simple">
+<div class="label">🧠 In simple words — the restaurant idea</div>
+Think of a restaurant. <b>Customers</b> sit in the dining area and order food. They are not allowed into the kitchen — they cannot touch the stove or the fridge. They give their order to a <b>waiter</b>, and the waiter carries it to the kitchen. The <b>kitchen staff</b> do the real work: cooking, storing, cleaning, and packing.
+<ul>
+<li><b>Dining area = user space</b> — your apps (browser, editor, games).</li>
+<li><b>Waiter = system call</b> — the only legal way to ask for a service.</li>
+<li><b>Kitchen = kernel</b> — the privileged part that actually controls the CPU, memory, disk and network.</li>
+</ul>
+Why keep them separate? So a badly behaved customer (a buggy app) cannot burn down the kitchen. If one app crashes, the whole computer does not die.
+</div>
+
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+Linux is a free, open-source operating system with a <b>monolithic kernel</b>. "Monolithic" means the main services — process management, memory management, file system, device drivers, networking and IPC — all live inside one privileged kernel program and talk to each other directly. Extra drivers can be added while the system is running using <b>Loadable Kernel Modules (LKMs)</b>.
+</div>
+
+<div class="row">
+<div class="label">🖼️ Diagram to draw (copy this)</div>
+<div class="diagram">  USER SPACE  — apps: browser, editor, shell, games
+  ┌────────────────────────────────────────────┐
+  │  Applications          System libraries    │
+  └───────────────┬────────────────────────────┘
+                  │  SYSTEM CALLS  (the waiter)
+  ┌───────────────▼────────────────────────────┐
+  │  KERNEL SPACE  (the kitchen — monolithic)  │
+  │  ┌──────────────┬───────────────────────┐  │
+  │  │ Processes    │ Memory                │  │
+  │  │ fork, exec,  │ virtual memory,       │  │
+  │  │ scheduler    │ paging, allocators    │  │
+  │  ├──────────────┼───────────────────────┤  │
+  │  │ File system  │ Network               │  │
+  │  │ VFS → ext4,  │ TCP/IP, sockets       │  │
+  │  │ procfs, NFS  │                       │  │
+  │  ├──────────────┼───────────────────────┤  │
+  │  │ IPC          │ Device drivers        │  │
+  │  │ pipes,       │ disk, keyboard, NIC   │  │
+  │  │ signals      │ (+ loadable modules)  │  │
+  │  └──────────────┴───────────────────────┘  │
+  └───────────────┬────────────────────────────┘
+                  │
+  ┌───────────────▼────────────────────────────┐
+  │  HARDWARE — CPU, RAM, disk, screen, etc.   │
+  └────────────────────────────────────────────┘</div>
+</div>
+
+<div class="row">
+<div class="label">✅ Six parts to name and explain (2 lines each)</div>
+<ul>
+<li><b>Process management</b> — creates and destroys processes (fork, exec, wait) and decides who runs next using the <b>CFS scheduler</b> (Completely Fair Scheduler = gives every process a fair share of CPU).</li>
+<li><b>Memory management</b> — gives each process its own virtual memory, moves pages between RAM and disk, and allocates space using the <b>buddy system</b> (big blocks) and <b>slab allocator</b> (small objects).</li>
+<li><b>File system / VFS</b> — one common interface so the same "open / read / write" commands work on ext4, NFS, USB drives, etc. In Linux, <i>everything is a file</i> — even devices and system information.</li>
+<li><b>Network stack</b> — the TCP/IP implementation and sockets used by browsers, servers, etc.</li>
+<li><b>IPC</b> — ways for processes to talk: pipes, signals, message queues, shared memory, sockets.</li>
+<li><b>Device drivers + LKMs</b> — small programs that know how to drive hardware; can be loaded or removed without rebooting.</li>
+</ul>
+</div>
+<div class="extra"><div class="label">⚑ Extra (not asked in 7 papers, but safe to know)</div>
+The boot chain: BIOS/UEFI → bootloader (GRUB) → kernel loads → <b>systemd</b> starts services. Also: <b>namespaces + cgroups</b> — the two Linux features that make Docker containers possible. Also <b>SELinux / AppArmor</b> for stronger security.</div>
+</div>
+
+<div class="card linux">
+<h3>2. Memory management in Linux <span class="tag big">10 MARKS</span></h3>
+<div class="q"><b>Exam asks:</b> "Explain memory management in Linux with the help of a diagram" and short notes worth 5 marks twice.</div>
+
+<div class="row simple">
+<div class="label">🧠 In simple words — the library idea</div>
+Imagine your computer's RAM is a <b>small library</b>, and your program thinks it has a <b>huge bookshelf of its own</b>. That huge bookshelf is <b>virtual memory</b> — it is an illusion given to the program. The books are <b>pages</b>. The library only fetches a book from the storeroom (the disk) <b>when you actually ask for it</b>. That is <b>demand paging</b>. If the library is full, it puts an old book back in the storeroom to make space — that is <b>page replacement / swapping</b>. The librarian's catalogue that says "book X is on shelf Y" is the <b>page table</b>.
+</div>
+
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+Linux uses <b>virtual memory with demand paging</b>. Every process gets its own private, contiguous virtual address space, divided into fixed-size <b>pages</b> (usually 4 KB). These virtual pages are mapped to physical <b>page frames</b> in RAM through multi-level <b>page tables</b>. A page is loaded from disk only when it is first needed — a <b>page fault</b> signals the kernel to bring it in.
+</div>
+
+<div class="row">
+<div class="label">✅ Steps to write (this is the answer)</div>
+<ul>
+<li><b>Address space</b> — each process sees its own address space (code, data, heap, stack). It cannot see another process's memory.</li>
+<li><b>Page tables + TLB</b> — virtual address → physical address, translated by the page table; the TLB is a small fast cache of recent translations.</li>
+<li><b>Demand paging</b> — a page is read from disk only when touched. A page-fault handler checks the address is valid, finds a free frame, loads the page, updates the table, and reruns the instruction.</li>
+<li><b>Getting free frames</b> — the <b>buddy allocator</b> manages big blocks of pages (powers of two); the <b>slab allocator</b> carves pages into small same-sized pieces for kernel objects.</li>
+<li><b>Swapping</b> — when RAM is low, less-used pages go to a swap area on disk.</li>
+<li><b>Overcommit and OOM killer</b> — Linux may promise more memory than it has; if it runs out, the <b>Out-Of-Memory killer</b> kills a process to save the system.</li>
+</ul>
+</div>
+<div class="extra"><div class="label">⚑ Extra</div>
+<b>Copy-on-write</b>: when Linux forks a process, both share the same pages until one writes to them — then a copy is made. <b>Page cache</b>: file data is kept in RAM to speed up later reads. Check memory with <code>free</code>, <code>vmstat</code>, <code>/proc/meminfo</code>.</div>
+</div>
+
+<div class="card linux">
+<h3>3. Security features in Linux <span class="tag big">10 MARKS</span></h3>
+<div class="q"><b>Exam asks:</b> "Discuss Linux security with respect to (i) User Accounts (ii) File Permissions (iii) Encrypted Storage (iv) Remote Access." The 10-mark question literally gives you the four headings — answer each separately. The 5-mark short note just needs all four named.</div>
+
+<div class="row simple">
+<div class="label">🧠 In simple words — a hotel</div>
+<b>User accounts</b> = the guest list at reception (who are you?). <b>File permissions</b> = the room key (which rooms can you open?). <b>Encrypted storage</b> = a safe (even if someone steals it, they cannot read the contents). <b>Remote access</b> = the secure intercom/front desk line (how you enter from outside, safely).
+</div>
+
+<div class="row">
+<div class="label">✅ The four headings — write one paragraph each</div>
+<ul>
+<li><b>(i) User accounts</b> — every user has a unique <b>UID</b> and belongs to groups (<b>GID</b>). <b>UID 0 is root</b>, the administrator with full power. <code>/etc/passwd</code> stores account details; <code>/etc/shadow</code> stores hashed passwords (only root can read it). Login uses <b>PAM</b>. Use <code>sudo</code> for admin work instead of staying logged in as root.</li>
+<li><b>(ii) File permissions</b> — three kinds of people: <b>owner / group / others</b>; three rights: <b>read (4), write (2), execute (1)</b>. So <code>rwxr-xr--</code> = 754. Commands: <code>chmod</code>, <code>chown</code>, <code>chgrp</code>, <code>umask</code>. Special bits: <b>SUID</b> (run with owner's rights — how <code>passwd</code> works), <b>SGID</b>, <b>sticky bit</b> (only the owner can delete from <code>/tmp</code>). ACLs gives finer control.</li>
+<li><b>(iii) Encrypted storage</b> — <b>LUKS / dm-crypt</b> encrypts a whole disk or partition; a passphrase unlocks the key. Data is unreadable if the disk is stolen. Also eCryptfs/fscrypt for individual folders, and encrypted swap. Downside: small speed cost, and losing the key means losing the data.</li>
+<li><b>(iv) Remote access</b> — <b>SSH</b> (port 22) gives encrypted remote login, replacing insecure Telnet. Use public-key authentication, disable root login, and add a firewall (<code>iptables</code>/<code>nftables</code>) and fail2ban. Files move with <code>scp</code>/<code>sftp</code>.</li>
+</ul>
+</div>
+<div class="extra"><div class="label">⚑ Extra</div><b>SELinux / AppArmor</b> — mandatory access control: even root is restricted by rules. Very likely extension question.</div>
+</div>
+
+<div class="card linux">
+<h3>4. Windows vs Linux — 5M note & 10M "choose one" <span class="tag">FREQUENT</span></h3>
+<div class="q"><b>Exam asks:</b> "Windows vs Linux" (Dec 2023) and "If you have to choose one between Windows 10 and Linux, give five reasons" (Jun 2026).</div>
+<table>
+<tr><th>Point</th><th>🐧 Linux</th><th>🪟 Windows 10</th></tr>
+<tr><td>Price</td><td>Free, open source</td><td>Paid licence</td></tr>
+<tr><td>Kernel</td><td>Monolithic, modules can be added</td><td>Hybrid (NT kernel + executive)</td></tr>
+<tr><td>Can you see the code?</td><td>Yes — anyone can inspect/fix it</td><td>No — closed source</td></tr>
+<tr><td>Security</td><td>UID/GID + rwx permissions, sudo, SELinux</td><td>UAC, ACLs, BitLocker, Defender</td></tr>
+<tr><td>Files</td><td>ext4/XFS, one <code>/</code> tree, "everything is a file"</td><td>NTFS, drive letters like C:\</td></tr>
+<tr><td>How you use it</td><td>Powerful command line (bash), package managers</td><td>Friendly GUI, PowerShell, installers</td></tr>
+<tr><td>Best at</td><td>Servers, cloud, programming, embedded</td><td>Office work, games, mainstream apps</td></tr>
+<tr><td>Updates</td><td>Fast, usually no reboot</td><td>Cumulative, often needs a reboot</td></tr>
+</table>
+<div class="row simple">
+<div class="label">🧠 If the question says "which one will you choose?"</div>
+Pick <b>one</b> and give 5 matching reasons. <b>For Linux:</b> free, open source (auditable), stable with long uptime, excellent command line and automation, low hardware needs and dominant on servers/cloud. <b>For Windows:</b> widest software availability, best hardware/peripheral support, easiest for beginners, Active Directory/office integration, best for gaming and vendor apps. Either answer scores if your five reasons are consistent.
+</div>
+</div>
+
+<!-- ================= WINDOWS ================= -->
+<h2 id="win" class="win">🪟 WINDOWS 10</h2>
+<p class="lead">Four answers cover everything asked about Windows.</p>
+
+<div class="card win">
+<h3>1. Process management and scheduling <span class="tag big">10 MARKS</span></h3>
+<div class="q"><b>Exam asks:</b> "Explain the process management and process scheduling in Windows-10" and "Explain in detail the process management in Windows 10."</div>
+
+<div class="row simple">
+<div class="label">🧠 In simple words — a factory</div>
+A <b>process</b> is like a <b>factory</b>: the building, the land, the electricity and the storeroom. A <b>thread</b> is a <b>worker</b> inside the factory. A factory with no workers produces nothing. Several workers can work in the same factory and share its tools (memory and files). The <b>scheduler</b> is the supervisor who decides which worker gets the machine next and for how long.
+</div>
+
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+A <b>process</b> is an object that owns the resources needed to run a program — a private virtual address space, an executable image, a handle table, and a security token. It contains one or more <b>threads</b>. A <b>thread</b> is the unit the scheduler actually runs; it has its own stack and registers but shares the process's address space and handles.
+</div>
+
+<div class="row">
+<div class="label">✅ What to write</div>
+<ul>
+<li><b>Process creation</b> — CreateProcess() → the kernel builds a process object, a virtual address space and a first thread, then loads the EXE and its DLLs.</li>
+<li><b>States</b> — ready → running → waiting (blocked) → terminated.</li>
+<li><b>Scheduling is preemptive and priority-based</b> — every thread has a priority from <b>0 to 31</b>. Priorities 0–15 are normal (changeable), 16–31 are real-time (fixed).</li>
+<li><b>Priority classes</b> — idle, low, below normal, normal, above normal, high, real-time. A thread also gets temporary <b>boosts</b> (e.g. you click the window, or an I/O finishes) so the system feels responsive. The boost slowly fades — this is the "feedback" idea.</li>
+<li><b>Time quantum + round robin</b> — a thread runs for a short slice of time; when it expires it goes to the back of its queue and the next runnable thread runs. This is called <b>round robin with multilevel feedback queues</b>.</li>
+<li><b>Multiprocessor support</b> — threads can run on different CPU cores; <b>affinity</b> can pin them to a core.</li>
+</ul>
+</div>
+<div class="extra"><div class="label">⚑ Extra</div>Fibers (user-mode threads), job objects (manage a group of processes), I/O completion ports, DLLs, the Win32 API, and the Windows service model.</div>
+</div>
+
+<div class="card win">
+<h3>2. Memory management in Windows <span class="tag big">10 MARKS</span></h3>
+<div class="q"><b>Exam asks (two named halves):</b> "(i) Virtual Memory Organization (ii) Demand Paging" — answer both halves separately.</div>
+
+<div class="row simple">
+<div class="label">🧠 In simple words — a desk with a drawer</div>
+Your <b>desk = RAM</b> (small but fast). A <b>large filing cabinet = the disk</b> (huge but slow). Windows gives every program a <b>fake big desk</b> called virtual memory. When the program asks for something not on the desk, Windows fetches it from the cabinet (<b>page fault</b>). If the desk is full, it moves an old paper into the cabinet to make room. The <b>working set</b> is simply the pile of papers currently on your desk.
+</div>
+
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+Windows gives each process a private, contiguous <b>virtual address space</b> backed by physical RAM and a <b>paging file</b> (<code>PAGEFILE.SYS</code>) on disk. <b>Demand paging</b> means a page is loaded into RAM only when it is first accessed; a page fault tells the memory manager to fetch it.
+</div>
+
+<div class="row">
+<div class="label">✅ Part (i) — Virtual memory organisation</div>
+<ul>
+<li>Each process gets its own address space, so no process can corrupt another.</li>
+<li>On 32-bit Windows: <b>2 GB for programs + 2 GB for the OS</b> (or 3 GB + 1 GB with a special switch). On 64-bit: enormously more.</li>
+<li>Space is divided into <b>free, reserved and committed</b> regions using VirtualAlloc()/VirtualFree().</li>
+<li>Page tables map virtual pages to physical frames or to a copy in the paging file.</li>
+<li>Benefits: isolation, more address space than RAM, memory-mapped files, sharing DLLs between processes.</li>
+</ul>
+</div>
+<div class="row">
+<div class="label">✅ Part (ii) — Demand paging</div>
+<ul>
+<li>Only the pages actually used are brought into RAM → less RAM wasted, faster start-up.</li>
+<li>Referencing a missing page causes a <b>page fault</b>. The OS checks the address is legal, finds a free frame (evicting an old page if needed), reads the page from disk, updates the page table, and restarts the instruction.</li>
+<li><b>Working set</b> = pages currently in RAM for a process; the OS trims it when memory is tight.</li>
+<li><b>Soft fault</b> = page is in RAM but not mapped for this process (cheap). <b>Hard fault</b> = must read disk (slow).</li>
+<li><b>DEP</b> (Data Execution Prevention) marks pages non-executable as a security measure.</li>
+</ul>
+</div>
+<div class="extra"><div class="label">⚑ Extra</div>ASLR (randomising memory layout), PAE (32-bit Windows using more than 4 GB RAM), NUMA, large pages, and Windows 10's memory compression (compress pages in RAM instead of immediately writing to disk).</div>
+</div>
+
+<div class="card win">
+<h3>3. Interprocess communication (IPC) <span class="tag">5 MARKS</span></h3>
+<div class="q"><b>Exam asks:</b> "What is Interprocess communication? Explain how it is performed in Windows-10."</div>
+<div class="row simple">
+<div class="label">🧠 In simple words</div>
+IPC is just <b>how two programs talk to each other</b>. Two ways: <b>pass a note</b> (messages — pipes, sockets, mailslots) or <b>share a whiteboard</b> (shared memory — memory-mapped files, fastest for big data). Windows also has special "system-only" ways like ALPC.
+</div>
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+Interprocess communication is the set of mechanisms that allow two processes to exchange data or synchronise their actions. Windows supports both message-passing and shared-memory IPC through kernel objects accessed by handles.
+</div>
+<div class="row">
+<div class="label">✅ Name 5–6 with one line each</div>
+<ul>
+<li><b>Pipes</b> — a byte stream between processes; <b>named pipes</b> also work across a network (client–server).</li>
+<li><b>Mailslots</b> — one-way short messages, broadcast style.</li>
+<li><b>Memory-mapped files</b> — two processes map the same file into their memory → fastest way to share large amounts of data.</li>
+<li><b>COM</b> (Component Object Model) — a standard way for software components to call each other, even on another machine (DCOM).</li>
+<li><b>RPC / ALPC</b> — call a function in another process as if it were local; ALPC is the fast local version used by Windows services.</li>
+<li><b>Sockets (Winsock)</b> — TCP/IP communication, usually across machines.</li>
+<li><b>Clipboard, Windows messages/WM_COPYDATA, DDE</b> — for GUI applications.</li>
+<li><b>Synchronisation objects</b> — mutex, semaphore, event, critical section — these coordinate rather than carry data.</li>
+</ul>
+</div>
+</div>
+
+<div class="card win">
+<h3>4. File system + features of Windows 10 <span class="tag">5 MARKS EACH</span></h3>
+<div class="q"><b>Exam asks:</b> "File system management in Windows 10" (Jun 23) and "Features of Windows 10" (Dec 25).</div>
+<div class="row simple">
+<div class="label">🧠 In simple words — the filing cabinet</div>
+A file system is <b>how the computer organises files on the disk</b>: where each file is stored, how to find it, who is allowed to read it, and how to recover if the power fails. NTFS is Windows' filing system — a well-organised cabinet with an index (the <b>MFT</b>), a log book (<b>journaling</b>) and locks on drawers (<b>permissions</b>).
+</div>
+<div class="row">
+<div class="label">✅ File system — points to write</div>
+<ul>
+<li><b>NTFS</b> is the main Windows file system; older ones are FAT32 and exFAT (used on USB sticks).</li>
+<li><b>MFT (Master File Table)</b> — a database-like table; every file and folder has a record in it.</li>
+<li><b>Journaling</b> — changes are logged first, so the disk can recover after a crash.</li>
+<li><b>Security</b> — per-file/folder ACLs (access control lists); <b>EFS</b> encrypts files; <b>BitLocker</b> encrypts the whole drive.</li>
+<li>Also supports compression, disk quotas, hard/symbolic links and large drives.</li>
+<li><b>Allocation methods</b> — contiguous (fast but wasteful) vs non-contiguous: FAT uses a linked list of blocks; NTFS uses extents and indexes for fast access.</li>
+</ul>
+</div>
+<div class="row">
+<div class="label">✅ Features — write 6 bullets</div>
+<ul>
+<li><b>UWP</b> — one app can run on PC, tablet, phone and Xbox.</li>
+<li><b>Start menu, Taskbar, Action Center, virtual desktops, Snap</b> layouts.</li>
+<li><b>Cortana</b> voice assistant and <b>Windows Hello</b> face/fingerprint login.</li>
+<li><b>Security</b> — UAC, Windows Defender, BitLocker, Secure Boot + TPM.</li>
+<li><b>Virtualisation</b> — Hyper-V, WSL (run Linux inside Windows), containers.</li>
+<li><b>Cloud</b> — OneDrive sync, cloud clipboard; automatic Windows Update.</li>
+</ul>
+</div>
+</div>
+
+<!-- ================= iOS ================= -->
+<h2 id="ios" class="ios">🍎 iOS</h2>
+<p class="lead">Memorise one diagram (4 layers), one timeline, and one list of folders. That is the whole topic.</p>
+
+<div class="card ios">
+<h3>1. Evolution of iOS + features <span class="tag big">10 MARKS</span></h3>
+<div class="q"><b>Exam asks:</b> "Describe the evolution of iOS. Also discuss the features of iOS." This exact question appeared twice (Jun 23 and Dec 23).</div>
+<div class="row simple">
+<div class="label">🧠 In simple words</div>
+iOS started in 2007 as the operating system of the first iPhone. It had no App Store at first. Apple added the App Store in 2008, then copying/pasting, then multitasking, then iCloud, then a completely new look in iOS 7, and later things like face recognition, augmented reality and home-screen widgets. It grew from a simple phone OS into a full mobile platform.
+</div>
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+iOS is Apple's mobile operating system for iPhone and iPad. It is a Unix-like system built on the <b>XNU kernel</b> (a mix of the Mach microkernel and BSD). It evolved from "iPhone OS 1" in 2007 into today's iOS with an app sandbox, App Store, multitasking, cloud sync and strong security.
+</div>
+<div class="row">
+<div class="label">✅ Timeline — learn the big six milestones</div>
+<table>
+<tr><th>Year</th><th>Version</th><th>What was new</th></tr>
+<tr><td>2007</td><td>iPhone OS 1</td><td>First iPhone, multi-touch screen</td></tr>
+<tr><td>2008</td><td>iPhone OS 2</td><td><b>App Store</b> and push notifications</td></tr>
+<tr><td>2010</td><td>iOS 4</td><td><b>Multitasking</b>, folders, wallpapers, FaceTime</td></tr>
+<tr><td>2011</td><td>iOS 5</td><td><b>iCloud</b>, Notification Center, over-the-air updates, iMessage</td></tr>
+<tr><td>2013</td><td>iOS 7</td><td>Flat new design, Control Center, AirDrop</td></tr>
+<tr><td>2014–2018</td><td>iOS 8–12</td><td>Extensions, Continuity, Split View, <b>ARKit + Core ML</b>, Screen Time</td></tr>
+<tr><td>2019+</td><td>iOS 13–18</td><td>Dark Mode, widgets, App Library, Focus modes, custom lock screen</td></tr>
+</table>
+</div>
+<div class="row">
+<div class="label">✅ Features — write 6–8 bullets</div>
+<ul>
+<li><b>Multi-touch</b> interface with gestures (tap, swipe, pinch).</li>
+<li><b>App Store</b> — apps are checked and signed before distribution.</li>
+<li><b>Sandbox</b> — apps are isolated, one app cannot read another's data.</li>
+<li><b>Multitasking</b> — switch apps, run limited tasks in background, Split View on iPad.</li>
+<li><b>Notification Center + Control Center + widgets.</b></li>
+<li><b>iCloud</b> — sync photos, contacts, documents; backups and "Find my iPhone".</li>
+<li><b>Siri</b> voice assistant; <b>Touch ID / Face ID</b> biometrics.</li>
+<li><b>Continuity</b> — AirDrop, Handoff, Universal Clipboard with other Apple devices.</li>
+<li><b>Security</b> — encrypted keychain, Secure Enclave, data protection classes.</li>
+</ul>
+</div>
+</div>
+
+<div class="card ios">
+<h3>2. iOS layered architecture <span class="tag big">10 MARKS — 3 TIMES IN A ROW</span></h3>
+<div class="q"><b>Exam asks:</b> "With a block diagram, explain the iOS-layered architecture with essential functions of all the layers." Asked Jun 2024, Jun 2025, Dec 2025.</div>
+<div class="row simple">
+<div class="label">🧠 In simple words — a building with 4 floors</div>
+Think of iOS as a <b>building</b>. The <b>top floor</b> is what you see and touch — buttons, screens, gestures. The <b>bottom floor (basement)</b> is the machinery — electricity, water, the boiler. The middle floors turn the basement's raw services into something the top floor can use. If the top floor needs music, it asks the floor below; that floor asks the one below it, and so on. Each floor only talks to the floor directly under it.
+</div>
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+iOS is organised into <b>four layers</b>: Cocoa Touch, Media, Core Services and Core OS. Each layer provides services to the layer above it and hides its own complexity. This makes apps easier to build, more consistent and more secure.
+</div>
+<div class="row">
+<div class="label">🖼️ Diagram to draw — copy this exactly</div>
+<div class="diagram">┌──────────────────────────────────────────────────────────┐
+│ 1. COCOA TOUCH LAYER      ← what the user sees & touches │
+│ UIKit · Foundation · GameKit · MapKit · EventKit          │
+│ PushKit · UserNotifications · Handoff                     │
+│ → buttons, gestures, screens, multitasking, notifications │
+├──────────────────────────────────────────────────────────┤
+│ 2. MEDIA LAYER            ← all pictures, sound & video  │
+│ Core Graphics · Core Animation · Metal / OpenGL ES       │
+│ Core Image · AVFoundation · Core Audio · Image I/O       │
+│ → drawing, animation, 3-D graphics, audio, video         │
+├──────────────────────────────────────────────────────────┤
+│ 3. CORE SERVICES LAYER    ← data & background services   │
+│ Foundation · Core Data · Core Location · CFNetwork       │
+│ SQLite · Address Book/Contacts · SystemConfiguration     │
+│ → storing data, networking, location, preferences        │
+├──────────────────────────────────────────────────────────┤
+│ 4. CORE OS LAYER          ← the foundations              │
+│ XNU kernel (Mach + BSD) · libSystem · GCD · Keychain     │
+│ Security/sandbox · I/O Kit drivers · BSD sockets         │
+│ virtual memory · file system · power management          │
+│ → processes, memory, drivers, networking, security       │
+├──────────────────────────────────────────────────────────┤
+│ HARDWARE — chip, GPU, storage, sensors, radios           │
+└──────────────────────────────────────────────────────────┘</div>
+</div>
+<div class="row">
+<div class="label">✅ One "significance" line per layer</div>
+<ul>
+<li><b>Cocoa Touch</b> — everything the user touches: UI controls, gestures, push notifications, app life cycle.</li>
+<li><b>Media</b> — all graphics, animation, audio and video.</li>
+<li><b>Core Services</b> — data storage, networking, location, contacts — the non-visual services.</li>
+<li><b>Core OS</b> — the base: kernel, memory, processes, device drivers, network stack, security.</li>
+</ul>
+</div>
+<div class="extra"><div class="label">⚑ Extra</div><b>XNU</b> = hybrid kernel: Mach handles processes, threads, IPC and virtual memory; BSD handles POSIX, sockets and file systems. <b>GCD</b> (Grand Central Dispatch) makes it easy to run work on multiple cores. iOS uses <b>APFS</b> with snapshots and encryption.</div>
+</div>
+
+<div class="card ios">
+<h3>3. iOS directories and iCloud container <span class="tag">5 MARKS</span></h3>
+<div class="q"><b>Exam asks:</b> "iOS directories and iCloud container of iOS" / "Some of the commonly used directories in iOS."</div>
+<div class="row simple">
+<div class="label">🧠 In simple words</div>
+Each app gets its <b>own locked apartment</b> (a sandbox). Inside that apartment there are different rooms: a <b>bedroom for important documents</b> (Documents), a <b>cupboard for settings</b> (Library/Preferences), a <b>rubbish bin</b> (tmp), and a <b>storage box that gets emptied</b> (Caches). Some rooms are backed up to iCloud; some are not. On top of that there is a <b>shared cloud locker</b> (the iCloud container) where the same app on your iPhone and iPad can keep data in sync.
+</div>
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+iOS uses a <b>sandbox</b>: every app lives in its own container directory and cannot read another app's files. Inside the container, standard subdirectories separate user documents, preferences, caches and temporary files. An <b>iCloud container</b> is a special ubiquity area whose contents are synchronised across the user's devices through iCloud.
+</div>
+<div class="row">
+<div class="label">✅ The folders to name</div>
+<table>
+<tr><th>Folder</th><th>What goes there</th><th>Backed up?</th></tr>
+<tr><td><b>Documents/</b></td><td>User-created documents, files the app makes</td><td><b>Yes</b> — iCloud/iTunes</td></tr>
+<tr><td><b>Library/Preferences/</b></td><td>App settings (NSUserDefaults plists)</td><td>Yes</td></tr>
+<tr><td><b>Library/Caches/</b></td><td>Data that can be downloaded again</td><td><b>No</b></td></tr>
+<tr><td><b>Library/Application Support/</b></td><td>App support data (not user documents)</td><td>Yes</td></tr>
+<tr><td><b>tmp/</b></td><td>Temporary scratch files; OS clears them</td><td><b>No</b></td></tr>
+<tr><td><b>AppName.app</b></td><td>The signed app bundle — code and resources, <b>read-only</b></td><td>Part of the app</td></tr>
+</table>
+</div>
+<div class="row">
+<div class="label">✅ iCloud container — 3 lines</div>
+<ul>
+<li>A special area named <code>iCloud.&lt;teamID&gt;.&lt;bundleID&gt;</code> for data that must appear on all the user's devices.</li>
+<li>Accessed with <code>FileManager.url(forUbiquityContainerIdentifier:)</code>; files are coordinated with <code>NSFileCoordinator</code>.</li>
+<li>Related services: <b>CloudKit</b> (structured data in iCloud), iCloud key-value store (small settings), iCloud backup (whole device).</li>
+</ul>
+</div>
+<div class="extra"><div class="label">⚑ Extra</div>App Groups let related apps share one container. Files have <b>data protection classes</b> — some are only readable while the phone is unlocked.</div>
+</div>
+
+<!-- ================= ANDROID ================= -->
+<h2 id="android" class="android">🤖 ANDROID</h2>
+
+<div class="card android">
+<h3>1. Layered architecture of Android <span class="tag big">10 MARKS</span></h3>
+<div class="q"><b>Exam asks:</b> "Discuss the layered architecture of Android OS with the help of a diagram." Also short notes on "Libraries and Application Framework Layers" and "Android Libraries."</div>
+<div class="row simple">
+<div class="label">🧠 In simple words — a mobile phone company</div>
+Android is built like a <b>company with 5 departments</b>, stacked from the boss down to the workers:
+<ul>
+<li>The <b>Apps</b> are the customers facing staff (what you see).</li>
+<li>The <b>Application Framework</b> is the help desk giving apps ready-made services (notifications, windows, location).</li>
+<li>The <b>Libraries + runtime</b> are the specialist teams (graphics, database, video, and the engine that runs apps).</li>
+<li>The <b>HAL</b> is the translator who converts a generic request into a command for a specific camera or sensor.</li>
+<li>The <b>Linux kernel</b> is the building itself — power, security, transport, and the doors to the hardware.</li>
+</ul>
+The translator (HAL) is the clever bit: an app asks for "a photo" and does not need to know which camera chip is installed.
+</div>
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+Android has a <b>five-layer software stack</b>: Applications, Application Framework, Libraries + Android Runtime, Hardware Abstraction Layer (HAL), and the Linux Kernel. Each layer uses the services of the layer below. The Linux kernel handles hardware, processes, memory, security and networking; the HAL lets the upper layers work with any hardware.
+</div>
+<div class="row">
+<div class="label">🖼️ Diagram to draw</div>
+<div class="diagram">┌──────────────────────────────────────────────────────────┐
+│ 5. APPLICATIONS                                          │
+│ Home, Phone, Contacts, Browser, your apps                │
+├──────────────────────────────────────────────────────────┤
+│ 4. APPLICATION FRAMEWORK      ← ready-made app services  │
+│ Activity Mgr · Window Mgr · Package Mgr · Resource Mgr   │
+│ Notification Mgr · View System · Location/Sensor/        │
+│ Telephony Mgr · Content Providers (share data)           │
+├──────────────────────────────────────────────────────────┤
+│ 3. LIBRARIES + ANDROID RUNTIME (ART)                     │
+│ Surface Mgr (screen) · Media Framework · SQLite (DB)     │
+│ OpenGL ES/Vulkan (3-D) · FreeType (fonts) · WebKit       │
+│ SSL · Bionic libc · ART/Dalvik VM + core libraries       │
+├──────────────────────────────────────────────────────────┤
+│ 2. HARDWARE ABSTRACTION LAYER (HAL)   ← the translator   │
+│ Camera · GPS · Audio · Bluetooth · Wi-Fi · Sensors       │
+├──────────────────────────────────────────────────────────┤
+│ 1. LINUX KERNEL                    ← the foundation      │
+│ processes · memory · drivers · network · power · SELinux │
+│ Binder IPC (fast internal messaging)                     │
+├──────────────────────────────────────────────────────────┤
+│ HARDWARE — chip, screen, camera, radio, battery          │
+└──────────────────────────────────────────────────────────┘</div>
+</div>
+<div class="row">
+<div class="label">✅ Libraries short note (just name and group them)</div>
+<ul>
+<li><b>Graphics:</b> Surface Manager, OpenGL ES / Vulkan, SGL, FreeType.</li>
+<li><b>Media:</b> Media Framework (audio/video recording and playback).</li>
+<li><b>Data:</b> SQLite (database), Bionic libc (C library).</li>
+<li><b>Web & security:</b> WebKit/Chromium, SSL.</li>
+<li><b>Runtime:</b> ART / Dalvik VM plus the core Android/Java libraries — this is what actually executes your app.</li>
+</ul>
+</div>
+<div class="extra"><div class="label">⚑ Extra</div><b>Dalvik</b> used to translate app bytecode while running (JIT). <b>ART</b> compiles it ahead of time (AOT) so apps start faster. <b>Binder</b> is the fast IPC used by all Android system services. <b>Zygote</b> is a pre-started process that Android copies to launch new apps quickly.</div>
+</div>
+
+<div class="card android">
+<h3>2. Memory management in Android <span class="tag big">10 MARKS</span></h3>
+<div class="q"><b>Exam asks:</b> "Explain the memory management in Android operating system" and a 5-mark short note.</div>
+<div class="row simple">
+<div class="label">🧠 In simple words — a small shop with a bouncer</div>
+A phone has limited RAM. Android does <b>not</b> use a big disk swap like a PC (flash memory is slow to write). Instead it acts like a <b>shop with a bouncer</b>: it keeps the <b>customer you are dealing with right now</b> (the foreground app) at the counter, and when space runs out it <b>throws out the people who are just hanging around</b> (background and empty apps). The bouncer uses a <b>priority list</b> — the more important the app, the later it gets thrown out. That list is exactly the "five process types" question.
+</div>
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+Android uses Linux virtual memory and per-process address spaces, but instead of traditional swap it uses the <b>Low Memory Killer (lmkd)</b>. Every process gets an importance score (<code>oom_adj</code>); when free memory falls below a threshold the kernel kills the least important processes first. Compressed RAM (<b>zRAM</b>) and KSM are used instead of disk swap.
+</div>
+<div class="row">
+<div class="label">✅ Points to write</div>
+<ul>
+<li><b>Per-process heap</b> — each app gets its own virtual address space and its own heap; the <b>ART garbage collector</b> frees unused objects automatically.</li>
+<li><b>No traditional swap</b> — flash storage is slow and wears out, so Android uses <b>zRAM</b> (compress pages in RAM) and <b>KSM</b> (merge identical pages).</li>
+<li><b>Low Memory Killer</b> — monitors free memory; kills processes with the worst (highest) <code>oom_adj</code> score, i.e. the least important ones.</li>
+<li><b>Importance hierarchy</b> — foreground → visible → service → background → empty. Killed from the bottom upwards.</li>
+<li><b>Warnings to apps</b> — <code>onLowMemory()</code> / <code>onTrimMemory()</code> let an app release caches before it is killed.</li>
+<li><b>Sharing</b> — framework code and resources are shared between processes (copy-on-write from Zygote) to save RAM.</li>
+<li><b>Measuring</b> — PSS (Proportional Set Size) counts shared pages fairly; check with <code>dumpsys meminfo</code>.</li>
+</ul>
+</div>
+</div>
+
+<div class="card android">
+<h3>3. The five Android process types <span class="tag big">10 MARKS</span></h3>
+<div class="q"><b>Exam asks:</b> "Discuss the following processes in Android mobile operating system: Foreground, Visible, Service, Background, Empty." (Jun 2025)</div>
+<div class="row simple">
+<div class="label">🧠 In simple words — a cinema</div>
+<b>Foreground</b> = the person actually watching the film (you are using the app right now). <b>Visible</b> = someone in the row in front whose head you can still see (you can still see the app, but it is not active). <b>Service</b> = the projector operator — you cannot see them, but music/light keeps running. <b>Background</b> = people waiting in the lobby. <b>Empty</b> = an empty seat kept free in case someone comes back. If the cinema gets too full, it throws out the empty seats and lobby people first, and never the person watching the film.
+</div>
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+Android ranks every process by importance. The <b>Low Memory Killer</b> uses this ranking to decide which process to kill when RAM is low — least important first — so that the user's current experience is never interrupted.
+</div>
+<table>
+<tr><th>Type</th><th>When it is in this state</th><th>Killed?</th></tr>
+<tr><td><b>1. Foreground</b></td><td>You are using its screen, or a service with a notification is running, or a broadcast receiver is executing</td><td>Last resort only</td></tr>
+<tr><td><b>2. Visible</b></td><td>Its screen is still on display (e.g. behind a dialog), though you cannot interact with it</td><td>Almost never</td></tr>
+<tr><td><b>3. Service</b></td><td>A started service with no visible UI — music, downloads, sync</td><td>Only if needed for the above</td></tr>
+<tr><td><b>4. Background</b></td><td>Its activity is stopped and hidden; another app is on top</td><td><b>Early</b> — first to go under pressure</td></tr>
+<tr><td><b>5. Empty</b></td><td>No active components at all; kept only in a cache for a faster restart</td><td><b>First</b> — no reason to keep it</td></tr>
+</table>
+<p class="note">Add one line: Android keeps background apps in an LRU (least recently used) list and kills from the bottom of this hierarchy upward.</p>
+</div>
+
+<div class="card android">
+<h3>4. File management and security in Android <span class="tag big">10 MARKS</span></h3>
+<div class="q"><b>Exam asks:</b> "Discuss the file management and security features in Android operating system."</div>
+<div class="row simple">
+<div class="label">🧠 In simple words — a gated apartment block</div>
+Each app is a <b>separate apartment with its own key</b> (a unique Linux user ID). It cannot enter any other apartment. Android's security is a stack of locks: the apartment door (sandbox), the guest list (permissions), the security guard (SELinux), the seal on the package (app signing), and the alarm system (verified boot and encryption).
+</div>
+<div class="row def">
+<div class="label">📝 Definition to write in the exam</div>
+Android's security is based on a <b>per-app sandbox</b>: each application runs as a different Linux UID in its own process, with its own private data directory. Additional layers are the permissions model, SELinux mandatory access control, application signing, verified boot and device encryption.
+</div>
+<div class="row">
+<div class="label">✅ File management — write these</div>
+<ul>
+<li>Linux-style file system: <b>/system</b> (the OS, read-only), <b>/data</b> (apps and user data), <b>/sdcard</b> (shared/external storage), <b>/cache</b>, <b>/boot</b>. Common file systems: ext4, F2FS.</li>
+<li>Each app's private folder: <code>/data/data/&lt;package-name&gt;/</code> with <code>files/</code>, <code>cache/</code>, <code>databases/</code> (SQLite), <code>shared_prefs/</code>.</li>
+<li>Apps share data through <b>Content Providers</b> with controlled URI permissions, not by reading each other's folders.</li>
+</ul>
+</div>
+<div class="row">
+<div class="label">✅ Security — write 6–8 bullets</div>
+<ul>
+<li><b>Sandbox + unique UID</b> — apps are isolated; one cannot read another's memory or files.</li>
+<li><b>Permissions</b> — declared in <code>AndroidManifest.xml</code>; <b>dangerous</b> permissions (camera, contacts, location) must be granted by the user at <b>runtime</b> on Android 6+. Levels: normal, dangerous, signature.</li>
+<li><b>SELinux</b> — mandatory access control enforced since Android 5.0; restricts even privileged processes.</li>
+<li><b>App signing</b> — every APK is signed with a developer certificate to prove identity and integrity.</li>
+<li><b>Verified Boot / dm-verity</b> — checks at startup that the OS has not been tampered with.</li>
+<li><b>Keystore</b> — cryptographic keys stored in hardware-backed secure storage; non-exportable.</li>
+<li><b>Encryption</b> — full-disk (FDE) or modern file-based encryption (FBE) with Direct Boot.</li>
+<li><b>Network</b> — TLS by default; cleartext traffic restricted.</li>
+</ul>
+</div>
+<div class="extra"><div class="label">⚑ Extra</div>Android's four components — <b>Activity, Service, Broadcast Receiver, Content Provider</b> — and the <b>Intent</b> that connects them. Project Treble, ADB, Android version names, Play Protect.</div>
+</div>
+
+<!-- ================= CHEAT ================= -->
+<h2 id="cheat">⚡ Quick revision — one line per answer</h2>
+<div class="card" style="border-left-color:#0f172a">
+<ul class="small">
+<li><b>Linux architecture</b> — free, open-source, monolithic kernel; apps → system calls → kernel (processes, memory, VFS, network, IPC, drivers) → hardware.</li>
+<li><b>Linux memory</b> — virtual memory + demand paging; page tables, page faults, buddy + slab allocators, swap, OOM killer.</li>
+<li><b>Linux security</b> — user accounts (UID/root/passwd-shadow), file permissions (rwx 754, SUID/sticky), encrypted storage (LUKS), remote access (SSH).</li>
+<li><b>Windows processes</b> — process = resource container, thread = schedulable worker; 32 priorities, round robin + boosts.</li>
+<li><b>Windows memory</b> — private virtual address space + pagefile; demand paging, working set, soft/hard faults, DEP.</li>
+<li><b>Windows IPC</b> — pipes, mailslots, memory-mapped files, COM, RPC/ALPC, sockets, clipboard, sync objects.</li>
+<li><b>Windows files</b> — NTFS: MFT, journaling, ACLs, EFS/BitLocker, compression, quotas, links.</li>
+<li><b>iOS evolution</b> — 2007 OS1 → 2008 App Store → 2010 multitasking → 2011 iCloud → 2013 flat design → 2017 AR/ML → widgets.</li>
+<li><b>iOS layers</b> — Cocoa Touch (UI) → Media (graphics/audio/video) → Core Services (data/network) → Core OS (kernel/drivers/security).</li>
+<li><b>iOS folders</b> — Documents (backed up), Preferences (backed up), Caches/tmp (not), app bundle (read-only), iCloud container (synced).</li>
+<li><b>Android layers</b> — Apps → Framework → Libraries+ART → HAL → Linux Kernel (Binder IPC).</li>
+<li><b>Android memory</b> — no swap; Low Memory Killer + oom_adj, zRAM/KSM, GC, onTrimMemory, PSS.</li>
+<li><b>5 process types</b> — Foreground (keep at all costs) → Visible → Service → Background → Empty (killed first).</li>
+<li><b>Android security</b> — UID sandbox, runtime permissions, SELinux, signing, verified boot, keystore, FBE encryption.</li>
+</ul>
+</div>
+
+<p class="footer">From the verified 7-paper PYQ text. Sections marked ⚑ go beyond the 7 papers — read them once, don't memorise them.</p>
+
+</div>
+<script>
+  const input = document.getElementById('q');
+  const cards = [...document.querySelectorAll('.card')];
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    cards.forEach(c => c.classList.toggle('hidden', !!q && !c.textContent.toLowerCase().includes(q)));
+  });
+</script>
+</body>
+</html>
