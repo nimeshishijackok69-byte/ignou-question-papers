@@ -1,0 +1,486 @@
+================================================================================
+BCS-151 / BCS-051 - INTRODUCTION TO SOFTWARE ENGINEERING
+ROI ANALYSIS OF TOPICS (BASED ENTIRELY ON PREVIOUS YEAR QUESTIONS)
+================================================================================
+
+Scope      : 10 official TEE papers - June 2021 to June 2026 (every paper in this repo)
+Papers     : J21, D21, J22, D22, J23, D23, J24, J25, D25, J26
+Exam       : 100 marks. Q1 (40 marks) COMPULSORY. Attempt any 3 of Q2-Q5 (60 marks).
+             Final weightage: 75% (exam = 75 of course marks).
+Method     : Every question in all 10 papers was mapped to a topic and scored.
+             ROI = how often a topic is asked x how many marks it carries x how
+             little preparation it needs. No speculation - only what was asked.
+
+--------------------------------------------------------------------------------
+1. THE ONE-LINE VERDICT
+--------------------------------------------------------------------------------
+The paper is a RITUAL. The same 6 topic blocks appear in the same seats in every
+single paper, only the case study (system name) rotates. If you prepare the top
+6 topics below completely, you cover 80-90 marks of every paper. The 3 newest
+papers (J25, D25, J26) confirm the same structure as far back as 2021.
+
+--------------------------------------------------------------------------------
+2. MASTER ROI TABLE (10 papers)
+--------------------------------------------------------------------------------
+Topic                       | Papers | Marks asked | Avg/Paper | Prep cost | ROI
+                            |  x/10  |   (total)   |  (marks)  |           |
+----------------------------+--------+-------------+-----------+-----------+-----
+1. SRS (IEEE format)        |  10/10 |    205      |   ~20     |   LOW     |  10/10
+2. DFD (levels 0/1/2)       |  10/10 |    100      |   10      |   LOW     |  10/10
+3. GANTT/PERT/Planning      |  10/10 |    115*     |   ~11     |   LOW     |  10/10
+4. SDLC Models              |  10/10 |     95      |   ~10     |   MEDIUM  |   9/10
+5. Software Testing         |   9/10 |    ~190     |   ~19     |   MEDIUM  |   9/10
+6. Use-Case Diagram (UML)   |   7/10 |     56      |    8      |   LOW     |   9/10
+7. OO Design / Static Obj.  |   8/10 |     68      |   ~8      |   LOW     |   9/10
+8. ERD                      |   5/10 |     50      |   10      |   LOW     |   8/10
+9. CMM (SEI levels)         |   5/10 |     47      |   ~9      |   LOW     |   8/10
+10. Software Maintenance    |   5/10 |     45      |    9      |   LOW     |   8/10
+11. Function Oriented Design|   5/10 |     48      |   ~9      |   MEDIUM  |   7/10
+12. Cohesion & Coupling     |   4/10 |     26      |   ~6      |   LOW     |   7/10
+13. SCM                     |   3/10 |     30      |   10      |   LOW     |   6/10
+14. SQA / Quality / Error-  |   4/10 |     30      |   ~7      |   LOW     |   6/10
+    Fault-Failure
+15. Debugging               |   3/10 |     25      |   ~8      |   LOW     |   6/10
+16. Project Mgmt / StepWise |   4/10 |     35      |   ~8      |   MEDIUM  |   6/10
+17. Data Dictionary         |   3/10 |     20      |   ~6      |   LOW     |   5/10
+18. Software Metrics        |   2/10 |     20      |   10      |   MEDIUM  |   5/10
+
+* 115 = 100 marks of direct GANTT/PERT charts + 15 for project planning theory
+  (J22 short note 5, J25 project planning 10).
+
+READING THE TABLE: SRS, DFD and GANTT/PERT appear in 10/10 papers - they are
+not "likely", they are GUARANTEED. Testing appears in 9/10 (missed only J23).
+
+--------------------------------------------------------------------------------
+3. THE EXAM SKELETON (same in all 10 papers)
+--------------------------------------------------------------------------------
+Q1 (40 marks, COMPULSORY, cannot skip):
+    - SRS in IEEE format for a case-study system ....... 15-25 marks  (10/10)
+    - One SDLC model question .......................... 5-10 marks   (10/10)
+    - One diagram (use case / ERD / class) ............. 5-10 marks
+    - One short theory (coupling / objects / quality).. 5-6 marks
+
+Q2: DFD (10) + GANTT/PERT (10)  ......................... diagram pair
+Q3: Testing (10) + CMM/SCM/test-case (10)  .............. theory pair
+Q4: FOD / objects (10) + maintenance/SQA (10)  .......... design pair
+Q5: 4-5 short notes x 5 marks .......................... everything leftover
+
+Case-study systems rotated so far (prepare ONE template, reuse it):
+Hospital Mgmt (J21), Grocery/Shopping (D21, J26), Online Banking (J22),
+Online Exam Form Submission (D22), Study Center Allocation (J23),
+Online Admission (D23), Online Assignment Submission (J24, D25),
+Railway Reservation (J25), Online Examination (J25, J26).
+
+--------------------------------------------------------------------------------
+4. TOPICS IN FULL DETAIL - ALL SUBTOPICS WITH QUESTION HISTORY
+--------------------------------------------------------------------------------
+Format: [paper : marks] = where this subtopic was actually asked.
+
+================================================================================
+TOPIC 1: SRS - SOFTWARE REQUIREMENTS SPECIFICATION  (10/10 papers, ~205 marks)
+ROI 10/10 - The single biggest topic of the exam. 40-50% of Q1 every time.
+================================================================================
+SUBTOPICS:
+1.1 IEEE SRS format - its sections and how to fill each one
+    [D21:20, J24:25, D23:25, J23:25, D22:25, J22:15, J21:15, J25:15, D25:20, J26:20]
+    -> asked in EVERY paper, always attached to a case study
+1.2 Characteristics of a good SRS (correct, complete, unambiguous, verifiable...)
+    - theory component inside SRS answers
+1.3 Functional requirements vs Non-functional requirements
+    - write 4-5 of each for the given system in every SRS answer
+1.4 Writing the SRS itself for the case-study system
+    - ALWAYS "Make necessary assumptions" -> announce assumptions in 2-3 lines
+1.5 Need / importance of SRS
+    [D21 1(a) preface]
+1.6 Users of SRS document
+    - standard theory; pair it with 1.5
+
+GUARANTEED RECURRING ANSWER TEMPLATE (memorize once):
+   IEEE SRS = Introduction (purpose, scope, definitions, references, overview)
+   + Overall description (product perspective, functions, users, constraints)
+   + Specific requirements (functional, non-functional: performance, security,
+   usability, reliability) + assumptions & dependencies.
+   Practice ONE full SRS (e.g., Online Examination System), then swap the
+   system-specific lines for any other case study.
+
+================================================================================
+TOPIC 2: DATA FLOW DIAGRAMS  (10/10 papers, 100 marks - exactly 10 every time)
+ROI 10/10 - zero-variation question. Never missed, never changed shape.
+================================================================================
+SUBTOPICS:
+2.1 What is a DFD - definition and purpose
+    [J26:10, D25:10 - both opened the question with "What is a DFD?"]
+2.2 Components of DFD and their notations
+    - Process (circle/rounded rectangle), Data flow (arrow),
+      Data store (open rectangle), External entity (square)
+    [J26:10, D25:10, J25:10]
+2.3 Level-0 / Context diagram (whole system = one process with external entities)
+    [J21:10, D21:10, J22:10, D22:10, J23:10, D23:10, J24:10, J25:10, D25:10, J26:10]
+2.4 Level-1 DFD (break main process into 3-6 subprocesses)
+    [same papers as 2.3 - the question is always "first two levels" or
+     "zero and first level"]
+2.5 Level-2 DFD (explode one subprocess of level-1)
+    - required by "first two levels of DFD" wording [J21, J25, J26]
+2.6 Notations/conventions used to draw DFDs
+    [J25:10 - "Briefly discuss the various notations" + draw]
+2.7 Rules: balancing of flows between levels, no control logic, data stores
+    only touched by processes
+2.8 RELATED: Data Dictionary - contents and example for one data element
+    [D21 short note 5, D23 1(c):5, J24 3(b):10]
+    -> treat as a sub-branch of DFD; asked 3 times, cheap to learn
+
+STRATEGY: The case study is always announced in Q1. You draw DFD levels for
+the SAME system. One practiced example = one guaranteed 10 marks.
+
+================================================================================
+TOPIC 3: PROJECT SCHEDULING - GANTT, PERT, PROJECT PLANNING (10/10 papers, ~115)
+ROI 10/10 - a chart question appears in EVERY paper, always 10 marks.
+================================================================================
+SUBTOPICS:
+3.1 GANTT chart - drawing one for the case-study system
+    [D21:10, J22:10, D22:10, J24:10, J25:10, D25:10]
+    -> asked 6 times; the current favourite
+3.2 PERT chart - drawing one for the case-study system
+    [J21:10, J23:10, D23:10, J26:10] -> asked 4 times
+3.3 GANTT vs PERT comparison - utility, difference, when each is preferred
+    [J25:10 - asked both + comparison in one question]
+3.4 PERT chart short note
+    [J22 5(a) short note]
+3.5 Need of project planning + types of project plans
+    [J25 3(b):10]
+3.6 Software Project Management - definition and tasks
+    [J21 5(a):10]
+3.7 StepWise framework (planning process)
+    [J23 5(b):10]
+
+PATTERN: GANTT and PERT alternate. Learn the task list of one case study
+(6-8 tasks with durations and dependencies) and you can draw BOTH charts.
+Draw GANTT as horizontal bars on a timeline; draw PERT as a network of
+arrows/boxes with critical path marked. 15 minutes of practice = 10 marks.
+
+================================================================================
+TOPIC 4: SDLC MODELS  (10/10 papers, ~95 marks)
+ROI 9/10 - never absent; usually 1 model deep-dive + sometimes a selection question.
+================================================================================
+SUBTOPICS (ordered by how often each model was asked):
+4.1 Waterfall Model - definition, diagram, advantages, disadvantages
+    [D21 1(b):8, D25 2(a):10 with diagram, J25 1(a):10 in comparison]
+    -> the most repeated single model (5 appearances incl. comparisons)
+4.2 Spiral Model - diagram, quadrant phases, suitable system types, limitations
+    [D23 1(b):10 vs Waterfall, J25 1(a):10 vs Waterfall, J26 3(a):10 full,
+     J23 1(b):10 in comparison] -> 4 appearances, rising trend (asked in J26)
+4.3 Prototype Model - example, advantages/disadvantages vs Waterfall
+    [D22 1(b):10]
+4.4 RAD (Rapid Application Development) - approach, pros/cons vs Waterfall
+    [J24 1(b):10]
+4.5 Iterative Enhancement Model - example, pros/cons vs Spiral
+    [J23 1(b):10]
+4.6 Model selection for a given system ("which model suits X system? justify")
+    [J21 1(b):10 Hospital, J22 1(c):7 Online Exam]
+
+LEARN EXACTLY THIS SET: Waterfall + Spiral (full) and be able to say 2 lines
+each for Prototype, RAD, Iterative Enhancement. Comparison Waterfall-vs-X is
+the most repeated formulation. Spiral in the latest paper (J26) makes it the
+hottest candidate for the next exam.
+
+================================================================================
+TOPIC 5: SOFTWARE TESTING  (9/10 papers, ~190 marks - biggest cluster)
+ROI 9/10 - missed only in J23. When present it brings 20-40 marks in one paper.
+================================================================================
+SUBTOPICS (ordered by repetition):
+5.1 Black Box vs White Box testing - differences + one example each
+    [D21:10, D22:10, J25:10] -> 3 direct repetitions, the most repeated test item
+5.2 Levels of testing - know ALL, asked in rotation:
+    - Unit testing      [D21 short note, J22 4(b):10]
+    - Module testing    [J22 4(b):10, J24 4(b):10, J25 5(c) short note]
+    - Integration testing [J21 3(a):10, J24 4(b):10, J26 5(a) short note]
+    - System testing    [J21 3(a):10, D25 3(a):10]
+    - Regression testing [D25 3(a):10]
+    - Acceptance testing [J25 5(a) short note]
+5.3 Alpha and Beta testing
+    [D23 5(a):10, J25 5(b) short note]
+5.4 Test case - definition, role, writing test cases for a system /
+    functional testing example
+    [J21 4(b):10, D21 5(a) short note, J25 4(b):10, J26 5(d) short note]
+5.5 Principles of software testing
+    [J22 5(b):10 with verification vs validation, D25 1(d):5, J26 2(b):10]
+    -> 3 appearances, 2 in the 2 newest papers = rising trend
+5.6 Scope of software testing
+    [J26 2(b):10]
+5.7 Verification vs Validation
+    [J22 5(b) part]
+5.8 Software testing tools - any five + the phase where each is used
+    [J24 5(b):10]
+5.9 Debugging - strategies / challenges
+    [D22 5(b):10, J24 5(a):10, D25 5(c) short note]
+
+LEARN THE FAMILY MAP: unit -> module -> integration -> system -> acceptance,
+with black/white box as the two technique bases, test case as the artifact.
+That one map answers ~80% of all testing questions ever asked.
+
+================================================================================
+TOPIC 6: USE-CASE DIAGRAM (UML)  (7/10 papers, 56 marks)
+ROI 9/10 - cheap diagram; high hit rate, moved to short-notes only in D25.
+================================================================================
+SUBTOPICS:
+6.1 Drawing a use-case diagram for the case-study system
+    [J21 1(d):5 Hospital, J22 3(a):10 Library, J23 3(b):10 OSCAS,
+     D23 3(b):10 OAS, J25 2(a):10 Railway]
+    -> NOT drawn in J26 (class diagram took the UML slot there)
+6.2 Notations/symbols used - actor, use case, association, include, extend,
+    generalization, system boundary - define any four
+    [D21 1(c):6, J25 2(a) part]
+6.3 What is a use-case diagram - purpose
+    [D21 1(c)]
+6.4 UML diagram list ("which diagrams does UML support")
+    [J23 1(c):5]
+6.5 RELATED: Class diagram - explain with example
+    [J26 1(d):5] -> newest paper; UML family is expanding in the paper
+
+STRATEGY: One template diagram (4 actors, 5-6 use cases, one <<include>>,
+one <<extend>>) adapted per system. 10 marks in 5 minutes of drawing.
+
+================================================================================
+TOPIC 7: OBJECT-ORIENTED DESIGN - OBJECTS/CLASSES  (8/10 papers, 68 marks)
+ROI 9/10 - small, predictable, theory-only. STATIC OBJECT is the favourite.
+================================================================================
+SUBTOPICS:
+7.1 Static objects - definition, identification, specification
+    [J23 4(b):10, D23 4(b):10, J25 1(d):5, D25 1(b) part:10, D21 4(b) part:8]
+    -> asked in FIVE papers. Learn: what, why, how identified, specification.
+7.2 Object - definition; object vs class difference
+    [D21 4(b):8, D25 1(b):10]
+7.3 Application logic object (with example)
+    [D25 1(b):10]
+7.4 Utility objects - common ones + criteria for identifying
+    [D22 5(a):10]
+7.5 Object identification methodology in OOD (with example)
+    [J24 4(a):10]
+7.6 Class diagram with example
+    [J26 1(d):5]
+7.7 Common utility objects list
+    [D22 5(a)]
+
+STRATEGY: 2-3 pages of memorized theory covers this entire topic. No diagrams
+needed except class diagram basics.
+
+================================================================================
+TOPIC 8: ERD - ENTITY RELATIONSHIP DIAGRAM  (5/10 papers, 50 marks)
+ROI 8/10 - always exactly 10 marks, always attached to the case study.
+================================================================================
+SUBTOPICS:
+8.1 Drawing ERD for the case-study system (entities, attributes,
+    relationships, cardinality)
+    [J21 5(b):10 Hospital, J23 3(a):10 OSCAS, D23 3(a):10 OAS,
+     J24 3(a):10 OASS, J26 1(b):10 Online Shopping]
+8.2 Making assumptions (always stated in the question)
+8.3 Cardinality notation (1:1, 1:N, M:N) - state it explicitly for credit
+
+PATTERN: skipped 2025 entirely, RETURNED in J26 inside compulsory Q1
+(10 marks, cannot dodge). Prime candidate to stay in the next paper.
+Learn: 5-6 entities, 4-5 relationships for one case study, reuse everywhere.
+
+================================================================================
+TOPIC 9: CMM - CAPABILITY MATURITY MODEL  (5/10 papers, 47 marks)
+ROI 8/10 - pure memorization, one fixed answer, ~10 marks when asked.
+================================================================================
+SUBTOPICS:
+9.1 The five maturity levels - Initial, Repeatable, Defined, Managed, Optimizing
+    (each with 2-3 line description and its characteristics)
+    [D21 4(a):12, D22 3(b):10, J23 5(a):10]
+9.2 CMM definition + short note
+    [J21 3(b):10, D25 5(b) short note 5]
+9.3 SEI CMM vs ISO (occasionally paired context in theory answers)
+
+STRATEGY: ONE fixed 5-level answer reused verbatim. First 5 papers hot,
+then dormant, returned D25. Prime candidate for Q3/Q5 slots.
+
+================================================================================
+TOPIC 10: SOFTWARE MAINTENANCE  (5/10 papers, 45 marks)
+ROI 8/10 - near-verbatim repeated question.
+================================================================================
+SUBTOPICS:
+10.1 Need/importance of software maintenance
+    [J21 1(c):10, J25 4(a):10, D25 3(b):10 - the SAME opening line]
+10.2 Types of maintenance - Corrective, Adaptive, Perfective, Preventive
+    [J21 1(c):10, J22 2(b):10, J25 4(a):10, D25 3(b):10 - all four papers!]
+10.3 Software maintenance short note
+    [J26 5(c):5]
+10.4 Reverse engineering (maintenance-related)
+    [D25 5(a) short note 5]
+
+STRATEGY: The question "need + types" was asked IDENTICALLY in J21, J25, D25.
+Highest verbatim-repetition ratio of any topic. 15 minutes of prep = 10 marks.
+
+================================================================================
+TOPIC 11: FUNCTION ORIENTED DESIGN & STRUCTURE CHARTS (5/10 papers, 48 marks)
+================================================================================
+SUBTOPICS:
+11.1 What is FOD - concepts, advantages, disadvantages
+    [J22 1(b):8, D23 4(a):10]
+11.2 Five solution design principles of FOD
+    [J23 4(a):10]
+11.3 Five key features of FOD
+    [J24 1(c):5]
+11.4 Structure chart - what it is + draw one for a system
+    [J22 4(a):10, D22 1(c):5]
+11.5 Coupling & cohesion (FOD's design quality metrics)
+    [D21 1(d):6, J22 1(d):5, D23 5(b):10, J26 1(c):5]
+
+STRATEGY: one definition + one structure chart template + one principles list.
+
+================================================================================
+TOPIC 12: COHESION & COUPLING  (4/10 papers, 26 marks)
+================================================================================
+SUBTOPICS:
+12.1 Coupling - definition, types (data, stamp, control, common, content)
+    [J22 1(d):5, J26 1(c):5]
+12.2 Cohesion - definition, types (functional, sequential, communicational,
+    procedural, temporal, logical, coincidental)
+    [D21 1(d):6, D23 5(b):10, J26 1(c)]
+12.3 Coupling vs cohesion difference / how related (good design = high
+    cohesion + low coupling)
+    [J22 1(d), J26 1(c)]
+
+================================================================================
+TOPIC 13: SOFTWARE CONFIGURATION MANAGEMENT  (3/10 papers, 30 marks)
+================================================================================
+SUBTOPICS:
+13.1 SCM - definition + need + example
+    [D21 3(b):10]
+13.2 SCM process / activities (identification, version control, change
+    control, configuration auditing, status reporting)
+    [J21 4(a):10, D25 4(a):10]
+13.3 SCM for the case-study system (apply to the announced system)
+
+TREND: appeared in the two 2021 papers, vanished 2022-2025, RETURNED in
+D25 4(a). Current favourite for the Q3/Q4 theory slot.
+
+================================================================================
+TOPIC 14: SOFTWARE QUALITY / SQA  (4/10 papers, 30 marks)
+================================================================================
+SUBTOPICS:
+14.1 Software quality - definition; ensuring quality benchmarks
+    [D22 4(b):10]
+14.2 Cost of (software) quality
+    [J22 1(e):5, J26 4(b) part:10]
+14.3 Error, Fault, Failure - definitions and differences
+    [J26 4(b):10]
+14.4 SQA activities
+    [J25 5(e) short note]
+
+TREND: J26 gave it 10 full marks - rising.
+
+================================================================================
+TOPIC 15: DEBUGGING  (3/10 papers, 25 marks)
+================================================================================
+SUBTOPICS:
+15.1 Debugging strategies (brute force, backtracking, cause elimination...)
+    [D22 5(b):10]
+15.2 Challenges for successful debugging
+    [J24 5(a):10]
+15.3 Debugging short note
+    [D25 5(c):5]
+
+================================================================================
+TOPIC 16: PROJECT MANAGEMENT FRAMEWORKS  (4/10 papers, 35 marks)
+================================================================================
+SUBTOPICS:
+16.1 Software Project Management - tasks
+    [J21 5(a):10]
+16.2 Project planning - need + four types of plans
+    [J25 3(b):10]
+16.3 StepWise framework
+    [J23 5(b):10]
+16.4 PERT chart / project planning short notes
+    [J22 5(a):10]
+
+================================================================================
+TOPIC 17: DATA DICTIONARY  (3/10 papers, 20 marks)  - see also Topic 2.8
+================================================================================
+SUBTOPICS:
+17.1 Definition + contents of data dictionary
+    [D23 1(c):5]
+17.2 What information is stored for a data element (e.g., "Student")
+    [J24 3(b):10]
+17.3 Short note
+    [D21 5(a)(i):5]
+
+================================================================================
+TOPIC 18: SOFTWARE METRICS  (2/10 papers, 20 marks)
+================================================================================
+SUBTOPICS:
+18.1 Software metrics - definition and detailed explanation
+    [J26 3(b):10]
+18.2 Object-oriented metrics
+    [D21 5(b)(i):10]
+18.3 Software quality metrics
+    [D21 5(b)(ii):10]
+
+TREND: J26 (latest) gave it a full 10-mark question - rising candidate.
+
+--------------------------------------------------------------------------------
+5. PRIORITY ORDER - WHAT TO STUDY, IN WHAT ORDER
+--------------------------------------------------------------------------------
+TIER 1 (do first - appears in 10/10 papers, ~65+ marks combined):
+    1. SRS IEEE template + one practiced case-study SRS
+    2. DFD: notation, context level, level-1, level-2 (one worked example)
+    3. GANTT + PERT for one case-study task list
+    4. SDLC: Waterfall + Spiral full; 2 lines each for Prototype/RAD/Iterative
+
+TIER 2 (do second - ~35-40 marks):
+    5. Testing family map + black vs white box + test case + principles
+    6. Use-case diagram symbols + one template diagram
+    7. Static objects + object/class + utility objects (theory pages)
+    8. ERD for one case study
+
+TIER 3 (quick wins - ~30 marks, all memorization):
+    9. CMM five levels (fixed answer)
+    10. Maintenance: need + 4 types (verbatim-repeated question)
+    11. SCM activities (returned D25)
+    12. Coupling/cohesion definitions + lists
+
+TIER 4 (one-night reads):
+    13. SQA/error-fault-failure/cost of quality
+    14. Debugging strategies
+    15. Metrics (hot after J26)
+    16. Data dictionary, StepWise, SPM tasks
+
+BARE-MINIMUM PASS MATH (target ~40 of 100 for 75% weightage pass):
+    Q1: SRS (15-25) + model (5-10) + use case/ERD (5-10) + short theory (5)
+        -> Tier 1+2 alone secures ~30-40 of the compulsory 40 marks
+    Plus any two comfortable 10-mark questions from Tier 2/3 -> 50+ total.
+    With Tier 1 fully prepared you cannot score below 50-55; Tier 3 pushes
+    you into 70+ territory.
+
+--------------------------------------------------------------------------------
+6. WHAT THE NEXT PAPER (DECEMBER 2026) LIKELY LOOKS LIKE
+(Based only on structural repetition - not a guarantee)
+--------------------------------------------------------------------------------
+Q1: SRS IEEE for an online system (15-25) + SDLC model (likely Spiral or
+    Waterfall comparison) + ERD or use-case diagram (5-10) + coupling/static
+    object short theory (5)
+Q2: DFD first two levels (10) + GANTT or PERT (10)   [GANTT is due next;
+    PERT was used J26]
+Q3: Testing pair (black/white box or test case + principles) + CMM/SCM
+Q4: FOD/structure chart or static objects + maintenance/SQA
+Q5: 4-5 short notes from: reverse engineering, CMM, debugging, use-case,
+    integration testing, metrics, data dictionary
+
+Case-study candidates for next rotation (recently unused):
+Online Library System, Online Course Registration, Hospital Management
+(used 2021), Online Food Ordering, Online Admission (used D23).
+
+--------------------------------------------------------------------------------
+7. SOURCE PAPERS (all official IGNOU PDFs, verified in this repo)
+--------------------------------------------------------------------------------
+BCS-051_BCS-151_TEE_June_2021.pdf        BCS-051_BCS-151_TEE_June_2025.pdf
+BCS-051_BCS-151_TEE_December_2021.pdf    BCS-051_BCS-151_TEE_December_2025.pdf
+BCS-051_BCS-151_TEE_June_2022.pdf        BCS-051_BCS-151_TEE_June_2026.pdf
+BCS-051_BCS-151_TEE_December_2022.pdf    (BCS-051 = old code, BCS-151 = new
+BCS-051_BCS-151_TEE_June_2023.pdf         code of the same BCA(Revised) course)
+BCS-051_BCS-151_TEE_December_2023.pdf
+BCS-051_BCS-151_TEE_June_2024.pdf
+
+Extracted texts: PYQ Text BCS-151.md (repo root) + *_text.txt beside each PDF.
+================================================================================

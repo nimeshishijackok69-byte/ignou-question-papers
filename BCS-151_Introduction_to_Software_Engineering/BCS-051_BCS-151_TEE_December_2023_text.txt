@@ -1,0 +1,41 @@
+   P. T. O. 
+No. of Printed Pages : 2 BCS–051 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (REVISED)  
+Term-End Examination 
+December, 2023 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+Time : 3 Hours     Maximum Marks : 100 
+Weightage : 75% 
+Note : Question No. 1 is compulsory and carries  
+40 marks. Attempt any three questions from 
+the rest. 
+1. (a) Develop SRS for Online Admission System 
+(OAS) for a university. SRS should  be in 
+IEEE format . Make necessary  
+assumptions. 25 
+ (b) Explain Spiral Model with the help  of an 
+example. What are its advantages and 
+disadvantages over Waterfall Model ? 10 
+ [ 2 ]  
+   
+(c) What is a Data Dictionary ? What are its 
+contents ? 5 
+2. (a) Draw the zero and first level DFDs fo r 
+OAS. Make necessary assumptions. 10 
+(b) Draw PERT chart for the development of 
+OAS.  10 
+3. (a) Draw ERD for OAS. Make necessary 
+assumptions. 10 
+(b) Draw use case diagram for OAS. 10 
+4. (a) What is meant by function oriented  
+design ? Explain the concept s associated 
+with function oriented design. 10 
+(b) What is meant by static object ? How will 
+you identify them ? Explain. 10 
+5. (a) Explain the terms ‘Alpha testing’ and ‘Beta 
+testing’. 10 
+(b) What is meant by cohesion ? Explain 
+different types of cohesion. 10 
+BCS–051   

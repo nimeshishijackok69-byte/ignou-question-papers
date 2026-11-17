@@ -1,0 +1,51 @@
+BCS-051 1   P.T.O. 
+ BCS-051  
+BACHELOR OF COMPUTER APPLICATIONS 
+(BCA) (Revised)   
+Term-End Examination 
+June, 2021 
+ 
+BCS-051 :  INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+Time : 3 hours Maximum Marks : 100 
+  (Weightage : 75%) 
+Note :  Question n umber 1 is compulsory and carries  
+40 marks. Attempt any three questions fr om the 
+rest. 
+ 
+1. (a) Develop SRS for ‘‘Hospital Management 
+System’’. Make necessary assumptions and 
+follow IEEE SRS format. 15 
+(b) A hospital wants to develop a ‘‘Hospital 
+Management System’’. Explain which 
+software development model is suitable for 
+developing this system. 10 
+(c) What is the need of software  
+maintenance ? Briefly explain different 
+types of software maintenance. 10 
+(d) Draw use case diagram for a ‘‘Hospital 
+Management System’’. Make necessary 
+assumptions. 5 
+No. of Printed Pages : 2 
+BCS-051 2 
+2. (a) Draw a PERT chart for ‘‘Hospital 
+Management System’’ of a hospital. 10 
+(b) Draw first two levels of DFDs of ‘ ‘Hospital 
+Management System’’ of a hospital. Make 
+necessary assumptions.  10 
+3. (a) Explain System Testing and Integration 
+Testing techniques briefly. 10 
+(b) Write a short note on Capability Maturity 
+Model (CMM).   10 
+4. (a) What is the need of software configuration 
+management ? Briefly explain the process 
+of software configuration management.  10 
+(b) What is Test-case ? Briefly explain the role 
+of Test -case in software testing with the 
+help of test cases for ‘‘Hospital 
+Management System’’.  10 
+5. (a) What is Software Project Management ? 
+Explain various tasks involved in it.  10 
+(b) Draw ERD for ‘‘Hospital Management 
+System’’. Make necessary assumptions.  10 
+ 

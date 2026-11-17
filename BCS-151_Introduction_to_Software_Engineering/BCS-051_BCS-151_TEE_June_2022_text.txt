@@ -1,0 +1,61 @@
+ 
+   P. T. O. 
+No. of Printed Pages : 3 BCS-051 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (REVISED)  
+Term-End Examination 
+June, 2022 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+Time : 3 Hours     Maximum Marks : 100 
+Weightage : 75% 
+Note : Question No. 1 is compulsory and carries  
+40 marks. Attempt any three questions from 
+the rest. 
+1. (a) Develop a n SRS for ‘Online Banking 
+System’. Make necessary assumptions. 
+Follow IEEE SRS format. 15 
+ [ 2 ] BCS-051 
+   
+ (b) What is function oriented design of 
+software system ? Explain its advantages 
+and disadvantages. 8 
+ (c) Which software development model is 
+suitable for developing ‘Online 
+Examination System’ ? Justify your 
+selection. Also explain the selected model.  
+7 
+(d) What is coupling ? How is it different from 
+cohesion ? 5 
+(e) Briefly explain cost of software quality. 5 
+2. (a) Draw the context diagram and first level 
+DFD for ‘Online Banking System’. 10 
+ (b) What is software maintenance ?  Explain 
+any two types of software maintenance in 
+detail.  10 
+3. (a) Draw use -case diagram for ‘Library 
+Management System’. Make necessary 
+assumptions. 10 
+ (b) Draw GANTT chart for development of 
+‘Online Banking System’. 10 
+ [ 3 ]  
+   
+4. (a) Draw structure chart for online shopping 
+system. 10 
+ (b) Explain unit testing and module testing 
+with the help of suitable example for each.  
+10 
+5. (a) Write short notes on the following : 10 
+(i) PERT chart 
+(ii) Project Planning 
+ (b) What is verification ? How is it different 
+from validation  ? Briefly explain any four 
+principles of software testing. 10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BCS–051   

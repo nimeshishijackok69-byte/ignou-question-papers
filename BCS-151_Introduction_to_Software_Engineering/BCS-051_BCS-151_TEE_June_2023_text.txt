@@ -1,0 +1,43 @@
+ 
+   P. T. O. 
+No. of Printed Pages : 2 BCS-051 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (REVISED) 
+Term-End Examination 
+June, 2023 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+Time : 3 Hours     Maximum Marks : 100 
+Weightage : 75% 
+Note : Question No. 1 is compulsory and carries  
+40 marks. Attempt any three questions from 
+the rest. 
+1. (a) Develop SRS for Online Study Center 
+Allocation System (OSCAS) for students 
+who apply for admission to a university. 
+SRS should be in IEEE format. Make 
+necessary assumptions. 25 
+ [ 2 ]  
+   
+(b) Explain Iterative Enhamement Model with 
+the help of an example. What are its 
+advantages and disadvantages over Spiral 
+Model ? 10 
+(c) List the diagrams whose specifications are 
+supported by UML. 5 
+2. (a) Draw the zero and first level DFDs for 
+OSCAS. Make necessary assumptions. 10 
+(b) Draw PERT chart for the development of 
+OSCAS. 10  
+3. (a) Draw ERD for OSCAS. Make necessary 
+assumptions. 10 
+(b) Draw usecase diagram for OSCAS. 10 
+4. (a) Explain the five solution design principles 
+in function oriented design. 10 
+(b) Explain the specification of a static object.  
+10 
+5. (a) Explain the five maturity levels of SEI -
+CMM.  10 
+(b) Briefly, explain ‘Step-Wise” framework. 10 
+ 
+BCS–051   

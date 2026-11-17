@@ -1,0 +1,46 @@
+BCS-051 1   P.T.O. 
+ BCS-051  
+BACHELOR OF COMPUTER APPLICATIONS 
+(BCA) (Revised)   
+Term-End Examination 
+December, 2022 
+ 
+BCS-051 :  INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+ 
+Time : 3 hours Maximum Marks : 100 
+  (Weightage : 75%) 
+Note :  Question n umber 1 is compulsory and carries  
+40 marks. Attempt any three questions fr om the 
+rest. 
+ 
+1. (a) Develop SRS for Online Examination Form 
+Submission System (OEFSS) . SRS should 
+be in IEEE format. Make necessary 
+assumptions.  25 
+(b) Explain Prototype Model , with the help of 
+an example. What a re its adv antages and 
+disadvantages over Waterfall Model ?  10 
+(c) What is a Structure Chart ? Explain with 
+the help of an example.   5 
+No. of Printed Pages : 2 
+BCS-051 2 
+2. (a) Draw the zero and first level DFD s for 
+OEFSS. Make necessary assumptions.  10 
+(b) Draw GANTT Chart for the development of 
+OEFSS.   10 
+3. (a) Draw ERD for OEFSS. Make necessary 
+assumptions.  10 
+(b) Briefly explain different levels of  
+SEI-CMM.  10 
+4. (a) Explain the terms “Black Box Testing” and 
+“White Box Testing”.   10 
+(b) How will you ensure that the software 
+developed by you meets the Quality  
+benchmarks ? Define the term “Software 
+Quality”.  10 
+5. (a) In Object Oriented Design, list the common 
+utility objects and criteria for identifying 
+utility objects.    10 
+(b) Explain various Debugging strategies.   10 
+ 

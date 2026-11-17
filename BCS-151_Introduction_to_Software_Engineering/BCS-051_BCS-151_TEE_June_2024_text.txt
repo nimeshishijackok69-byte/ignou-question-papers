@@ -1,0 +1,62 @@
+   P. T. O. 
+No. of Printed Pages : 3 BCS–051 
+BACHELOR OF COMPUTER 
+APPLICATIONS (BCA) (REVISED)  
+Term-End Examination 
+June, 2024 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING 
+Time : 3 Hours     Maximum Marks : 100 
+      Weightage : 75% 
+Note : Question No. 1 is compulsory and carries  
+40 marks. Attempt any three questions from 
+the rest. 
+1. (a) Develop SRS for Online Assignment 
+Submission System (OASS)  for students of 
+various courses of university. SRS should 
+be in IEEE format . Make necessary 
+assumptions. 25 
+ [ 2 ] BCS–051 
+   
+(b) Explain Rapid Application Development 
+(RAD) approach for Software Development. 
+What are the advantages and 
+disadvantages of RAD approach over 
+Waterfall model. 10 
+(c) Explain any five key fea tures of Function 
+Oriented Design. 5 
+2. (a) Draw the zero and first level DFDs for 
+OASS. Make necessary assumptions. 10 
+(b) Draw GANTT chart for the development of 
+OASS.  10 
+3. (a) Draw ERD for OASS. Make necessary 
+assumptions. 10 
+(b) Define Data Dictionar y. Consider a Data 
+Element Student. What information about 
+Student is stored in Data Dictionary ? 10 
+4. (a) Explain the methodology for identification 
+of objects in Object Oriented Design with 
+an example. 10 
+(b) Explain the terms ‘Module Testing’ and 
+‘Integration Testing’. 10 
+ [ 3 ]  
+   
+5. (a) Explain various challenges for successful 
+debugging. 10 
+(b) List any five software testing tools 
+indicating the testing phase in which they 
+can be employed. 10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BCS–051   

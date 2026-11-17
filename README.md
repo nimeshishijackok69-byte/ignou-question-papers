@@ -8,7 +8,7 @@ This repository contains past Term-End Examination (TEE) question papers and off
 
 | Course Code | Course Name | School | Credits | Available TEE Sessions | Assignment Booklets |
 | :--- | :--- | :--- | :---: | :--- | :--- |
-| **BCS-151** | Introduction to Software Engineering | SOCIS | 4 | June 2024, Dec 2023, June 2023, Dec 2022, June 2022, Dec 2021, June 2021 *(as BCS-051 / BCS-151)* | 2024–25, 2023–24, 2022–23 |
+| **BCS-151** | Introduction to Software Engineering | SOCIS | 4 | June 2026 (latest), Dec 2025, June 2025, June 2024, Dec 2023, June 2023, Dec 2022, June 2022, Dec 2021, June 2021 *(as BCS-051 / BCS-151)* | 2024–25, 2023–24, 2022–23 |
 | **BCS-042** | Introduction to Algorithm Design | SOCIS | 2 | June 2024, Dec 2023, June 2023, Dec 2022, June 2022, Dec 2021, June 2021 | 2024–25, 2023–24, 2022–23 |
 | **BCSL-159** | Introduction to Algorithm Design Lab | SOCIS | 2 | Practical Examination at Study Centre / Lab Manual Set | Official Lab Manual & Exercises |
 | **BCOS-184** | E-Commerce | SOMS | 4 | June 2024, Dec 2023, June 2023, Dec 2022, June 2022 | 2024–25, 2023–24, 2022–23 |
@@ -23,6 +23,8 @@ This repository contains past Term-End Examination (TEE) question papers and off
    - In the newly revised BCA curriculum (`BCA_NEW`), this course is coded as **BCS-151**. Under the previous syllabus, it is coded as **BCS-051**.
    - Both courses share the identical syllabus (Software Requirements Specifications - SRS in IEEE format, Data Flow Diagrams, UML diagrams, Software Testing, SDLC Models, and Maintenance).
    - Past 3 years of Term-End Exam papers from 2021 to 2024 are provided under `BCS-051_BCS-151_TEE_*.pdf`.
+   - **Latest papers (downloaded 2026-11-14):** June 2025, December 2025, June 2026 — IGNOU publishes these sessions under the old code `BCS-051` only. Sources: `https://www.ignou.ac.in/viewFile/ldd/qpjune2025/BCS-051.pdf`, `qpdec2025`, `qpjune2026`.
+   - Extracted text of all three: `PYQ Text BCS-151.md` (repo root).
 
 2. **BCSL-159 (Introduction to Algorithm Design Lab):**
    - BCSL-159 is a 2-credit practical lab course. IGNOU does not conduct nationwide centralized written examinations for lab courses.

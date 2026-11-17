@@ -1,0 +1,54 @@
+P. T. O.
+No. of Printed Pages : 4 BCS-051
+BACHELOR OF COMPUTER
+APPLICATIONS (BCA) (REVISED)
+Term-End Examination
+December, 2021
+BCS-051 : INTRODUCTION TO SOFTWARE
+ENGINEERING
+Time : 3 Hours Maximum Marks : 100
+Note : Question No. 1 is compulsory and carries
+40 marks. Attempt any three questions from
+the rest.
+1. (a) Explain the need for SRS. Develop a SRS
+for online shopping system of a grocery
+store. Make necessary assumptions. Follow
+IEEE SRS format. 20
+[ 2 ] BCS-051
+(b) What is Waterfall Model ? Explain the
+advantages of using Waterfall model for
+software system development. 8
+(c) What is usecase diagram ? Draw and
+define the use of any four symbols used to
+draw usecase diagram. 6
+(d) What is Cohes ion ? Briefly explain any
+three types of cohesion. 6
+2. (a) Draw context diagram and first level DFD
+for “online shopping system of a grocery
+store”. 10
+(b) What is Testing ? Why is it needed ?
+Explain differences between white box
+testing and black box testing with the help
+of examples for both types of testing. 10
+[ 3 ] BCS-051
+3. (a) Draw Gantt chart for development of an
+“online shopping system”. 10
+(b) What is Software Configuration
+Management (SCM) ? E xplain the need of
+SCM with the help of an example. 10
+4. (a) What is Capability Maturity Model
+(CMM) ? Briefly explain the five levels of
+maturity in CMM. 12
+(b) What is an Object ? How is it different
+from class ? Explain use of static objects in
+problem solving with the help of an
+example. 8
+5. (a) Write short notes on the following : 10
+(i) Data Dictionary
+(ii) Test cases for unit testing
+[ 4 ] BCS-051
+(b) What are software metrics ? Briefly explain
+the following software metrics : 10
+(i) Object Oriented Metrics
+(ii) Software Quality Metrics
+BCS–051

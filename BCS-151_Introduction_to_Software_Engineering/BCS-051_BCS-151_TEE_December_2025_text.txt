@@ -1,0 +1,69 @@
+ 
+B–1085/BCS–051 P. T. O. 
+No. of Printed Pages : 4 BCS–051 
+BACHELOR OF COMPUTER 
+APPLICATIONS  
+(BCA) (REVISED) 
+Term-End Examination 
+December, 2025 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING  
+Time : 3 Hours  Maximum Marks : 100 
+Weightage : 75% 
+Note : Question No. 1 is compulsory and carries 
+40 marks. Attempt any three questions 
+from the rest. 
+ [ 2 ]  BCS–051 
+B–1085/BCS–051 
+1. (a) Develop SRS for Online Assignment 
+Submission and Evaluation System for 
+a University. Use IEEE format for 
+SRS. Make necessary assumptions. 20 
+ (b) What is an object ? Explain application 
+logic object with an example.  
+Also, explain specification s of static 
+object.  10 
+ (c) What is structured analysis ?  
+Explain. 5 
+ (d) Explain the principles of software 
+testing.  5 
+2. (a) Explain Waterfall Model with the help 
+of a suitable diagram. List advantages 
+and disadvantages of this model. 10 
+ [ 3 ] BCS–051 
+B–1085/BCS–051 P. T. O. 
+ (b) Draw a sample G antt chart for an 
+online examination system. Make 
+necessary assumptions. 10 
+3. (a) Explain System testing and Regression 
+testing.  10 
+ (b) What is the need of software 
+maintenance ? Briefly explain different 
+types of software maintenance. 10 
+4. (a) What is Software Configuration  
+Management (SCM) ? Explain SCM 
+activities briefly. 10 
+ (b) What is a DFD ? What are the 
+components of DFD ? Draw first two 
+levels of DFDs for Online  Assignment 
+Submission and Evaluation System. 
+Make necessary assumptions. 10 
+ [ 4 ]  BCS–051 
+B–1085/BCS–051 
+5. Write short notes on the following : 4×5=20 
+ (a) Reverse Engineering 
+ (b) Capability Maturity Model (CMM) 
+ (c) Debugging 
+ (d) Use-case diagram 
+ 
+× × × × × 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

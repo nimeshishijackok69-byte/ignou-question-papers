@@ -1,0 +1,67 @@
+ 
+B–1076/BCS–051 P. T. O. 
+No. of Printed Pages : 4 BCS–051 
+BACHELOR OF COMPUTER 
+APPLICATIONS [BCA (REVISED)] 
+Term-End Examination 
+June, 2025 
+BCS-051 : INTRODUCTION TO SOFTWARE 
+ENGINEERING  
+Time : 3 Hours  Maximum Marks : 100 
+Note : Question No. 1 is compulsory and carries 
+40 marks. Attempt any three questions 
+from the rest. 
+1. (a) Compare Waterfall model and Spiral 
+model for software development. 
+ [ 2 ]  BCS–051 
+B–1076/BCS–051 
+Explain the situation, in which the 
+Spiral model for software development 
+should be preferred over Waterfall 
+model.  10 
+ (b) What is GANTT c hart ? Compare the 
+utility of GANTT and PERT chart s. 
+Draw GANTT chart for the 
+development of "Online Railway 
+Reservation System". 10 
+ (c) Discuss IEEE SRS format and use it to 
+develop the SRS for “Online Railway 
+Reservation System ”. Make necessary 
+assumptions. 15 
+ (d) What are static objects ? Explain with 
+the help of an suitable example. 5 
+ [ 3 ] BCS–051 
+B–1076/BCS–051  
+2. (a) Briefly discuss the various notation s 
+used to draw usecas e diagram. Draw a 
+usecase diagram for “Online Railway 
+Reservation System”. 10 
+ (b) Compare Black Box Testing and White 
+Box Testing. Give suitable example for 
+each.  10 
+3. (a) Briefly discuss the various notations of 
+DFD. Draw first two levels of DFDs for 
+an “Online Examination System”. 
+Make necessary assumptions. 10 
+ (b) What is the need of project planning ?  
+Discuss any four types of project plans. 
+     10 
+ [ 4 ]  BCS–051 
+B–1076/BCS–051 
+4. (a) What is the need of software 
+maintenance ? Explain different 
+categories of software maintenance. 10 
+ (b) What is a te st case ? Explain test case 
+for functional testing with the help of 
+an example. 10 
+5. Briefly discuss the following  with suitable 
+example for each : 4×5=20 
+ (a) Acceptance testing 
+ (b) Alpha and Beta testing 
+ (c) Module testing 
+ (d) Integration testing 
+ (e) Software Quality Assurance activities 
+× × × × × 
+ 
+ 
+ 
