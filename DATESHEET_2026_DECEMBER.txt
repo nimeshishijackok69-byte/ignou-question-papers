@@ -30,13 +30,13 @@ EXAM TIME TABLE
 ========================================================================
 Date         Session         Course Code   Component   Schedule
 ------------------------------------------------------------------------
-2026-12-03   Evening Slot    MCS202        THEORY      02:00 PM - 05:00 PM
-2026-12-04   Evening Slot    MCS203        THEORY      02:00 PM - 05:00 PM
-2026-12-08   Morning Slot    BCS42         THEORY      10:00 AM - 01:00 PM
-2026-12-09   Morning Slot    MSEI23        THEORY      10:00 AM - 01:00 PM
-2026-12-10   Morning Slot    BCS151        THEORY      10:00 AM - 01:00 PM
-2026-12-23   Evening Slot    BCOS184       THEORY      02:00 PM - 05:00 PM
-2026-12-26   Morning Slot    BCOC184       THEORY      10:00 AM - 01:00 PM
+2026-12-03   Evening Slot    MCS202(co)         THEORY      02:00 PM - 05:00 PM
+2026-12-04   Evening Slot    MCS203(os)         THEORY      02:00 PM - 05:00 PM
+2026-12-08   Morning Slot    BCS42(algo design) THEORY      10:00 AM - 01:00 PM
+2026-12-09   Morning Slot    MSEI23(cyber)      THEORY      10:00 AM - 01:00 PM
+2026-12-10   Morning Slot    BCS151             THEORY      10:00 AM - 01:00 PM
+2026-12-23   Evening Slot    BCOS184            THEORY      02:00 PM - 05:00 PM
+2026-12-26   Morning Slot    BCOC184            THEORY      10:00 AM - 01:00 PM
 ------------------------------------------------------------------------
 
 Total papers: 7
